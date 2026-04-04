@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f8fd1c93b045c578",
+            "id": "aa73f1d3b346d84a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "git basics"
             }
+          },
+          {
+            "id": "3082fc9c47cb7720",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "volt wiki/cs50/week 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "week 2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.51103591918945
+    "width": 200
   },
   "right": {
     "id": "6b3e6a38c0383291",
@@ -212,10 +227,25 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "f8fd1c93b045c578",
+  "active": "3082fc9c47cb7720",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-04-04 22.13.28.excalidraw.md",
+    "volt wiki/cs50/week 1-2.md",
+    "volt wiki/cs50/week 1.md",
+    "volt wiki/cs50/week 2.md",
+    "volt wiki/cs50/week 3.md",
+    "volt wiki/cs50",
+    "bases/my base.base",
+    "obsidian pc/Pc/Ammar  linux config.md",
+    "bases/Untitled.base",
+    "volt wiki/git basics.md",
+    "obsidian pc/دراسة/Svt/la digestion.md",
+    "obsidian pc/Pc/my_goals.md",
+    "Excalidraw/Drawing 2026-04-04 22.30.40.excalidraw.md",
     "Excalidraw/arabic1.md",
+    "cat - Google Search.md",
+    "Pasted Image 20260404223146_929.png",
+    "IMG_20240901_003150_315.jpg",
+    "Excalidraw/Drawing 2026-04-04 22.13.28.excalidraw.md",
     "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
     "Templates/Main properties.md",
     "Excalidraw/Scripts/Downloaded/Split Ellipse.md",
@@ -227,32 +257,18 @@
     "obsidian pc/دراسة/العربية/دروس مادة اللغة العربية.md",
     "Excalidraw/Scripts/Downloaded/Split text by lines.svg",
     "Excalidraw/Scripts/Downloaded/Split text by lines.md",
-    "obsidian pc/دراسة/Svt/la digestion.md",
     "obsidian phone/مقالات/تطوير ذات/5 مهارات ذهبية لتغيير مستواك 180 درجة.md",
     "Templates/Week planner.md",
-    "volt wiki/git basics.md",
-    "bases/Untitled.base",
-    "bases/my base.base",
     "bases",
     "canvas",
     "obsidian phone/Canvas/الطاقات.canvas",
-    "obsidian pc/Pc/Ammar  linux config.md",
     "obsidian pc/دراسة/English/hello english.md",
     "volt wiki",
     "obsidian phone/مقالات/تطوير ذات/اخطاء تدمر ثقتك بنفسك.md",
     "obsidian phone/مهارات تطوير الذات/بناء الثقة في النفس.md",
     "obsidian pc/دراسة/الاجتماعيات/دروس مادتي الجغرافيا و التاريخ.md",
-    "obsidian pc/دراسة/Svt/SVT courses.md",
-    "dataview.md",
-    "obsidian phone/علاج حالة.md",
-    "obsidian phone/Flash cards/أسئلة ثقافية.md",
-    "obsidian phone/Favorites/كتبي.md",
-    "obsidian phone/Favorites/بودكاستاتي.md",
-    "obsidian phone/Favorites/القراء.md",
-    "obsidian phone/Favorites/أكواد.md",
     "obsidian phone/مقالات/معلومات",
     "obsidian phone/مقالات/علمية",
-    "obsidian phone/مقالات/دينية",
     "Untitled.canvas",
     "obsidian pc/Pc/my goals.canvas",
     "volt-wiki/Assets/svt/lestomac.png",
@@ -260,8 +276,6 @@
     "volt-wiki/Assets/svt/la foie.png",
     "volt-wiki/Assets/svt/bilaire.png",
     "volt-wiki/Assets/svt/osophage.png",
-    "volt-wiki/Assets/svt/intestine grel.png",
-    "volt-wiki/Assets/svt/all.png",
-    "volt-wiki/Assets/svt/pharincs.png"
+    "volt-wiki/Assets/svt/intestine grel.png"
   ]
 }

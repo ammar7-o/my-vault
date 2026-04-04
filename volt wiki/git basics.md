@@ -2,6 +2,9 @@
 banner: https://tarunbatra.com/data/images/git-before-github/cover.png
 aliases:
   - git ,  Github
+tags:
+  - برمجة
+  - terminal
 ---
 
 # 🧠 Git & GitHub Full Cheat Sheet
@@ -307,12 +310,51 @@ git push -u origin main
 
 ---
 
-# 🧠 Final Tips
 
-✔ Use branches for every feature  
-✔ Keep `main` clean  
-✔ Commit often  
-✔ Push regularly
+###  Save your username and token in Git
+
+```shell
+git config --global credential.helper store
+```
+Then run:
+```shell
+git push
+```
+
+- Enter your **GitHub username**
+- For password → use a **Personal Access Token (NOT your real password)**
+After that, Git will save your credentials and you won’t need to enter them again.
+---
+
+### ⚠️ Important notes (very important)
+
+- ❌ GitHub no longer accepts passwords
+- ✅ You MUST use a **Personal Access Token (PAT)** instead
+You can create one here:  
+👉 [Create GitHub Token](https://github.com/settings/tokens?utm_source=chatgpt.com)
 
 ---
+
+### 🔒 Security warning
+This method stores your credentials in plain text:
+```
+~/.git-credentials
+```
+So:
+- Anyone with access to your PC can seeit
+- Not recommended for shared computers
+---
+
+### 💡 Better alternatives
+- Use:
+```shell
+git config --global credential.helper cache
+```
+→ temporary (safer)
+- Or best:  
+    👉 Use **SSH keys** (no password ever, more secure)
+    
+
+---
+
 

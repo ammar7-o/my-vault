@@ -1,4 +1,15 @@
 views:
+  - type: cards
+    name: cards
+    filters:
+      and:
+        - "!banner.isEmpty()"
+    order:
+      - file.name
+      - file.tags
+    cardSize: 190
+    image: note.banner
+    imageAspectRatio: 0.5
   - type: table
     name: Table
     order:
@@ -11,8 +22,3 @@ views:
     summaries:
       dg-publish: Empty
       file.name: Empty
-  - type: cards
-    name: cards
-    cardSize: 190
-    image: note.banner
-    imageAspectRatio: 0.5
