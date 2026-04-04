@@ -1,0 +1,5 @@
+.markdown-reading-view .markdown-preview-view,
+.markdown-source-view {
+  padding-left: 50px;
+  padding-right: 50px;
+}

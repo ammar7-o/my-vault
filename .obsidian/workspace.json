@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "c52e30138e0c6697",
+    "type": "split",
+    "children": [
+      {
+        "id": "8eae33e0631c4eef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a403763723e9e148",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "volt wiki/git basics.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git basics"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b9b47569ff80064",
+    "type": "split",
+    "children": [
+      {
+        "id": "d638306b1a5fb550",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b00ded2f3f89150",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f628b7aec536bdf0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fff1440a27da4637",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 260.51103591918945
+  },
+  "right": {
+    "id": "6b3e6a38c0383291",
+    "type": "split",
+    "children": [
+      {
+        "id": "14c6065e432ff68d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73fa7a8abe5237e4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "L'intestin grêle.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for L'intestin grêle"
+            }
+          },
+          {
+            "id": "03e647f2c9e91d34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "la degestion.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from la degestion"
+            }
+          },
+          {
+            "id": "346c1f9b0e0cc7d9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7044b599418c9c9d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dataview.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of dataview"
+            }
+          },
+          {
+            "id": "8a785b174523e586",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "23ca2ad081a9fbf4",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "167e07e881f6970f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9b0f4e3c7c90303b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 374.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "templater-obsidian:Templater": false,
+      "webpage-html-export:Export as HTML": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "digitalgarden:Digital Garden Publication Center": false
+    }
+  },
+  "active": "a403763723e9e148",
+  "lastOpenFiles": [
+    "bases/Untitled.base",
+    "bases/my base.base",
+    "bases",
+    "inbox/base in obsidian notes.md",
+    "canvas",
+    "inbox/Untitled Kanban.md",
+    "obsidian phone/Canvas/الطاقات.canvas",
+    "Templates/Main properties.md",
+    "volt wiki/git basics.md",
+    "obsidian pc/Pc/Ammar  linux config.md",
+    "Excalidraw/Drawing 2026-03-28 23.14.27.excalidraw.md",
+    "obsidian pc/دراسة/Svt/la digestion.md",
+    "obsidian pc/دراسة/English/hello english.md",
+    "volt wiki",
+    "obsidian pc/دراسة/العربية/دروس مادة اللغة العربية.md",
+    "obsidian phone/مقالات/تطوير ذات/اخطاء تدمر ثقتك بنفسك.md",
+    "obsidian phone/مهارات تطوير الذات/بناء الثقة في النفس.md",
+    "obsidian pc/دراسة/الاجتماعيات/دروس مادتي الجغرافيا و التاريخ.md",
+    "obsidian pc/دراسة/Svt/SVT courses.md",
+    "dataview.md",
+    "obsidian phone/علاج حالة.md",
+    "Templates/Week planner.md",
+    "obsidian phone/Flash cards/أسئلة ثقافية.md",
+    "obsidian phone/Favorites/كتبي.md",
+    "obsidian phone/Favorites/بودكاستاتي.md",
+    "obsidian phone/Favorites/القراء.md",
+    "obsidian phone/Favorites/أكواد.md",
+    "obsidian phone/Favorites/Flash cards.md",
+    "obsidian phone/مقالات/معلومات/مشاريع بدون رأس مال.md",
+    "obsidian phone/مقالات/معلومات/التخلص من الاباحية.md",
+    "obsidian phone/مقالات/معلومات/الاجتهاد لا يوصل للنجاح.md",
+    "obsidian phone/مقالات/معلومات",
+    "obsidian phone/مقالات/علمية",
+    "obsidian phone/مقالات/دينية",
+    "obsidian phone/مقالات/تطوير ذات",
+    "obsidian phone/مقالات/انسانية",
+    "obsidian phone/مقالات",
+    "Untitled.canvas",
+    "obsidian pc/Pc/my goals.canvas",
+    "volt-wiki/Assets/svt/lestomac.png",
+    "volt-wiki/Assets/svt/la bouche.png",
+    "volt-wiki/Assets/svt/la foie.png",
+    "volt-wiki/Assets/svt/bilaire.png",
+    "volt-wiki/Assets/svt/osophage.png",
+    "volt-wiki/Assets/svt/intestine grel.png",
+    "volt-wiki/Assets/svt/all.png",
+    "volt-wiki/Assets/svt/pharincs.png",
+    "volt-wiki/Assets/svt/pancreas.png",
+    "volt-wiki/Assets/svt/intestin gros.png"
+  ]
+}
