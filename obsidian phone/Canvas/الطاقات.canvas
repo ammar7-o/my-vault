@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"d6f98ed507ffde76","type":"text","text":"صنع طاقة ","x":220,"y":-45,"width":133,"height":50,"color":"2"},
+		{"id":"5d041e54a23162ee","type":"text","text":"طاقات نظيفة","x":-100,"y":120,"width":250,"height":60,"color":"4"},
+		{"id":"f657be9f5025dbbd","type":"text","text":"طاقات احفورية","x":400,"y":120,"width":240,"height":60,"color":"#00d0ff"},
+		{"id":"9605950a4e1acf06","type":"text","text":"الطاقة المائية ","x":-380,"y":460,"width":150,"height":60,"color":"#0000ff"},
+		{"id":"c5322549e285fad9","type":"text","text":"الطاقة الريحية ","x":-152,"y":460,"width":250,"height":60,"color":"5"},
+		{"id":"d43d37bc3738a2a7","type":"text","text":"الطاقة الشمسية ","x":150,"y":430,"width":250,"height":60,"color":"3"},
+		{"id":"3ff3ee6acf22f459","type":"text","text":"ألواح الطاقة الشمسية ","x":240,"y":608,"width":209,"height":72},
+		{"id":"f14703d9a3c0d5fa","type":"text","text":"تحويلها الى طاقة كهربائية ","x":-138,"y":920,"width":240,"height":50,"color":"1"},
+		{"id":"d6df394d832ab6d8","type":"text","text":"استخراج الفحم","x":640,"y":280,"width":162,"height":60},
+		{"id":"830822d7165c1b2b","type":"text","text":"استخراج البنزين","x":353,"y":285,"width":190,"height":55},
+		{"id":"5ce9e4e05a969a87","type":"text","text":"تسخين الماء باستخدامها","x":515,"y":780,"width":250,"height":60},
+		{"id":"39d79a88c0733209","type":"text","text":"دوران التوربينات","x":17,"y":709,"width":203,"height":51,"color":"5"}
+	],
+	"edges":[
+		{"id":"c515f3b7f36b6c7e","fromNode":"d6f98ed507ffde76","fromSide":"bottom","toNode":"5d041e54a23162ee","toSide":"top"},
+		{"id":"93b250a2fca9d2f8","fromNode":"5d041e54a23162ee","fromSide":"bottom","toNode":"d43d37bc3738a2a7","toSide":"top"},
+		{"id":"3d048978ffb9402c","fromNode":"5d041e54a23162ee","fromSide":"bottom","toNode":"c5322549e285fad9","toSide":"top"},
+		{"id":"32f74dcd15614707","fromNode":"5d041e54a23162ee","fromSide":"bottom","toNode":"9605950a4e1acf06","toSide":"top"},
+		{"id":"07766d9cae2df247","fromNode":"d6f98ed507ffde76","fromSide":"bottom","toNode":"f657be9f5025dbbd","toSide":"top"},
+		{"id":"5d44d408bf263d5f","fromNode":"d43d37bc3738a2a7","fromSide":"bottom","toNode":"3ff3ee6acf22f459","toSide":"top"},
+		{"id":"c5880be56b83f9ae","fromNode":"c5322549e285fad9","fromSide":"bottom","toNode":"39d79a88c0733209","toSide":"top"},
+		{"id":"1c8c51282fb5748b","fromNode":"9605950a4e1acf06","fromSide":"bottom","toNode":"39d79a88c0733209","toSide":"left"},
+		{"id":"a14cfaa74cda229a","fromNode":"39d79a88c0733209","fromSide":"bottom","toNode":"f14703d9a3c0d5fa","toSide":"top"},
+		{"id":"73e521dd04107cf9","fromNode":"9605950a4e1acf06","fromSide":"bottom","toNode":"f14703d9a3c0d5fa","toSide":"top"},
+		{"id":"25208b406c1c822d","fromNode":"3ff3ee6acf22f459","fromSide":"bottom","toNode":"f14703d9a3c0d5fa","toSide":"right"},
+		{"id":"d9f1c6b3bb6f974d","fromNode":"f657be9f5025dbbd","fromSide":"bottom","toNode":"d6df394d832ab6d8","toSide":"top"},
+		{"id":"e08c3f37a4466de3","fromNode":"f657be9f5025dbbd","fromSide":"bottom","toNode":"830822d7165c1b2b","toSide":"top"},
+		{"id":"50b4333a2e85e3e1","fromNode":"d6df394d832ab6d8","fromSide":"bottom","toNode":"5ce9e4e05a969a87","toSide":"top"},
+		{"id":"9f8eef398fce721d","fromNode":"830822d7165c1b2b","fromSide":"bottom","toNode":"5ce9e4e05a969a87","toSide":"top"},
+		{"id":"d4ef472407d689bb","fromNode":"5ce9e4e05a969a87","fromSide":"left","toNode":"39d79a88c0733209","toSide":"right"}
+	]
+}

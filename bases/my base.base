@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - dg-publish
+      - file.tags
+      - tags
+      - file.backlinks
+    sort: []
+    summaries:
+      dg-publish: Empty
+      file.name: Empty
+  - type: cards
+    name: cards
+    cardSize: 190
+    image: note.banner
+    imageAspectRatio: 0.5
