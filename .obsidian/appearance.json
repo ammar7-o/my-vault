@@ -1,11 +1,11 @@
 {
   "baseFontSizeAction": true,
-  "baseFontSize": 17,
+  "baseFontSize": 21,
   "nativeMenus": false,
   "enabledCssSnippets": [
     "padding",
     "google-dark",
     "all.min"
   ],
-  "accentColor": "#ff4747"
+  "accentColor": ""
 }

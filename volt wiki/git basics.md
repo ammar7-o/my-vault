@@ -1,17 +1,12 @@
 ---
 banner: https://tarunbatra.com/data/images/git-before-github/cover.png
+aliases:
+  - git ,  Github
 ---
-
-
----
-
-
-
 
 # 🧠 Git & GitHub Full Cheat Sheet
 
 ---
-
 
 ## 🔹 1. First Time Setup (only once)
 
@@ -320,3 +315,4 @@ git push -u origin main
 ✔ Push regularly
 
 ---
+
