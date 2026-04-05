@@ -3,7 +3,6 @@
   "baseFontSize": 21,
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "padding",
     "google-dark",
     "all.min"
   ],
