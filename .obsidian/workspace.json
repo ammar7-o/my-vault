@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b873311e9c5cd9d",
+        "id": "920811c24aa62abc",
         "type": "tabs",
         "children": [
           {
-            "id": "2c2b20fa3d7a87e2",
+            "id": "17dc83b59579e557",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.51103591918945
+    "width": 220.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "6b3e6a38c0383291",
@@ -204,14 +205,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2c2b20fa3d7a87e2",
+  "active": "17dc83b59579e557",
   "lastOpenFiles": [
+    "volt wiki/git basics.md",
+    "Excalidraw/arabic2.md",
+    "Excalidraw/arabic1.md",
+    "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
+    "Excalidraw/Scripts/Downloaded/Split Ellipse.md",
+    "Excalidraw/Scripts/Downloaded/Slideshow.svg",
+    "Excalidraw/Scripts/Downloaded/Slideshow.md",
+    "Excalidraw/Drawing 2026-04-04 22.30.40.excalidraw.md",
     "obsidian phone/Favorites/أكواد.md",
     "inbox/Untitled Kanban 1.md",
-    "volt wiki/git basics.md",
-    "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
-    "Excalidraw/arabic1.md",
-    "Excalidraw/Drawing 2026-04-04 22.30.40.excalidraw.md",
     "obsidian pc/دراسة/العربية/دروس مادة اللغة العربية.md",
     "bases/Untitled.base",
     "obsidian pc/دراسة/Svt/la digestion.md",
@@ -228,7 +233,6 @@
     "IMG_20240901_003150_315.jpg",
     "Excalidraw/Drawing 2026-04-04 22.13.28.excalidraw.md",
     "Templates/Main properties.md",
-    "Excalidraw/Scripts/Downloaded/Split Ellipse.md",
     "Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
@@ -241,10 +245,7 @@
     "bases",
     "canvas",
     "obsidian phone/Canvas/الطاقات.canvas",
-    "obsidian pc/دراسة/English/hello english.md",
     "volt wiki",
-    "obsidian phone/مقالات/تطوير ذات/اخطاء تدمر ثقتك بنفسك.md",
-    "obsidian phone/مهارات تطوير الذات/بناء الثقة في النفس.md",
     "obsidian phone/مقالات/معلومات",
     "obsidian phone/مقالات/علمية",
     "Untitled.canvas",
@@ -253,7 +254,6 @@
     "volt-wiki/Assets/svt/la bouche.png",
     "volt-wiki/Assets/svt/la foie.png",
     "volt-wiki/Assets/svt/bilaire.png",
-    "volt-wiki/Assets/svt/osophage.png",
-    "volt-wiki/Assets/svt/intestine grel.png"
+    "volt-wiki/Assets/svt/osophage.png"
   ]
 }
