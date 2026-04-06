@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.tags.contains("1bac")
+views:
+  - type: cards
+    name: cards
+    order:
+      - file.name
+      - file.tags
+      - file.backlinks
+    cardSize: 230
+  - type: table
+    name: Table

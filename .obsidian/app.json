@@ -17,5 +17,6 @@
   "newFileFolderPath": "inbox",
   "alwaysUpdateLinks": true,
   "defaultViewMode": "source",
-  "trashOption": "local"
+  "trashOption": "local",
+  "promptDelete": false
 }

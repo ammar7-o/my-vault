@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasDatabase",
       "LiCode2",
       "FabWikipediaW",
       "LiSmartphone",
-      "FasDrawPolygon",
-      "LiExcalidrawIcon"
+      "FasDrawPolygon"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -52,5 +52,9 @@
     "iconName": "FabWikipediaW",
     "iconColor": "#fbff00"
   },
-  "volt wiki/cs50": "LiCode2"
+  "volt wiki/cs50": "LiCode2",
+  "bases": {
+    "iconName": "FasDatabase",
+    "iconColor": "#2b00ff"
+  }
 }

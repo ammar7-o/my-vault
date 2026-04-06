@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "920811c24aa62abc",
+        "id": "95e9d3e816b20779",
         "type": "tabs",
         "children": [
           {
-            "id": "17dc83b59579e557",
+            "id": "007536e745260b5f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.51103591918945,
-    "collapsed": true
+    "width": 220.51103591918945
   },
   "right": {
     "id": "6b3e6a38c0383291",
@@ -178,8 +177,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -201,26 +200,34 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
-      "webpage-html-export:Export as HTML": false,
-      "obsidian-kanban:Create new board": false
+      "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "17dc83b59579e557",
+  "active": "1b00ded2f3f89150",
   "lastOpenFiles": [
-    "volt wiki/git basics.md",
+    "bases/my base.base",
+    "bases/1bac/base.base",
+    "bases/Untitled.base",
+    "obsidian pc/دراسة/french/les figures de styles.md",
+    "Excalidraw/french1.md",
+    "Excalidraw/french2.md",
+    "Excalidraw/french3.md",
+    "bases/1bac",
     "Excalidraw/arabic2.md",
+    "Excalidraw/Drawing 2026-04-04 22.30.40.excalidraw.md",
+    "obsidian pc/دراسة/french/les coures de francais.md",
+    "inbox/Untitled Kanban.md",
+    "inbox/base in obsidian notes.md",
+    "inbox/Untitled Kanban 1.md",
+    "volt wiki/git basics.md",
     "Excalidraw/arabic1.md",
     "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
     "Excalidraw/Scripts/Downloaded/Split Ellipse.md",
     "Excalidraw/Scripts/Downloaded/Slideshow.svg",
     "Excalidraw/Scripts/Downloaded/Slideshow.md",
-    "Excalidraw/Drawing 2026-04-04 22.30.40.excalidraw.md",
     "obsidian phone/Favorites/أكواد.md",
-    "inbox/Untitled Kanban 1.md",
     "obsidian pc/دراسة/العربية/دروس مادة اللغة العربية.md",
-    "bases/Untitled.base",
     "obsidian pc/دراسة/Svt/la digestion.md",
-    "bases/my base.base",
     "obsidian pc/Pc/Ammar  linux config.md",
     "volt wiki/cs50/week 2.md",
     "volt wiki/cs50/week 1-2.md",
@@ -231,23 +238,14 @@
     "cat - Google Search.md",
     "Pasted Image 20260404223146_929.png",
     "IMG_20240901_003150_315.jpg",
-    "Excalidraw/Drawing 2026-04-04 22.13.28.excalidraw.md",
-    "Templates/Main properties.md",
     "Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "inbox/Untitled Kanban.md",
-    "inbox/base in obsidian notes.md",
     "Excalidraw/Scripts/Downloaded/Split text by lines.svg",
-    "Excalidraw/Scripts/Downloaded/Split text by lines.md",
-    "obsidian phone/مقالات/تطوير ذات/5 مهارات ذهبية لتغيير مستواك 180 درجة.md",
-    "Templates/Week planner.md",
     "bases",
     "canvas",
     "obsidian phone/Canvas/الطاقات.canvas",
     "volt wiki",
-    "obsidian phone/مقالات/معلومات",
-    "obsidian phone/مقالات/علمية",
     "Untitled.canvas",
     "obsidian pc/Pc/my goals.canvas",
     "volt-wiki/Assets/svt/lestomac.png",
