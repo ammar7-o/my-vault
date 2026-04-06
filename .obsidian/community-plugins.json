@@ -1,7 +1,6 @@
 [
   "pexels-banner",
   "terminal",
-  "obsidian-excalidraw-plugin",
   "simple-plugin",
   "sdra-wiki-plugin",
   "share-note",
@@ -10,9 +9,8 @@
   "export-to-html",
   "microblog-publish-plugin",
   "webpage-html-export",
-  "obsidian-kanban",
   "surfing",
-  "calendar",
   "dataview",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-excalidraw-plugin"
 ]

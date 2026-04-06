@@ -7,11 +7,11 @@ tags:
   - terminal
 ---
 
-# 🧠 Git & GitHub Full Cheat Sheet
+#  Git & GitHub Full Cheat Sheet
 
 ---
 
-## 🔹 1. First Time Setup (only once)
+##  1. First Time Setup (only once)
 
 ```bash
 # Set your identity
@@ -27,7 +27,7 @@ git config --list
 
 ---
 
-## 🔹 2. Create Project & Repository
+## 🔹  Create Project & Repository
 
 ```bash
 # Create project folder
@@ -40,7 +40,7 @@ git init
 
 ---
 
-## 🔹 3. Create Files
+##  3. Create Files
 
 ```bash
 # Create files
@@ -52,7 +52,7 @@ ls
 
 ---
 
-## 🔹 4. Add & Commit
+##  4. Add & Commit
 
 ```bash
 # Add all files
@@ -64,9 +64,9 @@ git commit -m "Initial commit"
 
 ---
 
-## 🔹 5. Connect to GitHub 🔗
+##  5. Connect to GitHub 
 
-👉 First create empty repo on GitHub (no README)
+First create empty repo on GitHub (no README)
 
 ```bash
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
@@ -77,7 +77,7 @@ git remote -v
 
 ---
 
-## 🔹 6. Push to GitHub 🚀
+##  6. Push to GitHub 
 
 ```bash
 git branch -M main
@@ -86,7 +86,7 @@ git push -u origin main
 
 ---
 
-## 🔹 7. Normal Workflow (daily use)
+##  7. Normal Workflow (daily use)
 
 ```bash
 # Check changes
@@ -104,7 +104,7 @@ git push
 
 ---
 
-## 🔹 8. Get Updates from GitHub
+##  8. Get Updates from GitHub
 
 ```bash
 git pull origin main
@@ -116,7 +116,7 @@ git pull origin main
 
 ---
 
-### ✅ Create branch
+### Create branch
 
 ```bash
 git branch feature-login
@@ -124,13 +124,13 @@ git branch feature-login
 
 ---
 
-### ✅ Switch branch
+###  Switch branch
 
 ```bash
 git checkout feature-login
 ```
 
-👉 Modern:
+ Modern:
 
 ```bash
 git switch feature-login
@@ -138,13 +138,13 @@ git switch feature-login
 
 ---
 
-### ✅ Create + switch (BEST 🔥)
+### Create + switch (BEST 🔥)
 
 ```bash
 git checkout -b feature-login
 ```
 
-👉 Modern:
+ Modern:
 
 ```bash
 git switch -c feature-login
@@ -152,7 +152,7 @@ git switch -c feature-login
 
 ---
 
-### ✅ Show branches
+###  Show branches
 
 ```bash
 git branch
@@ -160,7 +160,7 @@ git branch
 
 ---
 
-### ✅ Work & commit
+### Work & commit
 
 ```bash
 git add .
@@ -169,7 +169,7 @@ git commit -m "Add feature"
 
 ---
 
-### ✅ Push branch
+###  Push branch
 
 ```bash
 git push -u origin feature-login
@@ -177,7 +177,7 @@ git push -u origin feature-login
 
 ---
 
-### ✅ Merge into main
+###  Merge into main
 
 ```bash
 git checkout main
@@ -186,7 +186,7 @@ git merge feature-login
 
 ---
 
-### ✅ Delete branch
+###  Delete branch
 
 ```bash
 # Local
@@ -198,7 +198,7 @@ git push origin --delete feature-login
 
 ---
 
-# 🔹 10. Useful Commands
+#  10. Useful Commands
 
 ```bash
 # History
@@ -259,11 +259,11 @@ git reset --soft HEAD~1
 
 ---
 
-# 🔐 11. GitHub Authentication
+#  11. GitHub Authentication
 
 If asked for password:
 
-👉 Use **Personal Access Token (PAT)** instead
+Use **Personal Access Token (PAT)** instead
 
 Create it in:
 
@@ -272,7 +272,7 @@ Create it in:
 
 ---
 
-# 💡 12. Best Practices
+#  12. Best Practices
 
 ```bash
 # Create gitignore
@@ -288,7 +288,7 @@ node_modules/
 
 ---
 
-# 🔥 13. FULL QUICK START (copy & go)
+#  13. FULL QUICK START (copy & go)
 
 ```bash
 git config --global user.name "Ammar"
@@ -326,7 +326,7 @@ git push
 After that, Git will save your credentials and you won’t need to enter them again.
 ---
 
-### ⚠️ Important notes (very important)
+###  Important notes (very important)
 
 - ❌ GitHub no longer accepts passwords
 - ✅ You MUST use a **Personal Access Token (PAT)** instead
@@ -335,7 +335,7 @@ You can create one here:
 
 ---
 
-### 🔒 Security warning
+###  Security warning
 This method stores your credentials in plain text:
 ```
 ~/.git-credentials
@@ -345,14 +345,14 @@ So:
 - Not recommended for shared computers
 ---
 
-### 💡 Better alternatives
+###  Better alternatives
 - Use:
 ```shell
 git config --global credential.helper cache
 ```
 → temporary (safer)
 - Or best:  
-    👉 Use **SSH keys** (no password ever, more secure)
+     Use **SSH keys** (no password ever, more secure)
     
 
 ---
