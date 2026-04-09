@@ -18,5 +18,6 @@
   "alwaysUpdateLinks": true,
   "defaultViewMode": "source",
   "trashOption": "local",
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "Assests"
 }

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiImages",
       "FasDatabase",
       "LiCode2",
       "FabWikipediaW",
-      "LiSmartphone",
-      "FasDrawPolygon"
+      "LiSmartphone"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -56,5 +56,6 @@
   "bases": {
     "iconName": "FasDatabase",
     "iconColor": "#2b00ff"
-  }
+  },
+  "Assests": "LiImages"
 }

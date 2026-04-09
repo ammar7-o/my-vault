@@ -1,3 +1,16 @@
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - file.tags.contains("C")
+    groupBy:
+      property: file.tags
+      direction: ASC
+    order:
+      - file.name
+      - file.size
+      - file.ctime
+    sort:
+      - property: tags
+        direction: ASC
