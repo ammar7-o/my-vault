@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.tags.contains("1bac-exams")
+views:
+  - type: cards
+    name: cards
+    image: note.banner
+    cardSize: 310
+    imageFit: contain
+  - type: table
+    name: Table

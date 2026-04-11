@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFrame",
+      "LiLayoutTemplate",
+      "LiImages",
       "FasDatabase",
-      "LiCode2",
-      "FabWikipediaW",
-      "LiSmartphone",
-      "FasDrawPolygon"
+      "LiCode2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -56,5 +56,14 @@
   "bases": {
     "iconName": "FasDatabase",
     "iconColor": "#6756bd"
+  },
+  "Assests": "LiImages",
+  "Templates": {
+    "iconName": "LiLayoutTemplate",
+    "iconColor": "#ffbb00"
+  },
+  "canvas": {
+    "iconName": "LiFrame",
+    "iconColor": "#87e000"
   }
 }

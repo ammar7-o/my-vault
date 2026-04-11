@@ -6,6 +6,7 @@ share_updated: 2026-03-30T21:04:51+01:00
 tags:
   - excalidraw
   - تعلم
+  - 1bac
 dg-publish: true
 dg-home: false
 ---
