@@ -11,10 +11,14 @@
             "id": "007536e745260b5f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "obsidian pc/Pc/Ammar  linux config.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Ammar  linux config"
             }
           }
         ]
@@ -203,8 +207,12 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "1b00ded2f3f89150",
+  "active": "007536e745260b5f",
   "lastOpenFiles": [
+    "assests/Pasted image 20260411165351.png",
+    "assests",
+    "obsidian pc/دراسة/الفلسفة/نموذج التحليل الفلسفي.md",
+    "obsidian pc/دراسة/الفلسفة",
     "bases/my base.base",
     "bases/1bac/base.base",
     "bases/Untitled.base",
@@ -235,7 +243,6 @@
     "volt wiki/cs50/week 3.md",
     "volt wiki/cs50",
     "obsidian pc/Pc/my_goals.md",
-    "cat - Google Search.md",
     "Pasted Image 20260404223146_929.png",
     "IMG_20240901_003150_315.jpg",
     "Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
@@ -243,9 +250,7 @@
     "Excalidraw/Scripts",
     "Excalidraw/Scripts/Downloaded/Split text by lines.svg",
     "bases",
-    "canvas",
     "obsidian phone/Canvas/الطاقات.canvas",
-    "volt wiki",
     "Untitled.canvas",
     "obsidian pc/Pc/my goals.canvas",
     "volt-wiki/Assets/svt/lestomac.png",

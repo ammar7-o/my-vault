@@ -86,3 +86,5 @@ You can download these as **AppImage** from
 - Breeze dark
 ### icons
 - reversal dark
+
+![[Pasted image 20260411165351.png]]
