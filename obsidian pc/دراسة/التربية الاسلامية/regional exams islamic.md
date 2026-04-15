@@ -2,6 +2,7 @@
 banner: https://donnamorgancounselling.co.uk/wp-content/uploads/2023/03/exam-stress.jpg
 tags:
   - 1bac-exams
+  - 1bac
 ---
 # امتحانات جهوية في التربية الإسلامية أولى باك
 

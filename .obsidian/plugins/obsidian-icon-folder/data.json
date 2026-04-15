@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasListOl",
       "LiFrame",
       "LiLayoutTemplate",
       "LiImages",
-      "FasDatabase",
-      "LiCode2"
+      "FasDatabase"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -65,5 +65,9 @@
   "canvas": {
     "iconName": "LiFrame",
     "iconColor": "#87e000"
+  },
+  "To Dos": {
+    "iconName": "FasListOl",
+    "iconColor": "#00ffaa"
   }
 }

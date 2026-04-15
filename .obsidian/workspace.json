@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4f44cce0b072833f",
+        "id": "b1e32909314cde70",
         "type": "tabs",
         "children": [
           {
-            "id": "658fdaf4d1c03c65",
+            "id": "7e507ff0b850c458",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "volt wiki/git basics.md",
-                "mode": "source",
-                "source": false
+                "file": "bases/1bac/exams.base",
+                "viewName": "cards"
               },
-              "icon": "lucide-file",
-              "title": "git basics"
+              "icon": "lucide-layout-grid",
+              "title": "exams"
             }
           }
         ]
@@ -53,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:1bac-exams",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,19 +203,29 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
-      "webpage-html-export:Export as HTML": false
+      "webpage-html-export:Export as HTML": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "658fdaf4d1c03c65",
+  "active": "7e507ff0b850c458",
   "lastOpenFiles": [
+    "bases/1bac/base.base",
+    "bases/1bac/exams.base",
+    "obsidian pc/دراسة/العربية/regional exams Arabic.md",
+    "obsidian pc/دراسة/french/regional exams French.md",
     "obsidian pc/دراسة/الاجتماعيات/regional exams HG.md",
     "obsidian pc/دراسة/التربية الاسلامية/regional exams islamic.md",
-    "bases/1bac/exams.base",
+    "To Dos/My to dos in computer.md",
+    "To Dos",
+    "Assests/Pasted image 20260411165351.png",
+    "volt wiki/git basics.md",
+    "obsidian pc/دراسة/English/hello english.md",
+    "obsidian pc/دراسة/الاجتماعيات/دروس مادتي الجغرافيا و التاريخ.md",
+    "Excalidraw/arabic1.md",
+    "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
     "bases/my base.base",
-    "bases/1bac/base.base",
     "obsidian pc/دراسة/Physics/PC courses.md",
     "obsidian pc/دراسة/Svt/la digestion.md",
-    "obsidian pc/دراسة/الاجتماعيات/دروس مادتي الجغرافيا و التاريخ.md",
     "regional exams islamic.md",
     "inbox/base in obsidian notes.md",
     "obsidian pc/دراسة/التربية الاسلامية/دروس مادة التربية الاسلامية.md",
@@ -225,32 +234,23 @@
     "inbox/Untitled Kanban.md",
     "Assests/Pasted image 20260411190044.png",
     "Assests/Pasted image 20260411190112.png",
-    "Assests/Pasted image 20260411165351.png",
     "obsidian pc/دراسة/all",
     "obsidian pc/دراسة/العربية/ملخص شامل 1bac.md",
     "obsidian pc/دراسة/العربية/النصوص.md",
     "obsidian pc/دراسة/العربية/التعبير والانشاء.md",
     "obsidian pc/دراسة/العربية/دروس مادة اللغة العربية.md",
-    "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
     "obsidian pc/دراسة/french/50 verbes les plus utilises.md",
     "obsidian pc/Pc/Ammar  linux config.md",
     "Assests",
     "obsidian pc/دراسة/الفلسفة/نموذج التحليل الفلسفي.md",
     "obsidian pc/دراسة/الفلسفة",
     "bases/Untitled.base",
-    "obsidian pc/دراسة/french/les figures de styles.md",
-    "Excalidraw/french1.md",
-    "Excalidraw/french2.md",
-    "Excalidraw/french3.md",
     "bases/1bac",
-    "Excalidraw/arabic2.md",
-    "Excalidraw/Drawing 2026-04-04 22.30.40.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Slideshow.svg",
     "volt wiki/cs50",
     "Pasted Image 20260404223146_929.png",
     "IMG_20240901_003150_315.jpg",
     "Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
-    "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts/Downloaded/Split text by lines.svg",
     "obsidian phone/Canvas/الطاقات.canvas",
     "Untitled.canvas",
