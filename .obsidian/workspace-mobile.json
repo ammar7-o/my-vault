@@ -4,33 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e43c4e8f660d54e2",
+        "id": "cf669092dd0a91e5",
         "type": "tabs",
         "children": [
           {
-            "id": "a6059bc10cd94b00",
+            "id": "ed5f8dba35b579ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian phone/شعر/دع الأيام تفعل ما يشاء.md",
+                "file": "obsidian pc/دراسة/التربية الاسلامية/regional exams islamic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "دع الأيام تفعل ما يشاء"
+              "title": "regional exams islamic"
             }
           },
           {
-            "id": "eb7ac4aab6ad12c7",
+            "id": "4f95e593b3ba04d1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/french1.md"
+                "file": "obsidian pc/دراسة/french/Les oeuvres.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "french1"
+              "icon": "lucide-file",
+              "title": "Les oeuvres"
             }
           }
         ],
@@ -50,7 +52,7 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": true
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -125,7 +127,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Excalidraw/french2.md",
+            "file": "obsidian pc/دراسة/french/Les oeuvres.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -170,6 +172,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -181,18 +184,32 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "eb7ac4aab6ad12c7",
+  "active": "4f95e593b3ba04d1",
   "lastOpenFiles": [
+    "obsidian pc/دراسة/العربية/regional exams Arabic.md",
+    "obsidian pc/دراسة/french/Les oeuvres.md",
+    "bases/1bac/exams.base",
+    "obsidian phone/مقالات/تطوير ذات/طموح لكن كسول 1.md",
+    "obsidian pc/دراسة/التربية الاسلامية/regional exams islamic.md",
+    "obsidian phone/مقالات/علمية/كيف تشتغل الأشياء اللاسلكية.md",
+    "volt wiki/git basics.md",
+    "obsidian phone/ملخصات كتب/الاب الغني والاب الفقير.md",
+    "obsidian phone/ملخصات كتب/اعد التفكير.md",
+    "obsidian phone/مقالات/انسانية/اللغة والفلسفة والمنطق.md",
+    "Templates/Week planner.md",
+    "Templates/Main properties.md",
+    "obsidian phone/شعر/دع الأيام تفعل ما يشاء.md",
+    "obsidian pc/دراسة/الاجتماعيات/regional exams HG.md",
+    "obsidian pc/دراسة/التربية الاسلامية/دروس مادة التربية الاسلامية.md",
     "Excalidraw/french1.md",
-    "Excalidraw/french2.md",
     "obsidian pc/دراسة/french/les figures de styles.md",
+    "Excalidraw/french2.md",
     "obsidian pc/دراسة/العربية/ملخص شامل 1bac.md",
     "obsidian pc/دراسة/الفلسفة/نموذج التحليل الفلسفي.md",
     "Assests",
     "obsidian pc/دراسة/الفلسفة",
     "نموذج_التحليل_الفلسفي_2.png",
     "نموذج_التحليل_الفلسفي_1.png",
-    "obsidian phone/شعر/دع الأيام تفعل ما يشاء.md",
     "volt wiki/cs50/week 1.md",
     "volt wiki/cs50/week 2.md",
     "volt wiki/cs50/week 1-2.md",
@@ -202,10 +219,6 @@
     "volt wiki/cs50/week 3.md",
     "Excalidraw/arabic2.md",
     "obsidian phone/دين/أدعية.md",
-    "volt wiki/git basics.md",
-    "Excalidraw/arabic1.md",
-    "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
-    "Excalidraw/french3.md",
-    "Templates/Main properties.md"
+    "Excalidraw/arabic1.md"
   ]
 }
