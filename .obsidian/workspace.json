@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b1e32909314cde70",
+        "id": "d52aae3980c82ec5",
         "type": "tabs",
         "children": [
           {
-            "id": "7e507ff0b850c458",
+            "id": "832a9f3871c6e7c7",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "bases/1bac/exams.base",
-                "viewName": "cards"
-              },
-              "icon": "lucide-layout-grid",
-              "title": "exams"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -207,14 +204,25 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "7e507ff0b850c458",
+  "active": "832a9f3871c6e7c7",
   "lastOpenFiles": [
-    "bases/1bac/base.base",
     "bases/1bac/exams.base",
-    "obsidian pc/دراسة/العربية/regional exams Arabic.md",
+    "obsidian pc/دراسة/التربية الاسلامية/regional exams islamic.md",
     "obsidian pc/دراسة/french/regional exams French.md",
     "obsidian pc/دراسة/الاجتماعيات/regional exams HG.md",
-    "obsidian pc/دراسة/التربية الاسلامية/regional exams islamic.md",
+    "obsidian pc/دراسة/العربية/regional exams Arabic.md",
+    "obsidian pc/دراسة/french/Les 3 oeuvres.md",
+    "obsidian pc/دراسة/french/les coures de francais.md",
+    "Assests/Les 3 oeuvres.html",
+    "obsidian pc/دراسة/french/50 verbes les plus utilises.md",
+    "obsidian pc/دراسة/french/QCM.md",
+    "Assests/QCM.html",
+    "obsidian pc/دراسة/french/les figures de styles.md",
+    "obsidian pc/دراسة/french/Les 3 oeuvres.docx",
+    "obsidian pc/دراسة/all/الاطر المرجعية 2025 اولى باك.md",
+    "obsidian phone/مقالات/تطوير ذات/طموح لكن كسول 1.md",
+    "obsidian pc/دراسة/الاجتماعيات/المغرب من الاستعمار الى الاستقلال.md",
+    "bases/1bac/base.base",
     "To Dos/My to dos in computer.md",
     "To Dos",
     "Assests/Pasted image 20260411165351.png",
@@ -231,23 +239,12 @@
     "obsidian pc/دراسة/التربية الاسلامية/دروس مادة التربية الاسلامية.md",
     "inbox/dd.md",
     "inbox/file.md",
-    "inbox/Untitled Kanban.md",
     "Assests/Pasted image 20260411190044.png",
     "Assests/Pasted image 20260411190112.png",
     "obsidian pc/دراسة/all",
-    "obsidian pc/دراسة/العربية/ملخص شامل 1bac.md",
-    "obsidian pc/دراسة/العربية/النصوص.md",
-    "obsidian pc/دراسة/العربية/التعبير والانشاء.md",
-    "obsidian pc/دراسة/العربية/دروس مادة اللغة العربية.md",
-    "obsidian pc/دراسة/french/50 verbes les plus utilises.md",
-    "obsidian pc/Pc/Ammar  linux config.md",
     "Assests",
-    "obsidian pc/دراسة/الفلسفة/نموذج التحليل الفلسفي.md",
     "obsidian pc/دراسة/الفلسفة",
-    "bases/Untitled.base",
-    "bases/1bac",
     "Excalidraw/Scripts/Downloaded/Slideshow.svg",
-    "volt wiki/cs50",
     "Pasted Image 20260404223146_929.png",
     "IMG_20240901_003150_315.jpg",
     "Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
