@@ -3,6 +3,8 @@ banner: https://donnamorgancounselling.co.uk/wp-content/uploads/2023/03/exam-str
 tags:
   - 1bac-exams
   - 1bac
+share_link: https://share.note.sx/wznkharz#g5qZOCsEmaw+BYa8MiTUauluaZrh2/j2GkfTV28RhfM
+share_updated: 2026-04-18T12:52:37+01:00
 ---
 # امتحانات جهوية في التربية الإسلامية أولى باك
 
