@@ -2,4 +2,4 @@
 dg-publish: true
 ---
 
-![[bases/my base.base]]
+![[cover.base]]

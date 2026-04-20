@@ -5,6 +5,7 @@ aliases:
 tags:
   - برمجة
   - terminal
+icon: FabGitAlt
 ---
 
 #  Git & GitHub Full Cheat Sheet

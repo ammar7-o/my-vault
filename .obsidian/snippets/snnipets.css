@@ -1,0 +1,32 @@
+.ammar {
+  position: relative;
+  padding: 16px 20px;
+  margin: 20px 0;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+  color: #eaeaea;
+  border-left: 5px solid #4CAF50;
+  border-radius: 8px;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Decorative quote mark */
+.ammar::before {
+  content: "“";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 40px;
+  color: #4CAF50;
+  opacity: 0.3;
+}
+
+/* Hover effect */
+.ammar:hover {
+  transform: translateX(6px);
+  border-left-color: #00ffcc;
+  background: linear-gradient(135deg, #2a2a2a, #1e1e1e);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}

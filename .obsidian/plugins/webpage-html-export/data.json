@@ -13,7 +13,8 @@
     "exportPath": "/home/ammar/Downloads/mm",
     "filesToExport": [
       "obsidian pc/Pc/Ammar  linux config.md",
-      "obsidian pc/دراسة/Svt/la digestion.md"
+      "obsidian pc/دراسة/Svt/la digestion.md",
+      "volt wiki"
     ],
     "useFallbackRenderer": false,
     "addBodyClasses": true,

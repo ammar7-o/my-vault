@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e0913b249236215a",
+        "id": "123414b9e0cf5a0b",
         "type": "tabs",
         "children": [
           {
-            "id": "61f8054f28c3077a",
+            "id": "5b9acb4de5f9219f",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "bases/1bac/exams.base",
-                "viewName": "cards"
-              },
-              "icon": "lucide-layout-grid",
-              "title": "exams"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -77,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.51103591918945
+    "width": 257.51103591918945
   },
   "right": {
     "id": "6b3e6a38c0383291",
@@ -141,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dataview.md",
+                "file": "obsidian pc/دراسة/العربية/ملخص شامل 1bac.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dataview"
+              "title": "Outline of ملخص شامل 1bac"
             }
           },
           {
@@ -185,7 +182,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -207,46 +204,48 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "61f8054f28c3077a",
+  "active": "5b9acb4de5f9219f",
   "lastOpenFiles": [
-    "obsidian pc/دراسة/الاجتماعيات/regional exams HG.md",
-    "bases/1bac/exams.base",
-    "obsidian pc/دراسة/العربية/regional exams Arabic.md",
-    "obsidian pc/دراسة/التربية الاسلامية/regional exams islamic.md",
-    "obsidian pc/دراسة/التربية الاسلامية/دروس مادة التربية الاسلامية.md",
-    "Excalidraw/arabic1.md",
-    "Excalidraw/arabic2.md",
     "obsidian pc/دراسة/all/الاطر المرجعية 2025 اولى باك.md",
+    "obsidian pc/دراسة/العربية/ملخص شامل 1bac.md",
     "obsidian pc/دراسة/العربية/دروس مادة اللغة العربية.md",
     "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
-    "bases/1bac/base.base",
-    "Excalidraw/french2.md",
-    "obsidian pc/دراسة/french/les figures de styles.md",
-    "Excalidraw/french1.md",
-    "Excalidraw/french3.md",
+    "obsidian pc/دراسة/العربية/regional exams Arabic.md",
+    "volt wiki/git basics.md",
+    "obsidian pc/Pc/متابعة الحفظ الاسبوعية.md",
+    "obsidian pc/Pc/Ammar  linux config.md",
+    "obsidian pc/دراسة/Svt/la digestion.md",
+    "obsidian pc/Pc/كيفية حفظ القرءان الكريم بإتقان.md",
+    "obsidian pc/Pc/my_goals.md",
+    "obsidian pc/Pc/my goals.canvas",
+    "bases/cover.base",
+    "bases/Untitled.base",
+    "bases/1bac/exams.base",
     "obsidian pc/دراسة/french/Les 3 oeuvres.md",
-    "obsidian pc/دراسة/french/regional exams French.md",
-    "obsidian pc/دراسة/french/les coures de francais.md",
-    "Assests/Les 3 oeuvres.html",
+    "bases/1bac/base.base",
+    "Templates/html.md",
     "obsidian pc/دراسة/french/50 verbes les plus utilises.md",
-    "obsidian pc/دراسة/french/QCM.md",
+    "obsidian pc/دراسة/Physics/PC courses.md",
+    "obsidian pc/دراسة/Svt/SVT courses.md",
+    "obsidian pc/دراسة/french/الطرق الذكية في فهم الفرنسية/الفصل الثاني - الممارسة.md",
+    "obsidian pc/دراسة/french/الطرق الذكية في فهم الفرنسية/الفصل الأول الأساسيات.md",
+    "obsidian pc/دراسة/Math/math lessons.md",
+    "obsidian pc/دراسة/french/les coures de francais.md",
+    "obsidian pc/دراسة/french/les figures de styles.md",
+    "obsidian pc/دراسة/الفلسفة/نموذج التحليل الفلسفي.md",
+    "obsidian pc/دراسة/العربية/التعبير والانشاء.md",
+    "obsidian pc/دراسة/العربية/النصوص.md",
+    "obsidian pc/دراسة/التربية الاسلامية/دروس مادة التربية الاسلامية.md",
+    "obsidian pc/دراسة/الاجتماعيات/دروس مادتي الجغرافيا و التاريخ.md",
+    "Assests/Les 3 oeuvres.html",
     "Assests/QCM.html",
     "obsidian pc/دراسة/french/Les 3 oeuvres.docx",
-    "obsidian phone/مقالات/تطوير ذات/طموح لكن كسول 1.md",
-    "obsidian pc/دراسة/الاجتماعيات/المغرب من الاستعمار الى الاستقلال.md",
-    "To Dos/My to dos in computer.md",
     "To Dos",
     "Assests/Pasted image 20260411165351.png",
-    "volt wiki/git basics.md",
-    "obsidian pc/دراسة/English/hello english.md",
-    "obsidian pc/دراسة/الاجتماعيات/دروس مادتي الجغرافيا و التاريخ.md",
-    "bases/my base.base",
-    "obsidian pc/دراسة/Physics/PC courses.md",
     "Assests/Pasted image 20260411190044.png",
     "Assests/Pasted image 20260411190112.png",
     "obsidian pc/دراسة/all",
     "Assests",
-    "obsidian pc/دراسة/الفلسفة",
     "Excalidraw/Scripts/Downloaded/Slideshow.svg",
     "Pasted Image 20260404223146_929.png",
     "IMG_20240901_003150_315.jpg",
@@ -254,7 +253,6 @@
     "Excalidraw/Scripts/Downloaded/Split text by lines.svg",
     "obsidian phone/Canvas/الطاقات.canvas",
     "Untitled.canvas",
-    "obsidian pc/Pc/my goals.canvas",
     "volt-wiki/Assets/svt/lestomac.png",
     "volt-wiki/Assets/svt/la bouche.png"
   ]
