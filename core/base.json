@@ -193,8 +193,28 @@
                   "children": [
                     {
                       "type": "file",
+                      "name": "Optique research 1.md",
+                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Optique research 1.md"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Optique research 2.md",
+                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Optique research 2.md"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Optique research 3.md",
+                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Optique research 3.md"
+                    },
+                    {
+                      "type": "file",
                       "name": "PC courses.md",
                       "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/PC courses.md"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Untitled.md",
+                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Untitled.md"
                     }
                   ]
                 },
