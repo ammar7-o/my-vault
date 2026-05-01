@@ -16,7 +16,8 @@
             {
               "type": "file",
               "name": "Drawing 2026-04-04 22.30.40.excalidraw.md",
-              "path": "Excalidraw/Drawing 2026-04-04 22.30.40.excalidraw.md"
+              "path": "Excalidraw/Drawing 2026-04-04 22.30.40.excalidraw.md",
+              "encodedPath": "Excalidraw/Drawing%202026-04-04%2022.30.40.excalidraw.md"
             },
             {
               "type": "folder",
@@ -29,7 +30,8 @@
                     {
                       "type": "file",
                       "name": "Slideshow.md",
-                      "path": "Excalidraw/Scripts/Downloaded/Slideshow.md"
+                      "path": "Excalidraw/Scripts/Downloaded/Slideshow.md",
+                      "encodedPath": "Excalidraw/Scripts/Downloaded/Slideshow.md"
                     }
                   ]
                 }
@@ -38,27 +40,32 @@
             {
               "type": "file",
               "name": "arabic1.md",
-              "path": "Excalidraw/arabic1.md"
+              "path": "Excalidraw/arabic1.md",
+              "encodedPath": "Excalidraw/arabic1.md"
             },
             {
               "type": "file",
               "name": "arabic2.md",
-              "path": "Excalidraw/arabic2.md"
+              "path": "Excalidraw/arabic2.md",
+              "encodedPath": "Excalidraw/arabic2.md"
             },
             {
               "type": "file",
               "name": "french1.md",
-              "path": "Excalidraw/french1.md"
+              "path": "Excalidraw/french1.md",
+              "encodedPath": "Excalidraw/french1.md"
             },
             {
               "type": "file",
               "name": "french2.md",
-              "path": "Excalidraw/french2.md"
+              "path": "Excalidraw/french2.md",
+              "encodedPath": "Excalidraw/french2.md"
             },
             {
               "type": "file",
               "name": "french3.md",
-              "path": "Excalidraw/french3.md"
+              "path": "Excalidraw/french3.md",
+              "encodedPath": "Excalidraw/french3.md"
             }
           ]
         },
@@ -69,17 +76,20 @@
             {
               "type": "file",
               "name": "Main properties.md",
-              "path": "Templates/Main properties.md"
+              "path": "Templates/Main properties.md",
+              "encodedPath": "Templates/Main%20properties.md"
             },
             {
               "type": "file",
               "name": "Week planner.md",
-              "path": "Templates/Week planner.md"
+              "path": "Templates/Week planner.md",
+              "encodedPath": "Templates/Week%20planner.md"
             },
             {
               "type": "file",
               "name": "html.md",
-              "path": "Templates/html.md"
+              "path": "Templates/html.md",
+              "encodedPath": "Templates/html.md"
             }
           ]
         },
@@ -90,7 +100,8 @@
             {
               "type": "file",
               "name": "My to dos in computer.md",
-              "path": "To Dos/My to dos in computer.md"
+              "path": "To Dos/My to dos in computer.md",
+              "encodedPath": "To%20Dos/My%20to%20dos%20in%20computer.md"
             }
           ]
         },
@@ -117,17 +128,20 @@
             {
               "type": "file",
               "name": "Untitled Kanban.md",
-              "path": "inbox/Untitled Kanban.md"
+              "path": "inbox/Untitled Kanban.md",
+              "encodedPath": "inbox/Untitled%20Kanban.md"
             },
             {
               "type": "file",
               "name": "base in obsidian notes.md",
-              "path": "inbox/base in obsidian notes.md"
+              "path": "inbox/base in obsidian notes.md",
+              "encodedPath": "inbox/base%20in%20obsidian%20notes.md"
             },
             {
               "type": "file",
               "name": "name.md",
-              "path": "inbox/name.md"
+              "path": "inbox/name.md",
+              "encodedPath": "inbox/name.md"
             }
           ]
         },
@@ -142,28 +156,32 @@
                 {
                   "type": "file",
                   "name": "Ammar  linux config.md",
-                  "path": "obsidian pc/Pc/Ammar  linux config.md"
+                  "path": "obsidian pc/Pc/Ammar  linux config.md",
+                  "encodedPath": "obsidian%20pc/Pc/Ammar%20%20linux%20config.md"
                 },
                 {
                   "type": "file",
                   "name": "my_goals.md",
-                  "path": "obsidian pc/Pc/my_goals.md"
+                  "path": "obsidian pc/Pc/my_goals.md",
+                  "encodedPath": "obsidian%20pc/Pc/my_goals.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0643\u064a\u0641\u064a\u0629 \u062d\u0641\u0638 \u0627\u0644\u0642\u0631\u0621\u0627\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0628\u0625\u062a\u0642\u0627\u0646.md",
-                  "path": "obsidian pc/Pc/\u0643\u064a\u0641\u064a\u0629 \u062d\u0641\u0638 \u0627\u0644\u0642\u0631\u0621\u0627\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0628\u0625\u062a\u0642\u0627\u0646.md"
+                  "name": "كيفية حفظ القرءان الكريم بإتقان.md",
+                  "path": "obsidian pc/Pc/كيفية حفظ القرءان الكريم بإتقان.md",
+                  "encodedPath": "obsidian%20pc/Pc/%D9%83%D9%8A%D9%81%D9%8A%D8%A9%20%D8%AD%D9%81%D8%B8%20%D8%A7%D9%84%D9%82%D8%B1%D8%A1%D8%A7%D9%86%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%20%D8%A8%D8%A5%D8%AA%D9%82%D8%A7%D9%86.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u062d\u0641\u0638 \u0627\u0644\u0627\u0633\u0628\u0648\u0639\u064a\u0629.md",
-                  "path": "obsidian pc/Pc/\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u062d\u0641\u0638 \u0627\u0644\u0627\u0633\u0628\u0648\u0639\u064a\u0629.md"
+                  "name": "متابعة الحفظ الاسبوعية.md",
+                  "path": "obsidian pc/Pc/متابعة الحفظ الاسبوعية.md",
+                  "encodedPath": "obsidian%20pc/Pc/%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9%20%D8%A7%D9%84%D8%AD%D9%81%D8%B8%20%D8%A7%D9%84%D8%A7%D8%B3%D8%A8%D9%88%D8%B9%D9%8A%D8%A9.md"
                 }
               ]
             },
             {
               "type": "folder",
-              "name": "\u062f\u0631\u0627\u0633\u0629",
+              "name": "دراسة",
               "children": [
                 {
                   "type": "folder",
@@ -172,7 +190,8 @@
                     {
                       "type": "file",
                       "name": "hello english.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/English/hello english.md"
+                      "path": "obsidian pc/دراسة/English/hello english.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/English/hello%20english.md"
                     }
                   ]
                 },
@@ -183,7 +202,8 @@
                     {
                       "type": "file",
                       "name": "math lessons.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Math/math lessons.md"
+                      "path": "obsidian pc/دراسة/Math/math lessons.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/Math/math%20lessons.md"
                     }
                   ]
                 },
@@ -194,27 +214,32 @@
                     {
                       "type": "file",
                       "name": "Optique research 1.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Optique research 1.md"
+                      "path": "obsidian pc/دراسة/Physics/Optique research 1.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/Physics/Optique%20research%201.md"
                     },
                     {
                       "type": "file",
                       "name": "Optique research 2.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Optique research 2.md"
+                      "path": "obsidian pc/دراسة/Physics/Optique research 2.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/Physics/Optique%20research%202.md"
                     },
                     {
                       "type": "file",
                       "name": "Optique research 3.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Optique research 3.md"
+                      "path": "obsidian pc/دراسة/Physics/Optique research 3.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/Physics/Optique%20research%203.md"
                     },
                     {
                       "type": "file",
                       "name": "PC courses.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/PC courses.md"
+                      "path": "obsidian pc/دراسة/Physics/PC courses.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/Physics/PC%20courses.md"
                     },
                     {
                       "type": "file",
                       "name": "Untitled.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Untitled.md"
+                      "path": "obsidian pc/دراسة/Physics/Untitled.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/Physics/Untitled.md"
                     }
                   ]
                 },
@@ -225,12 +250,14 @@
                     {
                       "type": "file",
                       "name": "SVT courses.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Svt/SVT courses.md"
+                      "path": "obsidian pc/دراسة/Svt/SVT courses.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/Svt/SVT%20courses.md"
                     },
                     {
                       "type": "file",
                       "name": "la digestion.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Svt/la digestion.md"
+                      "path": "obsidian pc/دراسة/Svt/la digestion.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/Svt/la%20digestion.md"
                     }
                   ]
                 },
@@ -240,8 +267,9 @@
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0627\u0637\u0631 \u0627\u0644\u0645\u0631\u062c\u0639\u064a\u0629 2025 \u0627\u0648\u0644\u0649 \u0628\u0627\u0643.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/all/\u0627\u0644\u0627\u0637\u0631 \u0627\u0644\u0645\u0631\u062c\u0639\u064a\u0629 2025 \u0627\u0648\u0644\u0649 \u0628\u0627\u0643.md"
+                      "name": "الاطر المرجعية 2025 اولى باك.md",
+                      "path": "obsidian pc/دراسة/all/الاطر المرجعية 2025 اولى باك.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/all/%D8%A7%D9%84%D8%A7%D8%B7%D8%B1%20%D8%A7%D9%84%D9%85%D8%B1%D8%AC%D8%B9%D9%8A%D8%A9%202025%20%D8%A7%D9%88%D9%84%D9%89%20%D8%A8%D8%A7%D9%83.md"
                     }
                   ]
                 },
@@ -252,46 +280,54 @@
                     {
                       "type": "file",
                       "name": "50 verbes les plus utilises.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/50 verbes les plus utilises.md"
+                      "path": "obsidian pc/دراسة/french/50 verbes les plus utilises.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/french/50%20verbes%20les%20plus%20utilises.md"
                     },
                     {
                       "type": "file",
                       "name": "Les 3 oeuvres.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/Les 3 oeuvres.md"
+                      "path": "obsidian pc/دراسة/french/Les 3 oeuvres.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/french/Les%203%20oeuvres.md"
                     },
                     {
                       "type": "file",
                       "name": "QCM.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/QCM.md"
+                      "path": "obsidian pc/دراسة/french/QCM.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/french/QCM.md"
                     },
                     {
                       "type": "file",
                       "name": "les coures de francais.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/les coures de francais.md"
+                      "path": "obsidian pc/دراسة/french/les coures de francais.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/french/les%20coures%20de%20francais.md"
                     },
                     {
                       "type": "file",
                       "name": "les figures de styles.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/les figures de styles.md"
+                      "path": "obsidian pc/دراسة/french/les figures de styles.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/french/les%20figures%20de%20styles.md"
                     },
                     {
                       "type": "file",
                       "name": "regional exams French.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/regional exams French.md"
+                      "path": "obsidian pc/دراسة/french/regional exams French.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/french/regional%20exams%20French.md"
                     },
                     {
                       "type": "folder",
-                      "name": "\u0627\u0644\u0637\u0631\u0642 \u0627\u0644\u0630\u0643\u064a\u0629 \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0641\u0631\u0646\u0633\u064a\u0629",
+                      "name": "الطرق الذكية في فهم الفرنسية",
                       "children": [
                         {
                           "type": "file",
-                          "name": "\u0627\u0644\u0641\u0635\u0644 \u0627\u0644\u0623\u0648\u0644 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0627\u062a.md",
-                          "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/\u0627\u0644\u0637\u0631\u0642 \u0627\u0644\u0630\u0643\u064a\u0629 \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0641\u0631\u0646\u0633\u064a\u0629/\u0627\u0644\u0641\u0635\u0644 \u0627\u0644\u0623\u0648\u0644 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0627\u062a.md"
+                          "name": "الفصل الأول الأساسيات.md",
+                          "path": "obsidian pc/دراسة/french/الطرق الذكية في فهم الفرنسية/الفصل الأول الأساسيات.md",
+                          "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/french/%D8%A7%D9%84%D8%B7%D8%B1%D9%82%20%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9%20%D9%81%D9%8A%20%D9%81%D9%87%D9%85%20%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%D8%A7%D9%84%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA.md"
                         },
                         {
                           "type": "file",
-                          "name": "\u0627\u0644\u0641\u0635\u0644 \u0627\u0644\u062b\u0627\u0646\u064a - \u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629.md",
-                          "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/\u0627\u0644\u0637\u0631\u0642 \u0627\u0644\u0630\u0643\u064a\u0629 \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0641\u0631\u0646\u0633\u064a\u0629/\u0627\u0644\u0641\u0635\u0644 \u0627\u0644\u062b\u0627\u0646\u064a - \u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629.md"
+                          "name": "الفصل الثاني - الممارسة.md",
+                          "path": "obsidian pc/دراسة/french/الطرق الذكية في فهم الفرنسية/الفصل الثاني - الممارسة.md",
+                          "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/french/%D8%A7%D9%84%D8%B7%D8%B1%D9%82%20%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9%20%D9%81%D9%8A%20%D9%81%D9%87%D9%85%20%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%20-%20%D8%A7%D9%84%D9%85%D9%85%D8%A7%D8%B1%D8%B3%D8%A9.md"
                         }
                       ]
                     }
@@ -299,91 +335,103 @@
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0627\u062a",
+                  "name": "الاجتماعيات",
                   "children": [
                     {
                       "type": "file",
                       "name": "regional exams HG.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0627\u062a/regional exams HG.md"
+                      "path": "obsidian pc/دراسة/الاجتماعيات/regional exams HG.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A7%D8%AA/regional%20exams%20HG.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0645\u063a\u0631\u0628 \u0645\u0646 \u0627\u0644\u0627\u0633\u062a\u0639\u0645\u0627\u0631 \u0627\u0644\u0649 \u0627\u0644\u0627\u0633\u062a\u0642\u0644\u0627\u0644.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0627\u062a/\u0627\u0644\u0645\u063a\u0631\u0628 \u0645\u0646 \u0627\u0644\u0627\u0633\u062a\u0639\u0645\u0627\u0631 \u0627\u0644\u0649 \u0627\u0644\u0627\u0633\u062a\u0642\u0644\u0627\u0644.md"
+                      "name": "المغرب من الاستعمار الى الاستقلال.md",
+                      "path": "obsidian pc/دراسة/الاجتماعيات/المغرب من الاستعمار الى الاستقلال.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D8%B1%20%D8%A7%D9%84%D9%89%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u062a\u064a \u0627\u0644\u062c\u063a\u0631\u0627\u0641\u064a\u0627 \u0648 \u0627\u0644\u062a\u0627\u0631\u064a\u062e.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0627\u062a/\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u062a\u064a \u0627\u0644\u062c\u063a\u0631\u0627\u0641\u064a\u0627 \u0648 \u0627\u0644\u062a\u0627\u0631\u064a\u062e.md"
+                      "name": "دروس مادتي الجغرافيا و التاريخ.md",
+                      "path": "obsidian pc/دراسة/الاجتماعيات/دروس مادتي الجغرافيا و التاريخ.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A7%D8%AA/%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D8%A7%D8%AF%D8%AA%D9%8A%20%D8%A7%D9%84%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7%20%D9%88%20%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+                  "name": "التربية الاسلامية",
                   "children": [
                     {
                       "type": "file",
                       "name": "regional exams islamic.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629/regional exams islamic.md"
+                      "path": "obsidian pc/دراسة/التربية الاسلامية/regional exams islamic.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9/regional%20exams%20islamic.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u0629 \u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629/\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u0629 \u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629.md"
+                      "name": "دروس مادة التربية الاسلامية.md",
+                      "path": "obsidian pc/دراسة/التربية الاسلامية/دروس مادة التربية الاسلامية.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9/%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+                  "name": "العربية",
                   "children": [
                     {
                       "type": "file",
                       "name": "regional exams Arabic.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/regional exams Arabic.md"
+                      "path": "obsidian pc/دراسة/العربية/regional exams Arabic.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/regional%20exams%20Arabic.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0627\u0633\u062a\u0641\u0647\u0627\u0645 \u0627\u0644\u0627\u0633\u062a\u0644\u0632\u0627\u0645\u064a.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u0627\u0644\u0627\u0633\u062a\u0641\u0647\u0627\u0645 \u0627\u0644\u0627\u0633\u062a\u0644\u0632\u0627\u0645\u064a.md"
+                      "name": "الاستفهام الاستلزامي.md",
+                      "path": "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D9%87%D8%A7%D9%85%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%84%D8%B2%D8%A7%D9%85%D9%8A.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062a\u0639\u0628\u064a\u0631 \u0648\u0627\u0644\u0627\u0646\u0634\u0627\u0621.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u0627\u0644\u062a\u0639\u0628\u064a\u0631 \u0648\u0627\u0644\u0627\u0646\u0634\u0627\u0621.md"
+                      "name": "التعبير والانشاء.md",
+                      "path": "obsidian pc/دراسة/العربية/التعبير والانشاء.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B9%D8%A8%D9%8A%D8%B1%20%D9%88%D8%A7%D9%84%D8%A7%D9%86%D8%B4%D8%A7%D8%A1.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0646\u0635\u0648\u0635.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u0627\u0644\u0646\u0635\u0648\u0635.md"
+                      "name": "النصوص.md",
+                      "path": "obsidian pc/دراسة/العربية/النصوص.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%A7%D9%84%D9%86%D8%B5%D9%88%D8%B5.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u0629 \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u0629 \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629.md"
+                      "name": "دروس مادة اللغة العربية.md",
+                      "path": "obsidian pc/دراسة/العربية/دروس مادة اللغة العربية.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0645\u0644\u062e\u0635 \u0634\u0627\u0645\u0644 1bac.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u0645\u0644\u062e\u0635 \u0634\u0627\u0645\u0644 1bac.md"
+                      "name": "ملخص شامل 1bac.md",
+                      "path": "obsidian pc/دراسة/العربية/ملخص شامل 1bac.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D9%85%D9%84%D8%AE%D8%B5%20%D8%B4%D8%A7%D9%85%D9%84%201bac.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u0641\u0644\u0633\u0641\u0629",
+                  "name": "الفلسفة",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0646\u0645\u0648\u0630\u062c \u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0641\u0644\u0633\u0641\u064a.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0641\u0644\u0633\u0641\u0629/\u0646\u0645\u0648\u0630\u062c \u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0641\u0644\u0633\u0641\u064a.md"
+                      "name": "نموذج التحليل الفلسفي.md",
+                      "path": "obsidian pc/دراسة/الفلسفة/نموذج التحليل الفلسفي.md",
+                      "encodedPath": "obsidian%20pc/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/%D8%A7%D9%84%D9%81%D9%84%D8%B3%D9%81%D8%A9/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%A7%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%81%D9%84%D8%B3%D9%81%D9%8A.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0641\u0644\u0633\u0641\u0629",
+                  "name": "فلسفة",
                   "children": []
                 }
               ]
@@ -406,27 +454,32 @@
                 {
                   "type": "file",
                   "name": "Flash cards.md",
-                  "path": "obsidian phone/Favorites/Flash cards.md"
+                  "path": "obsidian phone/Favorites/Flash cards.md",
+                  "encodedPath": "obsidian%20phone/Favorites/Flash%20cards.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0623\u0643\u0648\u0627\u062f.md",
-                  "path": "obsidian phone/Favorites/\u0623\u0643\u0648\u0627\u062f.md"
+                  "name": "أكواد.md",
+                  "path": "obsidian phone/Favorites/أكواد.md",
+                  "encodedPath": "obsidian%20phone/Favorites/%D8%A3%D9%83%D9%88%D8%A7%D8%AF.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0642\u0631\u0627\u0621.md",
-                  "path": "obsidian phone/Favorites/\u0627\u0644\u0642\u0631\u0627\u0621.md"
+                  "name": "القراء.md",
+                  "path": "obsidian phone/Favorites/القراء.md",
+                  "encodedPath": "obsidian%20phone/Favorites/%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0628\u0648\u062f\u0643\u0627\u0633\u062a\u0627\u062a\u064a.md",
-                  "path": "obsidian phone/Favorites/\u0628\u0648\u062f\u0643\u0627\u0633\u062a\u0627\u062a\u064a.md"
+                  "name": "بودكاستاتي.md",
+                  "path": "obsidian phone/Favorites/بودكاستاتي.md",
+                  "encodedPath": "obsidian%20phone/Favorites/%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA%D8%A7%D8%AA%D9%8A.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0643\u062a\u0628\u064a.md",
-                  "path": "obsidian phone/Favorites/\u0643\u062a\u0628\u064a.md"
+                  "name": "كتبي.md",
+                  "path": "obsidian phone/Favorites/كتبي.md",
+                  "encodedPath": "obsidian%20phone/Favorites/%D9%83%D8%AA%D8%A8%D9%8A.md"
                 }
               ]
             },
@@ -436,20 +489,23 @@
               "children": [
                 {
                   "type": "file",
-                  "name": "\u0623\u0633\u0626\u0644\u0629 \u062b\u0642\u0627\u0641\u064a\u0629.md",
-                  "path": "obsidian phone/Flash cards/\u0623\u0633\u0626\u0644\u0629 \u062b\u0642\u0627\u0641\u064a\u0629.md"
+                  "name": "أسئلة ثقافية.md",
+                  "path": "obsidian phone/Flash cards/أسئلة ثقافية.md",
+                  "encodedPath": "obsidian%20phone/Flash%20cards/%D8%A3%D8%B3%D8%A6%D9%84%D8%A9%20%D8%AB%D9%82%D8%A7%D9%81%D9%8A%D8%A9.md"
                 }
               ]
             },
             {
               "type": "file",
               "name": "Js 2.md",
-              "path": "obsidian phone/Js 2.md"
+              "path": "obsidian phone/Js 2.md",
+              "encodedPath": "obsidian%20phone/Js%202.md"
             },
             {
               "type": "file",
               "name": "La digestion.md",
-              "path": "obsidian phone/La digestion.md"
+              "path": "obsidian phone/La digestion.md",
+              "encodedPath": "obsidian%20phone/La%20digestion.md"
             },
             {
               "type": "folder",
@@ -459,17 +515,20 @@
             {
               "type": "file",
               "name": "Resume Fr-2-1.md",
-              "path": "obsidian phone/Resume Fr-2-1.md"
+              "path": "obsidian phone/Resume Fr-2-1.md",
+              "encodedPath": "obsidian%20phone/Resume%20Fr-2-1.md"
             },
             {
               "type": "file",
               "name": "Untitled 1.md",
-              "path": "obsidian phone/Untitled 1.md"
+              "path": "obsidian phone/Untitled 1.md",
+              "encodedPath": "obsidian%20phone/Untitled%201.md"
             },
             {
               "type": "file",
               "name": "Untitled.md",
-              "path": "obsidian phone/Untitled.md"
+              "path": "obsidian phone/Untitled.md",
+              "encodedPath": "obsidian%20phone/Untitled.md"
             },
             {
               "type": "folder",
@@ -478,307 +537,351 @@
                 {
                   "type": "file",
                   "name": "2025-week1.md",
-                  "path": "obsidian phone/Weeks/2025-week1.md"
+                  "path": "obsidian phone/Weeks/2025-week1.md",
+                  "encodedPath": "obsidian%20phone/Weeks/2025-week1.md"
                 }
               ]
             },
             {
               "type": "folder",
-              "name": "\u0623\u062e\u0631\u0649",
+              "name": "أخرى",
               "children": [
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062d\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u0635\u0648\u062a.md",
-                  "path": "obsidian phone/\u0623\u062e\u0631\u0649/\u0627\u0644\u062d\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u0635\u0648\u062a.md"
+                  "name": "الحفاظ على الصوت.md",
+                  "path": "obsidian phone/أخرى/الحفاظ على الصوت.md",
+                  "encodedPath": "obsidian%20phone/%D8%A3%D8%AE%D8%B1%D9%89/%D8%A7%D9%84%D8%AD%D9%81%D8%A7%D8%B8%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B5%D9%88%D8%AA.md"
                 }
               ]
             },
             {
               "type": "file",
-              "name": "\u0627\u0641\u0643\u0627\u0631.md",
-              "path": "obsidian phone/\u0627\u0641\u0643\u0627\u0631.md"
+              "name": "افكار.md",
+              "path": "obsidian phone/افكار.md",
+              "encodedPath": "obsidian%20phone/%D8%A7%D9%81%D9%83%D8%A7%D8%B1.md"
             },
             {
               "type": "folder",
-              "name": "\u062a\u0631\u0628\u064a\u0629 \u0625\u0633\u0644\u0627\u0645\u064a\u0629",
+              "name": "تربية إسلامية",
               "children": [
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0632\u0648\u0627\u062c.md",
-                  "path": "obsidian phone/\u062a\u0631\u0628\u064a\u0629 \u0625\u0633\u0644\u0627\u0645\u064a\u0629/\u0627\u0644\u0632\u0648\u0627\u062c.md"
+                  "name": "الزواج.md",
+                  "path": "obsidian phone/تربية إسلامية/الزواج.md",
+                  "encodedPath": "obsidian%20phone/%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%B2%D9%88%D8%A7%D8%AC.md"
                 }
               ]
             },
             {
               "type": "file",
-              "name": "\u062d\u0627\u0644\u062a\u064a 2.md",
-              "path": "obsidian phone/\u062d\u0627\u0644\u062a\u064a 2.md"
+              "name": "حالتي 2.md",
+              "path": "obsidian phone/حالتي 2.md",
+              "encodedPath": "obsidian%20phone/%D8%AD%D8%A7%D9%84%D8%AA%D9%8A%202.md"
             },
             {
               "type": "file",
-              "name": "\u062d\u0627\u0644\u062a\u064a.md",
-              "path": "obsidian phone/\u062d\u0627\u0644\u062a\u064a.md"
+              "name": "حالتي.md",
+              "path": "obsidian phone/حالتي.md",
+              "encodedPath": "obsidian%20phone/%D8%AD%D8%A7%D9%84%D8%AA%D9%8A.md"
             },
             {
               "type": "folder",
-              "name": "\u062d\u064a\u0627\u0629",
+              "name": "حياة",
               "children": [
                 {
                   "type": "file",
                   "name": "Daily goals.md",
-                  "path": "obsidian phone/\u062d\u064a\u0627\u0629/Daily goals.md"
+                  "path": "obsidian phone/حياة/Daily goals.md",
+                  "encodedPath": "obsidian%20phone/%D8%AD%D9%8A%D8%A7%D8%A9/Daily%20goals.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0623\u0647\u062f\u0627\u0641\u064a.md",
-                  "path": "obsidian phone/\u062d\u064a\u0627\u0629/\u0623\u0647\u062f\u0627\u0641\u064a.md"
+                  "name": "أهدافي.md",
+                  "path": "obsidian phone/حياة/أهدافي.md",
+                  "encodedPath": "obsidian%20phone/%D8%AD%D9%8A%D8%A7%D8%A9/%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D9%8A.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0647\u062f\u0627\u0641 \u0627\u0644 12 \u0627\u0633\u0628\u0648\u0639.md",
-                  "path": "obsidian phone/\u062d\u064a\u0627\u0629/\u0627\u0647\u062f\u0627\u0641 \u0627\u0644 12 \u0627\u0633\u0628\u0648\u0639.md"
+                  "name": "اهداف ال 12 اسبوع.md",
+                  "path": "obsidian phone/حياة/اهداف ال 12 اسبوع.md",
+                  "encodedPath": "obsidian%20phone/%D8%AD%D9%8A%D8%A7%D8%A9/%D8%A7%D9%87%D8%AF%D8%A7%D9%81%20%D8%A7%D9%84%2012%20%D8%A7%D8%B3%D8%A8%D9%88%D8%B9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0647\u062f\u0627\u0641 \u0633\u0646\u0629 2025.md",
-                  "path": "obsidian phone/\u062d\u064a\u0627\u0629/\u0627\u0647\u062f\u0627\u0641 \u0633\u0646\u0629 2025.md"
+                  "name": "اهداف سنة 2025.md",
+                  "path": "obsidian phone/حياة/اهداف سنة 2025.md",
+                  "encodedPath": "obsidian%20phone/%D8%AD%D9%8A%D8%A7%D8%A9/%D8%A7%D9%87%D8%AF%D8%A7%D9%81%20%D8%B3%D9%86%D8%A9%202025.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0647\u062f\u0627\u0641\u064a \u0627\u0644\u0643\u0628\u0631\u0649.md",
-                  "path": "obsidian phone/\u062d\u064a\u0627\u0629/\u0627\u0647\u062f\u0627\u0641\u064a \u0627\u0644\u0643\u0628\u0631\u0649.md"
+                  "name": "اهدافي الكبرى.md",
+                  "path": "obsidian phone/حياة/اهدافي الكبرى.md",
+                  "encodedPath": "obsidian%20phone/%D8%AD%D9%8A%D8%A7%D8%A9/%D8%A7%D9%87%D8%AF%D8%A7%D9%81%D9%8A%20%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0642\u0648\u0627\u0639\u062f \u0641\u064a \u0627\u0644\u062d\u064a\u0627\u0629.md",
-                  "path": "obsidian phone/\u062d\u064a\u0627\u0629/\u0642\u0648\u0627\u0639\u062f \u0641\u064a \u0627\u0644\u062d\u064a\u0627\u0629.md"
+                  "name": "قواعد في الحياة.md",
+                  "path": "obsidian phone/حياة/قواعد في الحياة.md",
+                  "encodedPath": "obsidian%20phone/%D8%AD%D9%8A%D8%A7%D8%A9/%D9%82%D9%88%D8%A7%D8%B9%D8%AF%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0643\u064a\u0641\u064a\u0629 \u062a\u062a\u0628\u0639 \u0627\u0644\u0627\u0647\u062f\u0627\u0641.md",
-                  "path": "obsidian phone/\u062d\u064a\u0627\u0629/\u0643\u064a\u0641\u064a\u0629 \u062a\u062a\u0628\u0639 \u0627\u0644\u0627\u0647\u062f\u0627\u0641.md"
+                  "name": "كيفية تتبع الاهداف.md",
+                  "path": "obsidian phone/حياة/كيفية تتبع الاهداف.md",
+                  "encodedPath": "obsidian%20phone/%D8%AD%D9%8A%D8%A7%D8%A9/%D9%83%D9%8A%D9%81%D9%8A%D8%A9%20%D8%AA%D8%AA%D8%A8%D8%B9%20%D8%A7%D9%84%D8%A7%D9%87%D8%AF%D8%A7%D9%81.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0646\u0635\u0627\u0626\u062d.md",
-                  "path": "obsidian phone/\u062d\u064a\u0627\u0629/\u0646\u0635\u0627\u0626\u062d.md"
+                  "name": "نصائح.md",
+                  "path": "obsidian phone/حياة/نصائح.md",
+                  "encodedPath": "obsidian%20phone/%D8%AD%D9%8A%D8%A7%D8%A9/%D9%86%D8%B5%D8%A7%D8%A6%D8%AD.md"
                 }
               ]
             },
             {
               "type": "folder",
-              "name": "\u062f\u064a\u0646",
+              "name": "دين",
               "children": [
                 {
                   "type": "file",
-                  "name": "\u0623\u062f\u0639\u064a\u0629.md",
-                  "path": "obsidian phone/\u062f\u064a\u0646/\u0623\u062f\u0639\u064a\u0629.md"
+                  "name": "أدعية.md",
+                  "path": "obsidian phone/دين/أدعية.md",
+                  "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D8%A3%D8%AF%D8%B9%D9%8A%D8%A9.md"
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u062d\u0643\u0627\u0645",
+                  "name": "احكام",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u062d\u0643\u0645 \u0642\u0637\u0631\u0627\u062a \u0627\u0644\u0628\u0648\u0644.md",
-                      "path": "obsidian phone/\u062f\u064a\u0646/\u0627\u062d\u0643\u0627\u0645/\u062d\u0643\u0645 \u0642\u0637\u0631\u0627\u062a \u0627\u0644\u0628\u0648\u0644.md"
+                      "name": "حكم قطرات البول.md",
+                      "path": "obsidian phone/دين/احكام/حكم قطرات البول.md",
+                      "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D8%A7%D8%AD%D9%83%D8%A7%D9%85/%D8%AD%D9%83%D9%85%20%D9%82%D8%B7%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A8%D9%88%D9%84.md"
                     }
                   ]
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062a\u0639\u0644\u0642 \u0628\u0645\u0639\u0635\u064a\u0629.md",
-                  "path": "obsidian phone/\u062f\u064a\u0646/\u0627\u0644\u062a\u0639\u0644\u0642 \u0628\u0645\u0639\u0635\u064a\u0629.md"
+                  "name": "التعلق بمعصية.md",
+                  "path": "obsidian phone/دين/التعلق بمعصية.md",
+                  "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%82%20%D8%A8%D9%85%D8%B9%D8%B5%D9%8A%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0628\u0639\u062f \u0635\u0644\u0627\u0629 \u0627\u0644\u0641\u062c\u0631.md",
-                  "path": "obsidian phone/\u062f\u064a\u0646/\u0628\u0639\u062f \u0635\u0644\u0627\u0629 \u0627\u0644\u0641\u062c\u0631.md"
+                  "name": "بعد صلاة الفجر.md",
+                  "path": "obsidian phone/دين/بعد صلاة الفجر.md",
+                  "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D8%A8%D8%B9%D8%AF%20%D8%B5%D9%84%D8%A7%D8%A9%20%D8%A7%D9%84%D9%81%D8%AC%D8%B1.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u062a\u0637\u0647\u064a\u0631 \u0627\u0644\u0642\u0644\u0628.md",
-                  "path": "obsidian phone/\u062f\u064a\u0646/\u062a\u0637\u0647\u064a\u0631 \u0627\u0644\u0642\u0644\u0628.md"
+                  "name": "تطهير القلب.md",
+                  "path": "obsidian phone/دين/تطهير القلب.md",
+                  "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D8%AA%D8%B7%D9%87%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D9%84%D8%A8.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0630\u0646\u0648\u0628 \u062a\u0648\u062c\u0628 \u063a\u0636\u0628 \u0627\u0644\u0644\u0647.md",
-                  "path": "obsidian phone/\u062f\u064a\u0646/\u0630\u0646\u0648\u0628 \u062a\u0648\u062c\u0628 \u063a\u0636\u0628 \u0627\u0644\u0644\u0647.md"
+                  "name": "ذنوب توجب غضب الله.md",
+                  "path": "obsidian phone/دين/ذنوب توجب غضب الله.md",
+                  "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D8%B0%D9%86%D9%88%D8%A8%20%D8%AA%D9%88%D8%AC%D8%A8%20%D8%BA%D8%B6%D8%A8%20%D8%A7%D9%84%D9%84%D9%87.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0639\u0644\u0627\u0645\u0627\u062a \u0627\u0644\u062a\u0631\u0642\u064a\u0645 \u0641\u064a \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645.md",
-                  "path": "obsidian phone/\u062f\u064a\u0646/\u0639\u0644\u0627\u0645\u0627\u062a \u0627\u0644\u062a\u0631\u0642\u064a\u0645 \u0641\u064a \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645.md"
+                  "name": "علامات الترقيم في القرآن الكريم.md",
+                  "path": "obsidian phone/دين/علامات الترقيم في القرآن الكريم.md",
+                  "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%B1%D9%82%D9%8A%D9%85%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0641\u064a \u0627\u0644\u0635\u0644\u0627\u0629.md",
-                  "path": "obsidian phone/\u062f\u064a\u0646/\u0641\u064a \u0627\u0644\u0635\u0644\u0627\u0629.md"
+                  "name": "في الصلاة.md",
+                  "path": "obsidian phone/دين/في الصلاة.md",
+                  "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D9%81%D9%8A%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9.md"
                 },
                 {
                   "type": "folder",
-                  "name": "\u0642\u0631\u0621\u0627\u0646",
+                  "name": "قرءان",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062d\u0635\u0648\u0646 \u0627\u0644\u062e\u0645\u0633\u0629.md",
-                      "path": "obsidian phone/\u062f\u064a\u0646/\u0642\u0631\u0621\u0627\u0646/\u0627\u0644\u062d\u0635\u0648\u0646 \u0627\u0644\u062e\u0645\u0633\u0629.md"
+                      "name": "الحصون الخمسة.md",
+                      "path": "obsidian phone/دين/قرءان/الحصون الخمسة.md",
+                      "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D9%82%D8%B1%D8%A1%D8%A7%D9%86/%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%86%20%D8%A7%D9%84%D8%AE%D9%85%D8%B3%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0645\u062a\u0634\u0627\u0628\u0647\u0627\u062a.md",
-                      "path": "obsidian phone/\u062f\u064a\u0646/\u0642\u0631\u0621\u0627\u0646/\u0645\u062a\u0634\u0627\u0628\u0647\u0627\u062a.md"
+                      "name": "متشابهات.md",
+                      "path": "obsidian phone/دين/قرءان/متشابهات.md",
+                      "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D9%82%D8%B1%D8%A1%D8%A7%D9%86/%D9%85%D8%AA%D8%B4%D8%A7%D8%A8%D9%87%D8%A7%D8%AA.md"
                     }
                   ]
                 },
                 {
                   "type": "file",
-                  "name": "\u0642\u0637\u0639 \u0627\u0644\u0631\u062d\u0645.md",
-                  "path": "obsidian phone/\u062f\u064a\u0646/\u0642\u0637\u0639 \u0627\u0644\u0631\u062d\u0645.md"
+                  "name": "قطع الرحم.md",
+                  "path": "obsidian phone/دين/قطع الرحم.md",
+                  "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D9%82%D8%B7%D8%B9%20%D8%A7%D9%84%D8%B1%D8%AD%D9%85.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0643\u064a\u0641 \u0623\u0643\u0648\u0646 \u0635\u0627\u0644\u062d\u0627 \u0641\u064a \u0645\u062c\u062a\u0645\u0639 \u0641\u0627\u0633\u062f \u061f.md",
-                  "path": "obsidian phone/\u062f\u064a\u0646/\u0643\u064a\u0641 \u0623\u0643\u0648\u0646 \u0635\u0627\u0644\u062d\u0627 \u0641\u064a \u0645\u062c\u062a\u0645\u0639 \u0641\u0627\u0633\u062f \u061f.md"
+                  "name": "كيف أكون صالحا في مجتمع فاسد ؟.md",
+                  "path": "obsidian phone/دين/كيف أكون صالحا في مجتمع فاسد ؟.md",
+                  "encodedPath": "obsidian%20phone/%D8%AF%D9%8A%D9%86/%D9%83%D9%8A%D9%81%20%D8%A3%D9%83%D9%88%D9%86%20%D8%B5%D8%A7%D9%84%D8%AD%D8%A7%20%D9%81%D9%8A%20%D9%85%D8%AC%D8%AA%D9%85%D8%B9%20%D9%81%D8%A7%D8%B3%D8%AF%20%D8%9F.md"
                 }
               ]
             },
             {
               "type": "folder",
-              "name": "\u0634\u0639\u0631",
+              "name": "شعر",
               "children": [
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062e\u064a\u0644 \u0648\u0627\u0644\u0644\u064a\u0644 \u0648\u0627\u0644\u0628\u064a\u062f\u0627\u0621 \u062a\u0639\u0631\u0641\u0646\u064a.md",
-                  "path": "obsidian phone/\u0634\u0639\u0631/\u0627\u0644\u062e\u064a\u0644 \u0648\u0627\u0644\u0644\u064a\u0644 \u0648\u0627\u0644\u0628\u064a\u062f\u0627\u0621 \u062a\u0639\u0631\u0641\u0646\u064a.md"
+                  "name": "الخيل والليل والبيداء تعرفني.md",
+                  "path": "obsidian phone/شعر/الخيل والليل والبيداء تعرفني.md",
+                  "encodedPath": "obsidian%20phone/%D8%B4%D8%B9%D8%B1/%D8%A7%D9%84%D8%AE%D9%8A%D9%84%20%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%84%20%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%AF%D8%A7%D8%A1%20%D8%AA%D8%B9%D8%B1%D9%81%D9%86%D9%8A.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0646\u0641\u0633 \u062a\u0628\u0643\u064a \u0639\u0644\u0649 \u0627\u0644\u062f\u0646\u064a\u0627 \u0648\u0642\u062f \u0639\u0644\u0645\u062a.md",
-                  "path": "obsidian phone/\u0634\u0639\u0631/\u0627\u0644\u0646\u0641\u0633 \u062a\u0628\u0643\u064a \u0639\u0644\u0649 \u0627\u0644\u062f\u0646\u064a\u0627 \u0648\u0642\u062f \u0639\u0644\u0645\u062a.md"
+                  "name": "النفس تبكي على الدنيا وقد علمت.md",
+                  "path": "obsidian phone/شعر/النفس تبكي على الدنيا وقد علمت.md",
+                  "encodedPath": "obsidian%20phone/%D8%B4%D8%B9%D8%B1/%D8%A7%D9%84%D9%86%D9%81%D8%B3%20%D8%AA%D8%A8%D9%83%D9%8A%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7%20%D9%88%D9%82%D8%AF%20%D8%B9%D9%84%D9%85%D8%AA.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u062a\u062d\u0641\u0629 \u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u0648\u0627\u0644\u063a\u0644\u0645\u0627\u0646.md",
-                  "path": "obsidian phone/\u0634\u0639\u0631/\u062a\u062d\u0641\u0629 \u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u0648\u0627\u0644\u063a\u0644\u0645\u0627\u0646.md"
+                  "name": "تحفة الأطفال والغلمان.md",
+                  "path": "obsidian phone/شعر/تحفة الأطفال والغلمان.md",
+                  "encodedPath": "obsidian%20phone/%D8%B4%D8%B9%D8%B1/%D8%AA%D8%AD%D9%81%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84%20%D9%88%D8%A7%D9%84%D8%BA%D9%84%D9%85%D8%A7%D9%86.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u062f\u0639 \u0627\u0644\u0623\u064a\u0627\u0645 \u062a\u0641\u0639\u0644 \u0645\u0627 \u064a\u0634\u0627\u0621.md",
-                  "path": "obsidian phone/\u0634\u0639\u0631/\u062f\u0639 \u0627\u0644\u0623\u064a\u0627\u0645 \u062a\u0641\u0639\u0644 \u0645\u0627 \u064a\u0634\u0627\u0621.md"
+                  "name": "دع الأيام تفعل ما يشاء.md",
+                  "path": "obsidian phone/شعر/دع الأيام تفعل ما يشاء.md",
+                  "encodedPath": "obsidian%20phone/%D8%B4%D8%B9%D8%B1/%D8%AF%D8%B9%20%D8%A7%D9%84%D8%A3%D9%8A%D8%A7%D9%85%20%D8%AA%D9%81%D8%B9%D9%84%20%D9%85%D8%A7%20%D9%8A%D8%B4%D8%A7%D8%A1.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0637\u0631\u0642\u062a\u064f \u0628\u0627\u0628 \u0627\u0644\u0631\u062c\u0627 \u0648\u0627\u0644\u0646\u0627\u0633 \u0642\u062f \u0631\u0642\u062f\u0648\u0627.md",
-                  "path": "obsidian phone/\u0634\u0639\u0631/\u0637\u0631\u0642\u062a\u064f \u0628\u0627\u0628 \u0627\u0644\u0631\u062c\u0627 \u0648\u0627\u0644\u0646\u0627\u0633 \u0642\u062f \u0631\u0642\u062f\u0648\u0627.md"
+                  "name": "طرقتُ باب الرجا والناس قد رقدوا.md",
+                  "path": "obsidian phone/شعر/طرقتُ باب الرجا والناس قد رقدوا.md",
+                  "encodedPath": "obsidian%20phone/%D8%B4%D8%B9%D8%B1/%D8%B7%D8%B1%D9%82%D8%AA%D9%8F%20%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B1%D8%AC%D8%A7%20%D9%88%D8%A7%D9%84%D9%86%D8%A7%D8%B3%20%D9%82%D8%AF%20%D8%B1%D9%82%D8%AF%D9%88%D8%A7.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u064a\u0627 \u0639\u064e\u0645\u0652\u0631\u0648 \u064a\u0627\u0628\u0646\u064e \u0627\u0644\u0639\u0627\u0635\u0650 \u0642\u0644 \u0644\u0645\u0639\u0627\u0648\u064a\u0629.md",
-                  "path": "obsidian phone/\u0634\u0639\u0631/\u064a\u0627 \u0639\u064e\u0645\u0652\u0631\u0648 \u064a\u0627\u0628\u0646\u064e \u0627\u0644\u0639\u0627\u0635\u0650 \u0642\u0644 \u0644\u0645\u0639\u0627\u0648\u064a\u0629.md"
+                  "name": "يا عَمْرو يابنَ العاصِ قل لمعاوية.md",
+                  "path": "obsidian phone/شعر/يا عَمْرو يابنَ العاصِ قل لمعاوية.md",
+                  "encodedPath": "obsidian%20phone/%D8%B4%D8%B9%D8%B1/%D9%8A%D8%A7%20%D8%B9%D9%8E%D9%85%D9%92%D8%B1%D9%88%20%D9%8A%D8%A7%D8%A8%D9%86%D9%8E%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%90%20%D9%82%D9%84%20%D9%84%D9%85%D8%B9%D8%A7%D9%88%D9%8A%D8%A9.md"
                 }
               ]
             },
             {
               "type": "file",
-              "name": "\u0639\u0644\u0627\u062c \u062d\u0627\u0644\u0629.md",
-              "path": "obsidian phone/\u0639\u0644\u0627\u062c \u062d\u0627\u0644\u0629.md"
+              "name": "علاج حالة.md",
+              "path": "obsidian phone/علاج حالة.md",
+              "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D8%A7%D8%AC%20%D8%AD%D8%A7%D9%84%D8%A9.md"
             },
             {
               "type": "folder",
-              "name": "\u0639\u0644\u0648\u0645",
+              "name": "علوم",
               "children": [
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u062d\u0627\u0633\u0648\u0628",
+                  "name": "الحاسوب",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0628\u062d\u062b \u0627\u0644\u0645\u062a\u0642\u062f\u0645.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0627\u0644\u062d\u0627\u0633\u0648\u0628/\u0627\u0644\u0628\u062d\u062b \u0627\u0644\u0645\u062a\u0642\u062f\u0645.md"
+                      "name": "البحث المتقدم.md",
+                      "path": "obsidian phone/علوم/الحاسوب/البحث المتقدم.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8/%D8%A7%D9%84%D8%A8%D8%AD%D8%AB%20%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%AF%D9%85.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0634\u0627\u0634\u0629.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0627\u0644\u062d\u0627\u0633\u0648\u0628/\u0627\u0644\u0634\u0627\u0634\u0629.md"
+                      "name": "الشاشة.md",
+                      "path": "obsidian phone/علوم/الحاسوب/الشاشة.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8/%D8%A7%D9%84%D8%B4%D8%A7%D8%B4%D8%A9.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u062d\u064a\u0627\u0629 \u0648 \u0627\u0644\u0627\u0631\u0636",
+                  "name": "الحياة و الارض",
                   "children": []
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u0641\u0632\u064a\u0627\u0621",
+                  "name": "الفزياء",
                   "children": []
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u0646\u0641\u0633",
+                  "name": "النفس",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062a\u063a\u0644\u0628 \u0639\u0644\u0649 \u0627\u0644\u062e\u062c\u0644.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0627\u0644\u0646\u0641\u0633/\u0627\u0644\u062a\u063a\u0644\u0628 \u0639\u0644\u0649 \u0627\u0644\u062e\u062c\u0644.md"
+                      "name": "التغلب على الخجل.md",
+                      "path": "obsidian phone/علوم/النفس/التغلب على الخجل.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%A7%D9%84%D9%86%D9%81%D8%B3/%D8%A7%D9%84%D8%AA%D8%BA%D9%84%D8%A8%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%AE%D8%AC%D9%84.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0631\u0647\u0627\u0628 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0627\u0644\u0646\u0641\u0633/\u0627\u0644\u0631\u0647\u0627\u0628 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a.md"
+                      "name": "الرهاب الاجتماعي.md",
+                      "path": "obsidian phone/علوم/النفس/الرهاب الاجتماعي.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%A7%D9%84%D9%86%D9%81%D8%B3/%D8%A7%D9%84%D8%B1%D9%87%D8%A7%D8%A8%20%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0628\u0631\u0645\u062c\u0629",
+                  "name": "برمجة",
                   "children": [
                     {
                       "type": "file",
                       "name": "Top extentions for programmer.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0628\u0631\u0645\u062c\u0629/Top extentions for programmer.md"
+                      "path": "obsidian phone/علوم/برمجة/Top extentions for programmer.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/Top%20extentions%20for%20programmer.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0643\u062a\u0628 \u0644\u0644\u0645\u0628\u0631\u0645\u062c\u064a\u0646.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0628\u0631\u0645\u062c\u0629/\u0643\u062a\u0628 \u0644\u0644\u0645\u0628\u0631\u0645\u062c\u064a\u0646.md"
+                      "name": "كتب للمبرمجين.md",
+                      "path": "obsidian phone/علوم/برمجة/كتب للمبرمجين.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/%D9%83%D8%AA%D8%A8%20%D9%84%D9%84%D9%85%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D9%86.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0643\u0648\u062f \u0646\u0638\u064a\u0641.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0628\u0631\u0645\u062c\u0629/\u0643\u0648\u062f \u0646\u0638\u064a\u0641.md"
+                      "name": "كود نظيف.md",
+                      "path": "obsidian phone/علوم/برمجة/كود نظيف.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/%D9%83%D9%88%D8%AF%20%D9%86%D8%B8%D9%8A%D9%81.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+                  "name": "رياضيات",
                   "children": []
                 },
                 {
                   "type": "folder",
-                  "name": "\u0637\u0628",
+                  "name": "طب",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062f\u0648\u0627\u0631 \u0648\u0627\u0644\u062f\u0648\u062e\u0629.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0637\u0628/\u0627\u0644\u062f\u0648\u0627\u0631 \u0648\u0627\u0644\u062f\u0648\u062e\u0629.md"
+                      "name": "الدوار والدوخة.md",
+                      "path": "obsidian phone/علوم/طب/الدوار والدوخة.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%B7%D8%A8/%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%B1%20%D9%88%D8%A7%D9%84%D8%AF%D9%88%D8%AE%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u063a\u0627\u0632\u0627\u062a.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0637\u0628/\u0627\u0644\u063a\u0627\u0632\u0627\u062a.md"
+                      "name": "الغازات.md",
+                      "path": "obsidian phone/علوم/طب/الغازات.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%B7%D8%A8/%D8%A7%D9%84%D8%BA%D8%A7%D8%B2%D8%A7%D8%AA.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0642\u0648\u0644\u0648\u0646.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0637\u0628/\u0627\u0644\u0642\u0648\u0644\u0648\u0646.md"
+                      "name": "القولون.md",
+                      "path": "obsidian phone/علوم/طب/القولون.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%B7%D8%A8/%D8%A7%D9%84%D9%82%D9%88%D9%84%D9%88%D9%86.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0643\u0646\u062f\u064a\u062f\u0627.md",
-                      "path": "obsidian phone/\u0639\u0644\u0648\u0645/\u0637\u0628/\u0627\u0644\u0643\u0646\u062f\u064a\u062f\u0627.md"
+                      "name": "الكنديدا.md",
+                      "path": "obsidian phone/علوم/طب/الكنديدا.md",
+                      "encodedPath": "obsidian%20phone/%D8%B9%D9%84%D9%88%D9%85/%D8%B7%D8%A8/%D8%A7%D9%84%D9%83%D9%86%D8%AF%D9%8A%D8%AF%D8%A7.md"
                     }
                   ]
                 }
@@ -786,99 +889,113 @@
             },
             {
               "type": "folder",
-              "name": "\u0643\u0648\u0631\u0633\u0627\u062a",
+              "name": "كورسات",
               "children": [
                 {
                   "type": "folder",
-                  "name": "\u0643\u0648\u0631\u0633 cs50",
+                  "name": "كورس cs50",
                   "children": [
                     {
                       "type": "file",
                       "name": "Week 0 1.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 cs50/Week 0 1.md"
+                      "path": "obsidian phone/كورسات/كورس cs50/Week 0 1.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20cs50/Week%200%201.md"
                     },
                     {
                       "type": "file",
                       "name": "Week 0.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 cs50/Week 0.md"
+                      "path": "obsidian phone/كورسات/كورس cs50/Week 0.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20cs50/Week%200.md"
                     },
                     {
                       "type": "file",
                       "name": "Week 10.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 cs50/Week 10.md"
+                      "path": "obsidian phone/كورسات/كورس cs50/Week 10.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20cs50/Week%2010.md"
                     },
                     {
                       "type": "file",
                       "name": "Week 6.5.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 cs50/Week 6.5.md"
+                      "path": "obsidian phone/كورسات/كورس cs50/Week 6.5.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20cs50/Week%206.5.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0643\u0648\u0631\u0633 digital marketing",
+                  "name": "كورس digital marketing",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062d\u0644\u0642\u0629 1.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 digital marketing/\u0627\u0644\u062d\u0644\u0642\u0629 1.md"
+                      "name": "الحلقة 1.md",
+                      "path": "obsidian phone/كورسات/كورس digital marketing/الحلقة 1.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20digital%20marketing/%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9%201.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062d\u0644\u0642\u0629 2.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 digital marketing/\u0627\u0644\u062d\u0644\u0642\u0629 2.md"
+                      "name": "الحلقة 2.md",
+                      "path": "obsidian phone/كورسات/كورس digital marketing/الحلقة 2.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20digital%20marketing/%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9%202.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062d\u0644\u0642\u0629 3.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 digital marketing/\u0627\u0644\u062d\u0644\u0642\u0629 3.md"
+                      "name": "الحلقة 3.md",
+                      "path": "obsidian phone/كورسات/كورس digital marketing/الحلقة 3.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20digital%20marketing/%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9%203.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062d\u0644\u0642\u0629 4.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 digital marketing/\u0627\u0644\u062d\u0644\u0642\u0629 4.md"
+                      "name": "الحلقة 4.md",
+                      "path": "obsidian phone/كورسات/كورس digital marketing/الحلقة 4.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20digital%20marketing/%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9%204.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062d\u0644\u0642\u0629 5.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 digital marketing/\u0627\u0644\u062d\u0644\u0642\u0629 5.md"
+                      "name": "الحلقة 5.md",
+                      "path": "obsidian phone/كورسات/كورس digital marketing/الحلقة 5.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20digital%20marketing/%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9%205.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0645\u0642\u062f\u0645\u0629.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 digital marketing/\u0645\u0642\u062f\u0645\u0629.md"
+                      "name": "مقدمة.md",
+                      "path": "obsidian phone/كورسات/كورس digital marketing/مقدمة.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20digital%20marketing/%D9%85%D9%82%D8%AF%D9%85%D8%A9.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0643\u0648\u0631\u0633 js",
+                  "name": "كورس js",
                   "children": [
                     {
                       "type": "file",
                       "name": "Data types.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 js/Data types.md"
+                      "path": "obsidian phone/كورسات/كورس js/Data types.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20js/Data%20types.md"
                     },
                     {
                       "type": "file",
                       "name": "Variables.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 js/Variables.md"
+                      "path": "obsidian phone/كورسات/كورس js/Variables.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20js/Variables.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0628\u062f\u0627\u064a\u0629.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 js/\u0628\u062f\u0627\u064a\u0629.md"
+                      "name": "بداية.md",
+                      "path": "obsidian phone/كورسات/كورس js/بداية.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20js/%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0643\u0648\u0631\u0633 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621",
+                  "name": "كورس الكهرباء",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0643\u0648\u0631\u0633 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621.md",
-                      "path": "obsidian phone/\u0643\u0648\u0631\u0633\u0627\u062a/\u0643\u0648\u0631\u0633 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621/\u0643\u0648\u0631\u0633 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621.md"
+                      "name": "كورس الكهرباء.md",
+                      "path": "obsidian phone/كورسات/كورس الكهرباء/كورس الكهرباء.md",
+                      "encodedPath": "obsidian%20phone/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA/%D9%83%D9%88%D8%B1%D8%B3%20%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1/%D9%83%D9%88%D8%B1%D8%B3%20%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1.md"
                     }
                   ]
                 }
@@ -886,220 +1003,257 @@
             },
             {
               "type": "folder",
-              "name": "\u0645\u0642\u0627\u0644\u0627\u062a",
+              "name": "مقالات",
               "children": [
                 {
                   "type": "folder",
-                  "name": "\u0627\u0646\u0633\u0627\u0646\u064a\u0629",
+                  "name": "انسانية",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0635\u0648\u062a \u0627\u0644\u062f\u0627\u062e\u0644\u064a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0627\u0646\u0633\u0627\u0646\u064a\u0629/\u0627\u0644\u0635\u0648\u062a \u0627\u0644\u062f\u0627\u062e\u0644\u064a.md"
+                      "name": "الصوت الداخلي.md",
+                      "path": "obsidian phone/مقالات/انسانية/الصوت الداخلي.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A7%D9%86%D8%B3%D8%A7%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D8%B5%D9%88%D8%AA%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0644\u063a\u0629 \u0648\u0627\u0644\u0641\u0644\u0633\u0641\u0629 \u0648\u0627\u0644\u0645\u0646\u0637\u0642.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0627\u0646\u0633\u0627\u0646\u064a\u0629/\u0627\u0644\u0644\u063a\u0629 \u0648\u0627\u0644\u0641\u0644\u0633\u0641\u0629 \u0648\u0627\u0644\u0645\u0646\u0637\u0642.md"
+                      "name": "اللغة والفلسفة والمنطق.md",
+                      "path": "obsidian phone/مقالات/انسانية/اللغة والفلسفة والمنطق.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A7%D9%86%D8%B3%D8%A7%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D9%88%D8%A7%D9%84%D9%81%D9%84%D8%B3%D9%81%D8%A9%20%D9%88%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a",
+                  "name": "تطوير ذات",
                   "children": [
                     {
                       "type": "file",
-                      "name": "10 \u0646\u0635\u0627\u0626\u062d \u0644\u0644\u0645\u0631\u0627\u0647\u0642\u064a\u0646.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/10 \u0646\u0635\u0627\u0626\u062d \u0644\u0644\u0645\u0631\u0627\u0647\u0642\u064a\u0646.md"
+                      "name": "10 نصائح للمراهقين.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/10 نصائح للمراهقين.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/10%20%D9%86%D8%B5%D8%A7%D8%A6%D8%AD%20%D9%84%D9%84%D9%85%D8%B1%D8%A7%D9%87%D9%82%D9%8A%D9%86.md"
                     },
                     {
                       "type": "file",
-                      "name": "5 \u0645\u0647\u0627\u0631\u0627\u062a \u0630\u0647\u0628\u064a\u0629 \u0644\u062a\u063a\u064a\u064a\u0631 \u0645\u0633\u062a\u0648\u0627\u0643 180 \u062f\u0631\u062c\u0629.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/5 \u0645\u0647\u0627\u0631\u0627\u062a \u0630\u0647\u0628\u064a\u0629 \u0644\u062a\u063a\u064a\u064a\u0631 \u0645\u0633\u062a\u0648\u0627\u0643 180 \u062f\u0631\u062c\u0629.md"
+                      "name": "5 مهارات ذهبية لتغيير مستواك 180 درجة.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/5 مهارات ذهبية لتغيير مستواك 180 درجة.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/5%20%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%B0%D9%87%D8%A8%D9%8A%D8%A9%20%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1%20%D9%85%D8%B3%D8%AA%D9%88%D8%A7%D9%83%20180%20%D8%AF%D8%B1%D8%AC%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0648\u0642\u062a \u0628\u0641\u0639\u0627\u0644\u064a\u0629.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0648\u0642\u062a \u0628\u0641\u0639\u0627\u0644\u064a\u0629.md"
+                      "name": "إدارة الوقت بفعالية.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/إدارة الوقت بفعالية.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D9%88%D9%82%D8%AA%20%D8%A8%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0625\u0633\u062a\u0639\u0627\u062f\u0629 \u0627\u0644\u0634\u063a\u0641 \u0641\u064a \u0627\u0644\u062d\u064a\u0627\u0629.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0625\u0633\u062a\u0639\u0627\u062f\u0629 \u0627\u0644\u0634\u063a\u0641 \u0641\u064a \u0627\u0644\u062d\u064a\u0627\u0629.md"
+                      "name": "إستعادة الشغف في الحياة.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/إستعادة الشغف في الحياة.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%A5%D8%B3%D8%AA%D8%B9%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B4%D8%BA%D9%81%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u062e\u0637\u0627\u0621 \u062a\u062f\u0645\u0631 \u062b\u0642\u062a\u0643 \u0628\u0646\u0641\u0633\u0643.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0627\u062e\u0637\u0627\u0621 \u062a\u062f\u0645\u0631 \u062b\u0642\u062a\u0643 \u0628\u0646\u0641\u0633\u0643.md"
+                      "name": "اخطاء تدمر ثقتك بنفسك.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/اخطاء تدمر ثقتك بنفسك.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%A7%D8%AE%D8%B7%D8%A7%D8%A1%20%D8%AA%D8%AF%D9%85%D8%B1%20%D8%AB%D9%82%D8%AA%D9%83%20%D8%A8%D9%86%D9%81%D8%B3%D9%83.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u062e\u0637\u0627\u0621 \u0641\u064a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0627\u062e\u0637\u0627\u0621 \u0641\u064a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a.md"
+                      "name": "اخطاء في تطوير الذات.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/اخطاء في تطوير الذات.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%A7%D8%AE%D8%B7%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631\u064a\u0629.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631\u064a\u0629.md"
+                      "name": "الاستمرارية.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/الاستمرارية.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0627\u0646\u0636\u0628\u0627\u0637 \u0627\u0644\u062f\u0631\u0627\u0633\u064a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0627\u0644\u0627\u0646\u0636\u0628\u0627\u0637 \u0627\u0644\u062f\u0631\u0627\u0633\u064a.md"
+                      "name": "الانضباط الدراسي.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/الانضباط الدراسي.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D9%86%D8%B6%D8%A8%D8%A7%D8%B7%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0628\u0631\u0643\u0629 \u0641\u064a \u0627\u0644\u0648\u0642\u062a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0627\u0644\u0628\u0631\u0643\u0629 \u0641\u064a \u0627\u0644\u0648\u0642\u062a.md"
+                      "name": "البركة في الوقت.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/البركة في الوقت.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%88%D9%82%D8%AA.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062a\u0631\u0643\u064a\u0632 \u0627\u0644\u0639\u0645\u064a\u0642.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0627\u0644\u062a\u0631\u0643\u064a\u0632 \u0627\u0644\u0639\u0645\u064a\u0642.md"
+                      "name": "التركيز العميق.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/التركيز العميق.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%B2%20%D8%A7%D9%84%D8%B9%D9%85%D9%8A%D9%82.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0628\u0631\u0645\u062c\u0629 \u0627\u0644\u062f\u0645\u0627\u063a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0628\u0631\u0645\u062c\u0629 \u0627\u0644\u062f\u0645\u0627\u063a.md"
+                      "name": "برمجة الدماغ.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/برمجة الدماغ.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9%20%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D8%BA.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u062a\u0639\u0644\u0645 \u0645\u0647\u0627\u0631\u0627\u062a \u0628\u0634\u0643\u0644 \u0627\u0633\u0631\u0639.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u062a\u0639\u0644\u0645 \u0645\u0647\u0627\u0631\u0627\u062a \u0628\u0634\u0643\u0644 \u0627\u0633\u0631\u0639.md"
+                      "name": "تعلم مهارات بشكل اسرع.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/تعلم مهارات بشكل اسرع.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%AA%D8%B9%D9%84%D9%85%20%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%A7%D8%B3%D8%B1%D8%B9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0648\u0642\u062a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0648\u0642\u062a.md"
+                      "name": "تنظيم الوقت.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/تنظيم الوقت.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%AA%D9%86%D8%B8%D9%8A%D9%85%20%D8%A7%D9%84%D9%88%D9%82%D8%AA.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u062c\u062f\u0648\u0644\u0629 \u0627\u0644\u0648\u0642\u062a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u062c\u062f\u0648\u0644\u0629 \u0627\u0644\u0648\u0642\u062a.md"
+                      "name": "جدولة الوقت.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/جدولة الوقت.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%AC%D8%AF%D9%88%D9%84%D8%A9%20%D8%A7%D9%84%D9%88%D9%82%D8%AA.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u062e\u0637\u0629 \u0627\u0644 12 \u0627\u0633\u0628\u0648\u0639\u0627.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u062e\u0637\u0629 \u0627\u0644 12 \u0627\u0633\u0628\u0648\u0639\u0627.md"
+                      "name": "خطة ال 12 اسبوعا.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/خطة ال 12 اسبوعا.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%AE%D8%B7%D8%A9%20%D8%A7%D9%84%2012%20%D8%A7%D8%B3%D8%A8%D9%88%D8%B9%D8%A7.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0635\u0646\u0627\u0639\u0629 \u0647\u062f\u0641 \u0630\u0643\u064a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0635\u0646\u0627\u0639\u0629 \u0647\u062f\u0641 \u0630\u0643\u064a.md"
+                      "name": "صناعة هدف ذكي.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/صناعة هدف ذكي.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%B5%D9%86%D8%A7%D8%B9%D8%A9%20%D9%87%D8%AF%D9%81%20%D8%B0%D9%83%D9%8A.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0637\u0645\u0648\u062d \u0644\u0643\u0646 \u0643\u0633\u0648\u0644 1.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0637\u0645\u0648\u062d \u0644\u0643\u0646 \u0643\u0633\u0648\u0644 1.md"
+                      "name": "طموح لكن كسول 1.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/طموح لكن كسول 1.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%B7%D9%85%D9%88%D8%AD%20%D9%84%D9%83%D9%86%20%D9%83%D8%B3%D9%88%D9%84%201.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0637\u0645\u0648\u062d \u0644\u0643\u0646 \u0643\u0633\u0648\u0644.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0637\u0645\u0648\u062d \u0644\u0643\u0646 \u0643\u0633\u0648\u0644.md"
+                      "name": "طموح لكن كسول.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/طموح لكن كسول.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D8%B7%D9%85%D9%88%D8%AD%20%D9%84%D9%83%D9%86%20%D9%83%D8%B3%D9%88%D9%84.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0642\u0628\u0644 \u062a\u0639\u0644\u0645 \u0627\u064a \u0643\u0648\u0631\u0633.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0642\u0628\u0644 \u062a\u0639\u0644\u0645 \u0627\u064a \u0643\u0648\u0631\u0633.md"
+                      "name": "قبل تعلم اي كورس.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/قبل تعلم اي كورس.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D9%82%D8%A8%D9%84%20%D8%AA%D8%B9%D9%84%D9%85%20%D8%A7%D9%8A%20%D9%83%D9%88%D8%B1%D8%B3.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0643\u064a\u0641 \u062a\u0643\u0648\u0646 \u0645\u062b\u0642\u0641\u0627.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0643\u064a\u0641 \u062a\u0643\u0648\u0646 \u0645\u062b\u0642\u0641\u0627.md"
+                      "name": "كيف تكون مثقفا.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/كيف تكون مثقفا.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D9%83%D9%8A%D9%81%20%D8%AA%D9%83%D9%88%D9%86%20%D9%85%D8%AB%D9%82%D9%81%D8%A7.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0643\u064a\u0641\u064a\u0629 \u0627\u0644\u062d\u0641\u0638 \u0628\u062f\u0648\u0646 \u0646\u0633\u064a\u0627\u0646.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0643\u064a\u0641\u064a\u0629 \u0627\u0644\u062d\u0641\u0638 \u0628\u062f\u0648\u0646 \u0646\u0633\u064a\u0627\u0646.md"
+                      "name": "كيفية الحفظ بدون نسيان.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/كيفية الحفظ بدون نسيان.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D9%83%D9%8A%D9%81%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AD%D9%81%D8%B8%20%D8%A8%D8%AF%D9%88%D9%86%20%D9%86%D8%B3%D9%8A%D8%A7%D9%86.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0645\u0647\u0627\u0631\u0627\u062a \u0645\u0647\u0645\u0629.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062a\u0637\u0648\u064a\u0631 \u0630\u0627\u062a/\u0645\u0647\u0627\u0631\u0627\u062a \u0645\u0647\u0645\u0629.md"
+                      "name": "مهارات مهمة.md",
+                      "path": "obsidian phone/مقالات/تطوير ذات/مهارات مهمة.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%B0%D8%A7%D8%AA/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D9%85%D9%87%D9%85%D8%A9.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u062f\u064a\u0646\u064a\u0629",
+                  "name": "دينية",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0635\u0644\u0627\u0629 \u063a\u064a\u0631 \u0627\u0644\u0645\u0642\u0628\u0648\u0644\u0629.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062f\u064a\u0646\u064a\u0629/\u0627\u0644\u0635\u0644\u0627\u0629 \u063a\u064a\u0631 \u0627\u0644\u0645\u0642\u0628\u0648\u0644\u0629.md"
+                      "name": "الصلاة غير المقبولة.md",
+                      "path": "obsidian phone/مقالات/دينية/الصلاة غير المقبولة.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AF%D9%8A%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%88%D9%84%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u0629 \u0644\u0625\u0639\u0627\u062f\u0629 \u0636\u0628\u0637 \u0639\u0642\u0644\u0643 \u0648\u0627\u0644\u062a\u062e\u0644\u0635 \u0645\u0646 \u0627\u0644\u0634\u0647\u0648\u0627\u062a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062f\u064a\u0646\u064a\u0629/\u0627\u0644\u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u0629 \u0644\u0625\u0639\u0627\u062f\u0629 \u0636\u0628\u0637 \u0639\u0642\u0644\u0643 \u0648\u0627\u0644\u062a\u062e\u0644\u0635 \u0645\u0646 \u0627\u0644\u0634\u0647\u0648\u0627\u062a.md"
+                      "name": "الطريقة الإسلامية لإعادة ضبط عقلك والتخلص من الشهوات.md",
+                      "path": "obsidian phone/مقالات/دينية/الطريقة الإسلامية لإعادة ضبط عقلك والتخلص من الشهوات.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AF%D9%8A%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%D9%84%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9%20%D8%B6%D8%A8%D8%B7%20%D8%B9%D9%82%D9%84%D9%83%20%D9%88%D8%A7%D9%84%D8%AA%D8%AE%D9%84%D8%B5%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B4%D9%87%D9%88%D8%A7%D8%AA.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0643\u064a\u0641\u064a\u0629 \u062d\u0641\u0638 \u0627\u0644\u0642\u0631\u0621\u0627\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0628\u0625\u062a\u0642\u0627\u0646.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062f\u064a\u0646\u064a\u0629/\u0643\u064a\u0641\u064a\u0629 \u062d\u0641\u0638 \u0627\u0644\u0642\u0631\u0621\u0627\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0628\u0625\u062a\u0642\u0627\u0646.md"
+                      "name": "كيفية حفظ القرءان الكريم بإتقان.md",
+                      "path": "obsidian phone/مقالات/دينية/كيفية حفظ القرءان الكريم بإتقان.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AF%D9%8A%D9%86%D9%8A%D8%A9/%D9%83%D9%8A%D9%81%D9%8A%D8%A9%20%D8%AD%D9%81%D8%B8%20%D8%A7%D9%84%D9%82%D8%B1%D8%A1%D8%A7%D9%86%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%20%D8%A8%D8%A5%D8%AA%D9%82%D8%A7%D9%86.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0644\u0645\u0627\u0630\u0627 \u0644\u0627 \u064a\u0624\u062b\u0631 \u0627\u0644\u0642\u0631\u0622\u0646 \u0641\u064a \u0642\u0644\u0628\u064a\u061f.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u062f\u064a\u0646\u064a\u0629/\u0644\u0645\u0627\u0630\u0627 \u0644\u0627 \u064a\u0624\u062b\u0631 \u0627\u0644\u0642\u0631\u0622\u0646 \u0641\u064a \u0642\u0644\u0628\u064a\u061f.md"
+                      "name": "لماذا لا يؤثر القرآن في قلبي؟.md",
+                      "path": "obsidian phone/مقالات/دينية/لماذا لا يؤثر القرآن في قلبي؟.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AF%D9%8A%D9%86%D9%8A%D8%A9/%D9%84%D9%85%D8%A7%D8%B0%D8%A7%20%D9%84%D8%A7%20%D9%8A%D8%A4%D8%AB%D8%B1%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%D9%81%D9%8A%20%D9%82%D9%84%D8%A8%D9%8A%D8%9F.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0639\u0644\u0645\u064a\u0629",
+                  "name": "علمية",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0645\u0646\u0647\u062c\u064a\u0629 \u0627\u0644\u0635\u062d\u064a\u062d\u0629 \u0644\u0644\u062a\u0639\u0627\u0645\u0644 \u0645\u0639 \u0627\u0644\u0643\u062a\u0628 \u0648\u0627\u0644\u0642\u0631\u0627\u0621\u0629 \u0627\u0644\u062f\u0648\u0631\u064a\u0629.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0639\u0644\u0645\u064a\u0629/\u0627\u0644\u0645\u0646\u0647\u062c\u064a\u0629 \u0627\u0644\u0635\u062d\u064a\u062d\u0629 \u0644\u0644\u062a\u0639\u0627\u0645\u0644 \u0645\u0639 \u0627\u0644\u0643\u062a\u0628 \u0648\u0627\u0644\u0642\u0631\u0627\u0621\u0629 \u0627\u0644\u062f\u0648\u0631\u064a\u0629.md"
+                      "name": "المنهجية الصحيحة للتعامل مع الكتب والقراءة الدورية.md",
+                      "path": "obsidian phone/مقالات/علمية/المنهجية الصحيحة للتعامل مع الكتب والقراءة الدورية.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%B9%D9%84%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%86%D9%87%D8%AC%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%AD%D8%A9%20%D9%84%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84%20%D9%85%D8%B9%20%D8%A7%D9%84%D9%83%D8%AA%D8%A8%20%D9%88%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9%20%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0639\u0644\u0649 \u0627\u0644\u062f\u0645\u0627\u063a \u0627\u0644\u0628\u0634\u0631\u064a.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0639\u0644\u0645\u064a\u0629/\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0639\u0644\u0649 \u0627\u0644\u062f\u0645\u0627\u063a \u0627\u0644\u0628\u0634\u0631\u064a.md"
+                      "name": "تأثير الذكاء الاصطناعي على الدماغ البشري.md",
+                      "path": "obsidian phone/مقالات/علمية/تأثير الذكاء الاصطناعي على الدماغ البشري.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%B9%D9%84%D9%85%D9%8A%D8%A9/%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D8%BA%20%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u062a\u0639\u0644\u0645 \u0643\u064a\u0641 \u062a\u062a\u0639\u0644\u0645.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0639\u0644\u0645\u064a\u0629/\u062a\u0639\u0644\u0645 \u0643\u064a\u0641 \u062a\u062a\u0639\u0644\u0645.md"
+                      "name": "تعلم كيف تتعلم.md",
+                      "path": "obsidian phone/مقالات/علمية/تعلم كيف تتعلم.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%B9%D9%84%D9%85%D9%8A%D8%A9/%D8%AA%D8%B9%D9%84%D9%85%20%D9%83%D9%8A%D9%81%20%D8%AA%D8%AA%D8%B9%D9%84%D9%85.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0639\u0627\u0644\u0645 \u0627\u0644\u0645\u064a\u062a\u0627\u0641\u064a\u0631\u0633.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0639\u0644\u0645\u064a\u0629/\u0639\u0627\u0644\u0645 \u0627\u0644\u0645\u064a\u062a\u0627\u0641\u064a\u0631\u0633.md"
+                      "name": "عالم الميتافيرس.md",
+                      "path": "obsidian phone/مقالات/علمية/عالم الميتافيرس.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%B9%D9%84%D9%85%D9%8A%D8%A9/%D8%B9%D8%A7%D9%84%D9%85%20%D8%A7%D9%84%D9%85%D9%8A%D8%AA%D8%A7%D9%81%D9%8A%D8%B1%D8%B3.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0643\u064a\u0641 \u062a\u0634\u062a\u063a\u0644 \u0627\u0644\u0623\u0634\u064a\u0627\u0621 \u0627\u0644\u0644\u0627\u0633\u0644\u0643\u064a\u0629.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0639\u0644\u0645\u064a\u0629/\u0643\u064a\u0641 \u062a\u0634\u062a\u063a\u0644 \u0627\u0644\u0623\u0634\u064a\u0627\u0621 \u0627\u0644\u0644\u0627\u0633\u0644\u0643\u064a\u0629.md"
+                      "name": "كيف تشتغل الأشياء اللاسلكية.md",
+                      "path": "obsidian phone/مقالات/علمية/كيف تشتغل الأشياء اللاسلكية.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%B9%D9%84%D9%85%D9%8A%D8%A9/%D9%83%D9%8A%D9%81%20%D8%AA%D8%B4%D8%AA%D8%BA%D9%84%20%D8%A7%D9%84%D8%A3%D8%B4%D9%8A%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%D8%A7%D8%B3%D9%84%D9%83%D9%8A%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0647\u0644 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u064a\u062f\u0645\u0631\u0646\u0627.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0639\u0644\u0645\u064a\u0629/\u0647\u0644 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u064a\u062f\u0645\u0631\u0646\u0627.md"
+                      "name": "هل الذكاء الاصطناعي يدمرنا.md",
+                      "path": "obsidian phone/مقالات/علمية/هل الذكاء الاصطناعي يدمرنا.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%B9%D9%84%D9%85%D9%8A%D8%A9/%D9%87%D9%84%20%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A%20%D9%8A%D8%AF%D9%85%D8%B1%D9%86%D8%A7.md"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a",
+                  "name": "معلومات",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0627\u062c\u062a\u0647\u0627\u062f \u0644\u0627 \u064a\u0648\u0635\u0644 \u0644\u0644\u0646\u062c\u0627\u062d.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0645\u0639\u0644\u0648\u0645\u0627\u062a/\u0627\u0644\u0627\u062c\u062a\u0647\u0627\u062f \u0644\u0627 \u064a\u0648\u0635\u0644 \u0644\u0644\u0646\u062c\u0627\u062d.md"
+                      "name": "الاجتهاد لا يوصل للنجاح.md",
+                      "path": "obsidian phone/مقالات/معلومات/الاجتهاد لا يوصل للنجاح.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%87%D8%A7%D8%AF%20%D9%84%D8%A7%20%D9%8A%D9%88%D8%B5%D9%84%20%D9%84%D9%84%D9%86%D8%AC%D8%A7%D8%AD.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062a\u062e\u0644\u0635 \u0645\u0646 \u0627\u0644\u0627\u0628\u0627\u062d\u064a\u0629.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0645\u0639\u0644\u0648\u0645\u0627\u062a/\u0627\u0644\u062a\u062e\u0644\u0635 \u0645\u0646 \u0627\u0644\u0627\u0628\u0627\u062d\u064a\u0629.md"
+                      "name": "التخلص من الاباحية.md",
+                      "path": "obsidian phone/مقالات/معلومات/التخلص من الاباحية.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D8%AE%D9%84%D8%B5%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A7%D8%A8%D8%A7%D8%AD%D9%8A%D8%A9.md"
                     },
                     {
                       "type": "file",
-                      "name": "\u0645\u0634\u0627\u0631\u064a\u0639 \u0628\u062f\u0648\u0646 \u0631\u0623\u0633 \u0645\u0627\u0644.md",
-                      "path": "obsidian phone/\u0645\u0642\u0627\u0644\u0627\u062a/\u0645\u0639\u0644\u0648\u0645\u0627\u062a/\u0645\u0634\u0627\u0631\u064a\u0639 \u0628\u062f\u0648\u0646 \u0631\u0623\u0633 \u0645\u0627\u0644.md"
+                      "name": "مشاريع بدون رأس مال.md",
+                      "path": "obsidian phone/مقالات/معلومات/مشاريع بدون رأس مال.md",
+                      "encodedPath": "obsidian%20phone/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9%20%D8%A8%D8%AF%D9%88%D9%86%20%D8%B1%D8%A3%D8%B3%20%D9%85%D8%A7%D9%84.md"
                     }
                   ]
                 }
@@ -1107,228 +1261,271 @@
             },
             {
               "type": "folder",
-              "name": "\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628",
+              "name": "ملخصات كتب",
               "children": [
                 {
                   "type": "file",
-                  "name": "\u0627\u0639\u062f \u0627\u0644\u062a\u0641\u0643\u064a\u0631.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u0627\u0639\u062f \u0627\u0644\u062a\u0641\u0643\u064a\u0631.md"
+                  "name": "اعد التفكير.md",
+                  "path": "obsidian phone/ملخصات كتب/اعد التفكير.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%A7%D8%B9%D8%AF%20%D8%A7%D9%84%D8%AA%D9%81%D9%83%D9%8A%D8%B1.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0627\u0628 \u0627\u0644\u063a\u0646\u064a \u0648\u0627\u0644\u0627\u0628 \u0627\u0644\u0641\u0642\u064a\u0631.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u0627\u0644\u0627\u0628 \u0627\u0644\u063a\u0646\u064a \u0648\u0627\u0644\u0627\u0628 \u0627\u0644\u0641\u0642\u064a\u0631.md"
+                  "name": "الاب الغني والاب الفقير.md",
+                  "path": "obsidian phone/ملخصات كتب/الاب الغني والاب الفقير.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%A7%D9%84%D8%A7%D8%A8%20%D8%A7%D9%84%D8%BA%D9%86%D9%8A%20%D9%88%D8%A7%D9%84%D8%A7%D8%A8%20%D8%A7%D9%84%D9%81%D9%82%D9%8A%D8%B1.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0627\u0633\u0631\u0627\u0631 \u0627\u0644\u0643\u0627\u0645\u0644\u0647 \u0644\u0644\u062b\u0642\u0629 \u0627\u0644\u062a\u0627\u0645\u0629 \u0628\u0627\u0644\u0646\u0641\u0633.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u0627\u0644\u0627\u0633\u0631\u0627\u0631 \u0627\u0644\u0643\u0627\u0645\u0644\u0647 \u0644\u0644\u062b\u0642\u0629 \u0627\u0644\u062a\u0627\u0645\u0629 \u0628\u0627\u0644\u0646\u0641\u0633.md"
+                  "name": "الاسرار الكامله للثقة التامة بالنفس.md",
+                  "path": "obsidian phone/ملخصات كتب/الاسرار الكامله للثقة التامة بالنفس.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D9%87%20%D9%84%D9%84%D8%AB%D9%82%D8%A9%20%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D8%A9%20%D8%A8%D8%A7%D9%84%D9%86%D9%81%D8%B3.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062a\u0639\u0644\u0645 \u0627\u0644\u0630\u0627\u062a\u064a.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u0627\u0644\u062a\u0639\u0644\u0645 \u0627\u0644\u0630\u0627\u062a\u064a.md"
+                  "name": "التعلم الذاتي.md",
+                  "path": "obsidian phone/ملخصات كتب/التعلم الذاتي.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%85%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA%D9%8A.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0633\u0645\u0627\u062d \u0628\u0627\u0644\u0631\u062d\u064a\u0644.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u0627\u0644\u0633\u0645\u0627\u062d \u0628\u0627\u0644\u0631\u062d\u064a\u0644.md"
+                  "name": "السماح بالرحيل.md",
+                  "path": "obsidian phone/ملخصات كتب/السماح بالرحيل.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D8%AD%20%D8%A8%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%84.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u0642\u0648\u064a\u0629.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u0627\u0644\u0634\u062e\u0635\u064a\u0629 \u0627\u0644\u0642\u0648\u064a\u0629.md"
+                  "name": "الشخصية القوية.md",
+                  "path": "obsidian phone/ملخصات كتب/الشخصية القوية.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9%20%D8%A7%D9%84%D9%82%D9%88%D9%8A%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0646\u0645\u0627\u0637 \u0627\u0644\u0627\u0646\u0633\u0627\u0646.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u0627\u0646\u0645\u0627\u0637 \u0627\u0644\u0627\u0646\u0633\u0627\u0646.md"
+                  "name": "انماط الانسان.md",
+                  "path": "obsidian phone/ملخصات كتب/انماط الانسان.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%A7%D9%86%D9%85%D8%A7%D8%B7%20%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D8%A7%D9%86.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u062a\u0648\u0642\u0641 \u0639\u0646 \u0625\u0631\u0636\u0627\u0621 \u0627\u0644\u0622\u062e\u0631\u064a\u0646.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u062a\u0648\u0642\u0641 \u0639\u0646 \u0625\u0631\u0636\u0627\u0621 \u0627\u0644\u0622\u062e\u0631\u064a\u0646.md"
+                  "name": "توقف عن إرضاء الآخرين.md",
+                  "path": "obsidian phone/ملخصات كتب/توقف عن إرضاء الآخرين.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%AA%D9%88%D9%82%D9%81%20%D8%B9%D9%86%20%D8%A5%D8%B1%D8%B6%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A2%D8%AE%D8%B1%D9%8A%D9%86.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u062f\u0639 \u0627\u0644\u0642\u0644\u0642 \u0648\u0627\u0628\u062f\u0623 \u0627\u0644\u062d\u064a\u0627\u0629.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u062f\u0639 \u0627\u0644\u0642\u0644\u0642 \u0648\u0627\u0628\u062f\u0623 \u0627\u0644\u062d\u064a\u0627\u0629.md"
+                  "name": "دع القلق وابدأ الحياة.md",
+                  "path": "obsidian phone/ملخصات كتب/دع القلق وابدأ الحياة.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%AF%D8%B9%20%D8%A7%D9%84%D9%82%D9%84%D9%82%20%D9%88%D8%A7%D8%A8%D8%AF%D8%A3%20%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0639\u0627\u062f\u0627\u062a \u0627\u0644\u0646\u0627\u0633 \u0627\u0644\u0627\u0643\u062b\u0631 \u0641\u0639\u0627\u0644\u064a\u0629.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u0639\u0627\u062f\u0627\u062a \u0627\u0644\u0646\u0627\u0633 \u0627\u0644\u0627\u0643\u062b\u0631 \u0641\u0639\u0627\u0644\u064a\u0629.md"
+                  "name": "عادات الناس الاكثر فعالية.md",
+                  "path": "obsidian phone/ملخصات كتب/عادات الناس الاكثر فعالية.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D9%86%D8%A7%D8%B3%20%D8%A7%D9%84%D8%A7%D9%83%D8%AB%D8%B1%20%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0645\u0646 \u0627\u0644\u0630\u064a \u062d\u0631\u0643 \u0642\u0637\u0639\u0629 \u0627\u0644\u062c\u0628\u0646 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0649.md",
-                  "path": "obsidian phone/\u0645\u0644\u062e\u0635\u0627\u062a \u0643\u062a\u0628/\u0645\u0646 \u0627\u0644\u0630\u064a \u062d\u0631\u0643 \u0642\u0637\u0639\u0629 \u0627\u0644\u062c\u0628\u0646 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0649.md"
+                  "name": "من الذي حرك قطعة الجبن الخاصة بى.md",
+                  "path": "obsidian phone/ملخصات كتب/من الذي حرك قطعة الجبن الخاصة بى.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%84%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%83%D8%AA%D8%A8/%D9%85%D9%86%20%D8%A7%D9%84%D8%B0%D9%8A%20%D8%AD%D8%B1%D9%83%20%D9%82%D8%B7%D8%B9%D8%A9%20%D8%A7%D9%84%D8%AC%D8%A8%D9%86%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9%20%D8%A8%D9%89.md"
                 }
               ]
             },
             {
               "type": "folder",
-              "name": "\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a",
+              "name": "مهارات تطوير الذات",
               "children": [
                 {
                   "type": "file",
-                  "name": "\u0627\u062c\u0630\u0628 \u0627\u0644\u0645\u0633\u062a\u0645\u0639.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u062c\u0630\u0628 \u0627\u0644\u0645\u0633\u062a\u0645\u0639.md"
+                  "name": "اجذب المستمع.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/اجذب المستمع.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D8%AC%D8%B0%D8%A8%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%85%D8%B9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0635\u062f\u0642\u0627\u0621 \u0627\u0628\u062a\u0639\u062f \u0639\u0646\u0647\u0645 \u062d\u0627\u0644\u0627.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0635\u062f\u0642\u0627\u0621 \u0627\u0628\u062a\u0639\u062f \u0639\u0646\u0647\u0645 \u062d\u0627\u0644\u0627.md"
+                  "name": "اصدقاء ابتعد عنهم حالا.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/اصدقاء ابتعد عنهم حالا.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D8%B5%D8%AF%D9%82%D8%A7%D8%A1%20%D8%A7%D8%A8%D8%AA%D8%B9%D8%AF%20%D8%B9%D9%86%D9%87%D9%85%20%D8%AD%D8%A7%D9%84%D8%A7.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0623\u0646\u0627\u0646\u064a\u0629 \u0627\u0644\u0625\u064a\u062c\u0627\u0628\u064a\u0629.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0623\u0646\u0627\u0646\u064a\u0629 \u0627\u0644\u0625\u064a\u062c\u0627\u0628\u064a\u0629.md"
+                  "name": "الأنانية الإيجابية.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/الأنانية الإيجابية.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%A3%D9%86%D8%A7%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0625\u0646\u0636\u0628\u0627\u0637 \u0648\u0627\u0644\u062d\u0645\u0627\u0633.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0625\u0646\u0636\u0628\u0627\u0637 \u0648\u0627\u0644\u062d\u0645\u0627\u0633.md"
+                  "name": "الإنضباط والحماس.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/الإنضباط والحماس.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%A5%D9%86%D8%B6%D8%A8%D8%A7%D8%B7%20%D9%88%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D8%B3.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631\u064a\u0629.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631\u064a\u0629.md"
+                  "name": "الاستمرارية.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/الاستمرارية.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0628\u062f\u0627\u064a\u0629.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0628\u062f\u0627\u064a\u0629.md"
+                  "name": "البداية.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/البداية.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062a\u0623\u062a\u0623\u0629 \u0648\u0628\u0639\u0636 \u0627\u0644\u062a\u0645\u0627\u0631\u064a\u0646.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u062a\u0623\u062a\u0623\u0629 \u0648\u0628\u0639\u0636 \u0627\u0644\u062a\u0645\u0627\u0631\u064a\u0646.md"
+                  "name": "التأتأة وبعض التمارين.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/التأتأة وبعض التمارين.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D8%A3%D8%AA%D8%A3%D8%A9%20%D9%88%D8%A8%D8%B9%D8%B6%20%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%B1%D9%8A%D9%86.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062a\u062d\u0631\u0631 \u0645\u0646 \u0627\u0644\u0635\u062f\u0645\u0629 \u0627\u0644\u0646\u0641\u0633\u064a\u0629.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u062a\u062d\u0631\u0631 \u0645\u0646 \u0627\u0644\u0635\u062f\u0645\u0629 \u0627\u0644\u0646\u0641\u0633\u064a\u0629.md"
+                  "name": "التحرر من الصدمة النفسية.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/التحرر من الصدمة النفسية.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D8%AD%D8%B1%D8%B1%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B5%D8%AF%D9%85%D8%A9%20%D8%A7%D9%84%D9%86%D9%81%D8%B3%D9%8A%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062a\u062e\u0644\u0635 \u0645\u0646 \u0627\u0644\u0639\u0627\u062f\u0627\u062a \u0627\u0644\u0633\u064a\u0626\u0629.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u062a\u062e\u0644\u0635 \u0645\u0646 \u0627\u0644\u0639\u0627\u062f\u0627\u062a \u0627\u0644\u0633\u064a\u0626\u0629.md"
+                  "name": "التخلص من العادات السيئة.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/التخلص من العادات السيئة.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D8%AE%D9%84%D8%B5%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A6%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062a\u0635\u0627\u0644\u062d \u0645\u0639 \u0627\u0644\u0630\u0627\u062a.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u062a\u0635\u0627\u0644\u062d \u0645\u0639 \u0627\u0644\u0630\u0627\u062a.md"
+                  "name": "التصالح مع الذات.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/التصالح مع الذات.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D8%B5%D8%A7%D9%84%D8%AD%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062a\u0639\u0627\u0645\u0644 \u0645\u0639 \u0627\u0644\u0634\u062e\u0635 \u0627\u0644\u0645\u0633\u062a\u0641\u0632.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u062a\u0639\u0627\u0645\u0644 \u0645\u0639 \u0627\u0644\u0634\u062e\u0635 \u0627\u0644\u0645\u0633\u062a\u0641\u0632.md"
+                  "name": "التعامل مع الشخص المستفز.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/التعامل مع الشخص المستفز.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%81%D8%B2.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u062a\u0641\u0643\u064a\u0631 \u0627\u0644\u0632\u0627\u0626\u062f \u0648\u0627\u0644\u0642\u0644\u0642.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u062a\u0641\u0643\u064a\u0631 \u0627\u0644\u0632\u0627\u0626\u062f \u0648\u0627\u0644\u0642\u0644\u0642.md"
+                  "name": "التفكير الزائد والقلق.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/التفكير الزائد والقلق.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D9%81%D9%83%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B2%D8%A7%D8%A6%D8%AF%20%D9%88%D8%A7%D9%84%D9%82%D9%84%D9%82.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0639\u0627\u0637\u0641\u064a.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0639\u0627\u0637\u0641\u064a.md"
+                  "name": "الذكاء العاطفي.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/الذكاء العاطفي.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0633\u064a\u0637\u0631\u0629 \u0639\u0644\u0649 \u0627\u0644\u0639\u0642\u0644.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0633\u064a\u0637\u0631\u0629 \u0639\u0644\u0649 \u0627\u0644\u0639\u0642\u0644.md"
+                  "name": "السيطرة على العقل.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/السيطرة على العقل.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%B3%D9%8A%D8%B7%D8%B1%D8%A9%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B9%D9%82%D9%84.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0634\u063a\u0644 \u0644\u064a\u0633 \u0639\u064a\u0628\u0627.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0634\u063a\u0644 \u0644\u064a\u0633 \u0639\u064a\u0628\u0627.md"
+                  "name": "الشغل ليس عيبا.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/الشغل ليس عيبا.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%B4%D8%BA%D9%84%20%D9%84%D9%8A%D8%B3%20%D8%B9%D9%8A%D8%A8%D8%A7.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0637\u064a\u0628\u0629 \u0627\u0644\u0632\u0627\u0626\u062f\u0629.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0637\u064a\u0628\u0629 \u0627\u0644\u0632\u0627\u0626\u062f\u0629.md"
+                  "name": "الطيبة الزائدة.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/الطيبة الزائدة.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D8%B7%D9%8A%D8%A8%D8%A9%20%D8%A7%D9%84%D8%B2%D8%A7%D8%A6%D8%AF%D8%A9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0641\u0634\u0644.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0641\u0634\u0644.md"
+                  "name": "الفشل.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/الفشل.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D9%81%D8%B4%D9%84.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0645\u062a\u062d\u062f\u062b \u0627\u0644\u0628\u0627\u0631\u0639 \u0627\u0644\u0633\u0631\u064a\u0639.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0645\u062a\u062d\u062f\u062b \u0627\u0644\u0628\u0627\u0631\u0639 \u0627\u0644\u0633\u0631\u064a\u0639.md"
+                  "name": "المتحدث البارع السريع.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/المتحدث البارع السريع.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%AB%20%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0645\u062a\u062d\u062f\u062b \u0627\u0644\u0628\u0644\u064a\u063a.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0645\u062a\u062d\u062f\u062b \u0627\u0644\u0628\u0644\u064a\u063a.md"
+                  "name": "المتحدث البليغ.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/المتحدث البليغ.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%AB%20%D8%A7%D9%84%D8%A8%D9%84%D9%8A%D8%BA.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0627\u0644\u0646\u0633\u064a\u0627\u0646.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0627\u0644\u0646\u0633\u064a\u0627\u0646.md"
+                  "name": "النسيان.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/النسيان.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D8%A7%D9%86.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0628\u0646\u0627\u0621 \u0627\u0644\u062b\u0642\u0629 \u0641\u064a \u0627\u0644\u0646\u0641\u0633.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0628\u0646\u0627\u0621 \u0627\u0644\u062b\u0642\u0629 \u0641\u064a \u0627\u0644\u0646\u0641\u0633.md"
+                  "name": "بناء الثقة في النفس.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/بناء الثقة في النفس.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%A8%D9%86%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AB%D9%82%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%86%D9%81%D8%B3.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0633\u0628\u0639\u0629 \u0641\u064a\u0631\u0648\u0633\u0627\u062a \u062a\u062f\u0645\u0631 \u0627\u0644\u0639\u0642\u0644.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0633\u0628\u0639\u0629 \u0641\u064a\u0631\u0648\u0633\u0627\u062a \u062a\u062f\u0645\u0631 \u0627\u0644\u0639\u0642\u0644.md"
+                  "name": "سبعة فيروسات تدمر العقل.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/سبعة فيروسات تدمر العقل.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%B3%D8%A8%D8%B9%D8%A9%20%D9%81%D9%8A%D8%B1%D9%88%D8%B3%D8%A7%D8%AA%20%D8%AA%D8%AF%D9%85%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%84.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0639\u0627\u062f\u0627\u062a \u062a\u062e\u0631\u0628 \u0627\u0644\u062f\u0645\u0627\u063a.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0639\u0627\u062f\u0627\u062a \u062a\u062e\u0631\u0628 \u0627\u0644\u062f\u0645\u0627\u063a.md"
+                  "name": "عادات تخرب الدماغ.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/عادات تخرب الدماغ.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%AA%D8%AE%D8%B1%D8%A8%20%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D8%BA.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0639\u0642\u0644\u064a\u0629 \u0627\u0644\u062a\u0627\u062c\u0631.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0639\u0642\u0644\u064a\u0629 \u0627\u0644\u062a\u0627\u062c\u0631.md"
+                  "name": "عقلية التاجر.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/عقلية التاجر.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D8%B9%D9%82%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AA%D8%A7%D8%AC%D8%B1.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0641\u0646 \u0627\u0644\u0627\u0633\u062a\u0645\u0627\u0639.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0641\u0646 \u0627\u0644\u0627\u0633\u062a\u0645\u0627\u0639.md"
+                  "name": "فن الاستماع.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/فن الاستماع.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D9%81%D9%86%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%85%D8%A7%D8%B9.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0641\u0646 \u0627\u0644\u062a\u062c\u0627\u0647\u0644 \u0627\u0644\u0648\u0627\u0639\u064a.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0641\u0646 \u0627\u0644\u062a\u062c\u0627\u0647\u0644 \u0627\u0644\u0648\u0627\u0639\u064a.md"
+                  "name": "فن التجاهل الواعي.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/فن التجاهل الواعي.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D9%81%D9%86%20%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D9%87%D9%84%20%D8%A7%D9%84%D9%88%D8%A7%D8%B9%D9%8A.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0641\u0646 \u0627\u0644\u0633\u064a\u0637\u0631\u0629 \u0639\u0644\u0649 \u0627\u0644\u0630\u0627\u062a.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0641\u0646 \u0627\u0644\u0633\u064a\u0637\u0631\u0629 \u0639\u0644\u0649 \u0627\u0644\u0630\u0627\u062a.md"
+                  "name": "فن السيطرة على الذات.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/فن السيطرة على الذات.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D9%81%D9%86%20%D8%A7%D9%84%D8%B3%D9%8A%D8%B7%D8%B1%D8%A9%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0643\u064a\u0641 \u062a\u062a\u0639\u0644\u0645.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0643\u064a\u0641 \u062a\u062a\u0639\u0644\u0645.md"
+                  "name": "كيف تتعلم.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/كيف تتعلم.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D9%83%D9%8A%D9%81%20%D8%AA%D8%AA%D8%B9%D9%84%D9%85.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0643\u064a\u0641 \u062a\u062d\u0645\u064a \u0646\u0641\u0633\u0643 \u0645\u0646 \u0627\u0644\u0641\u0631\u0627\u063a \u0627\u0644\u0639\u0627\u0637\u0641\u064a.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0643\u064a\u0641 \u062a\u062d\u0645\u064a \u0646\u0641\u0633\u0643 \u0645\u0646 \u0627\u0644\u0641\u0631\u0627\u063a \u0627\u0644\u0639\u0627\u0637\u0641\u064a.md"
+                  "name": "كيف تحمي نفسك من الفراغ العاطفي.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/كيف تحمي نفسك من الفراغ العاطفي.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D9%83%D9%8A%D9%81%20%D8%AA%D8%AD%D9%85%D9%8A%20%D9%86%D9%81%D8%B3%D9%83%20%D9%85%D9%86%20%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%BA%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0644\u0627 \u062a\u0643\u062a\u0645 \u0645\u0634\u0627\u0639\u0631\u0643.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0644\u0627 \u062a\u0643\u062a\u0645 \u0645\u0634\u0627\u0639\u0631\u0643.md"
+                  "name": "لا تكتم مشاعرك.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/لا تكتم مشاعرك.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D9%84%D8%A7%20%D8%AA%D9%83%D8%AA%D9%85%20%D9%85%D8%B4%D8%A7%D8%B9%D8%B1%D9%83.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0645\u0641\u062a\u0627\u062d \u0627\u0644\u063a\u0646\u0649 \u0627\u0644\u062d\u0642\u064a\u0642\u064a.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0645\u0641\u062a\u0627\u062d \u0627\u0644\u063a\u0646\u0649 \u0627\u0644\u062d\u0642\u064a\u0642\u064a.md"
+                  "name": "مفتاح الغنى الحقيقي.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/مفتاح الغنى الحقيقي.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D9%85%D9%81%D8%AA%D8%A7%D8%AD%20%D8%A7%D9%84%D8%BA%D9%86%D9%89%20%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D9%8A.md"
                 },
                 {
                   "type": "file",
-                  "name": "\u0648\u0631\u0637 \u0646\u0641\u0633\u0643.md",
-                  "path": "obsidian phone/\u0645\u0647\u0627\u0631\u0627\u062a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a/\u0648\u0631\u0637 \u0646\u0641\u0633\u0643.md"
+                  "name": "ورط نفسك.md",
+                  "path": "obsidian phone/مهارات تطوير الذات/ورط نفسك.md",
+                  "encodedPath": "obsidian%20phone/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/%D9%88%D8%B1%D8%B7%20%D9%86%D9%81%D8%B3%D9%83.md"
                 }
               ]
             }
@@ -1345,29 +1542,34 @@
                 {
                   "type": "file",
                   "name": "week 1-2.md",
-                  "path": "volt wiki/cs50/week 1-2.md"
+                  "path": "volt wiki/cs50/week 1-2.md",
+                  "encodedPath": "volt%20wiki/cs50/week%201-2.md"
                 },
                 {
                   "type": "file",
                   "name": "week 1.md",
-                  "path": "volt wiki/cs50/week 1.md"
+                  "path": "volt wiki/cs50/week 1.md",
+                  "encodedPath": "volt%20wiki/cs50/week%201.md"
                 },
                 {
                   "type": "file",
                   "name": "week 2.md",
-                  "path": "volt wiki/cs50/week 2.md"
+                  "path": "volt wiki/cs50/week 2.md",
+                  "encodedPath": "volt%20wiki/cs50/week%202.md"
                 },
                 {
                   "type": "file",
                   "name": "week 3.md",
-                  "path": "volt wiki/cs50/week 3.md"
+                  "path": "volt wiki/cs50/week 3.md",
+                  "encodedPath": "volt%20wiki/cs50/week%203.md"
                 }
               ]
             },
             {
               "type": "file",
               "name": "git basics.md",
-              "path": "volt wiki/git basics.md"
+              "path": "volt wiki/git basics.md",
+              "encodedPath": "volt%20wiki/git%20basics.md"
             }
           ]
         }

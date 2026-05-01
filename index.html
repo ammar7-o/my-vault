@@ -2502,7 +2502,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         
         async loadTree() {
             try {
-                const response = await fetch(this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/') + this.options.jsonUrl.split('/').map(p => encodeURIComponent(p)).join('/'));
+                const response = await fetch(this.options.basePath + this.options.jsonUrl);
                 const data = await response.json();
                 this.fileTree = data.tree[0];
                 this.renderFileTree();
@@ -2515,7 +2515,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             const files = this.getAllFiles(this.fileTree);
             for (const file of files) {
                 try {
-                    const response = await fetch(this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/') + file.path.split('/').map(p => encodeURIComponent(p)).join('/'));
+                    const response = await fetch(this.options.basePath + (file.encodedPath || file.path));
                     const content = await response.text();
                     this.allFilesContent[file.path] = content;
                     this.allFiles.push(file);
@@ -2625,7 +2625,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                               'fa-regular fa-file';
                 return `
                     <div class="tree-item">
-                        <div class="tree-file" data-path="${node.path}" data-name="${node.name}" onclick="window.voltMD.loadFile('${node.path.replace(/'/g, "\\'")}', '${node.name.replace(/'/g, "\\'")}')">
+                        <div class="tree-file" data-path="${node.path}" data-encoded-path="${node.encodedPath || node.path}" data-name="${node.name}">
                             <i class="icon ${iconClass}"></i>
                             <span class="tree-item-name">${this.sanitize(node.name)}</span>
                         </div>
@@ -2650,7 +2650,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             document.querySelectorAll('.tree-file').forEach(file => {
                 file.addEventListener('click', (e) => {
                     e.stopPropagation();
-                    const path = file.dataset.path;
+                    const path = file.dataset.encodedPath || file.dataset.path;
                     const name = file.dataset.name;
                     this.loadFile(path, name);
                 });
@@ -2660,19 +2660,20 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         async loadFile(filePath, fileName) {
             try {
                 let content;
-                if (this.allFilesContent[filePath]) {
-                    content = this.allFilesContent[filePath];
+                const storageKey = filePath.split('/').map(p => decodeURIComponent(p)).join('/');
+                if (this.allFilesContent[storageKey]) {
+                    content = this.allFilesContent[storageKey];
                 } else {
-                    const response = await fetch(this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/') + filePath.split('/').map(p => encodeURIComponent(p)).join('/'));
+                    const response = await fetch(this.options.basePath + filePath);
                     if (!response.ok) {
                         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                     }
                     content = await response.text();
-                    this.allFilesContent[filePath] = content;
+                    this.allFilesContent[storageKey] = content;
                 }
                 
                 this.currentContent = content;
-                this.currentFile = { path: filePath, name: fileName };
+                this.currentFile = { path: storageKey, name: fileName };
                 this.renderContent();
                 this.generateTOC();
                 this.redrawGraph();
@@ -2680,7 +2681,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 this.updateWordCount();
                 
                 document.querySelectorAll('.tree-file').forEach(f => f.classList.remove('active'));
-                document.querySelector(`[data-path="${filePath}"]`)?.classList.add('active');
+                document.querySelector(`[data-path="${CSS.escape(storageKey)}"]`)?.classList.add('active');
                 
                 setTimeout(() => this.revealCurrentFile(), 100);
                 
@@ -2690,7 +2691,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
                 
                 this.saveState();
-                this.updateUrl(filePath);
+                this.updateUrl(storageKey);
             } catch (error) {
                 console.error('Error loading file:', error);
                 const contentEl = document.getElementById('content');
@@ -2883,13 +2884,14 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             
             try {
                 let content;
-                if (this.allFilesContent[filePath]) {
-                    content = this.allFilesContent[filePath];
+                const storageKey = filePath.split('/').map(p => decodeURIComponent(p)).join('/');
+                if (this.allFilesContent[storageKey]) {
+                    content = this.allFilesContent[storageKey];
                 } else {
-                    const response = await fetch(this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/') + filePath.split('/').map(p => encodeURIComponent(p)).join('/'));
+                    const response = await fetch(this.options.basePath + filePath);
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     content = await response.text();
-                    this.allFilesContent[filePath] = content;
+                    this.allFilesContent[storageKey] = content;
                 }
                 
                 content = content.replace(/==([^=]+)==/g, '<mark>$1</mark>');
@@ -2976,7 +2978,8 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 const fileName = link.trim();
                 const file = this.allFiles.find(f => f.name === `${fileName}.md`);
                 if (file) {
-                    return `<a class="wiki-link" href="#" data-path="${file.path}" data-name="${file.name}">${this.sanitize(fileName)}</a>`;
+                    const encodedPath = file.encodedPath || file.path.split('/').map(p => encodeURIComponent(p)).join('/');
+                    return `<a class="wiki-link" href="#" data-encoded-path="${encodedPath}" data-path="${file.path}" data-name="${file.name}">${this.sanitize(fileName)}</a>`;
                 }
                 return `<span class="wiki-link-broken">${this.sanitize(link)}</span>`;
             });
@@ -2998,11 +3001,11 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
                     if (e.ctrlKey || e.metaKey) {
-                        const path = link.dataset.path;
+                        const path = link.dataset.encodedPath || link.dataset.path;
                         const name = link.dataset.name;
                         this.openFloatWindow(path, name);
                     } else {
-                        const path = link.dataset.path;
+                        const path = link.dataset.encodedPath || link.dataset.path;
                         const name = link.dataset.name;
                         this.loadFile(path, name);
                     }
@@ -3170,7 +3173,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             
             if (results.length) {
                 resultsEl.innerHTML = results.map(file => `
-                    <div class="search-result-item" data-path="${file.path}" data-name="${file.name}">
+                    <div class="search-result-item" data-encoded-path="${file.encodedPath || file.path}" data-path="${file.path}" data-name="${file.name}">
                         <div class="file-name">${this.sanitize(file.name)}</div>
                         <div class="file-path">${this.sanitize(file.path)}</div>
                     </div>
@@ -3178,7 +3181,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 
                 resultsEl.querySelectorAll('.search-result-item').forEach(item => {
                     item.addEventListener('click', () => {
-                        this.loadFile(item.dataset.path, item.dataset.name);
+                        this.loadFile(item.dataset.encodedPath || item.dataset.path, item.dataset.name);
                         document.getElementById('search-input').value = '';
                         this.searchFiles('');
                     });
