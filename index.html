@@ -2502,7 +2502,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         
         async loadTree() {
             try {
-                const response = await fetch(encodeURI(this.options.basePath + this.options.jsonUrl));
+                const response = await fetch(this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/') + this.options.jsonUrl.split('/').map(p => encodeURIComponent(p)).join('/'));
                 const data = await response.json();
                 this.fileTree = data.tree[0];
                 this.renderFileTree();
@@ -2515,7 +2515,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             const files = this.getAllFiles(this.fileTree);
             for (const file of files) {
                 try {
-                    const response = await fetch(encodeURI(this.options.basePath + file.path));
+                    const response = await fetch(this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/') + file.path.split('/').map(p => encodeURIComponent(p)).join('/'));
                     const content = await response.text();
                     this.allFilesContent[file.path] = content;
                     this.allFiles.push(file);
@@ -2663,7 +2663,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 if (this.allFilesContent[filePath]) {
                     content = this.allFilesContent[filePath];
                 } else {
-                    const response = await fetch(encodeURI(this.options.basePath + filePath));
+                    const response = await fetch(this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/') + filePath.split('/').map(p => encodeURIComponent(p)).join('/'));
                     if (!response.ok) {
                         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                     }
@@ -2886,7 +2886,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 if (this.allFilesContent[filePath]) {
                     content = this.allFilesContent[filePath];
                 } else {
-                    const response = await fetch(encodeURI(this.options.basePath + filePath));
+                    const response = await fetch(this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/') + filePath.split('/').map(p => encodeURIComponent(p)).join('/'));
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     content = await response.text();
                     this.allFilesContent[filePath] = content;
@@ -2983,10 +2983,11 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
         
         processImagePaths(html) {
-            const basePath = this.options.basePath;
+            const basePath = this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/');
             return html.replace(/<img\s+(?![^>]*src="http)([^>]*src=")([^"]+)"/g, (match, prefix, srcPrefix, src) => {
                 if (!src.startsWith('http')) {
-                    return `${prefix}${srcPrefix}${basePath}${encodeURIComponent(src)}"`;
+                    const encodedSrc = src.split('/').map(p => encodeURIComponent(p)).join('/');
+                    return `${prefix}${srcPrefix}${basePath}${encodedSrc}"`;
                 }
                 return match;
             });
