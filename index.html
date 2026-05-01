@@ -2502,7 +2502,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         
         async loadTree() {
             try {
-                const response = await fetch(this.options.basePath + this.options.jsonUrl);
+                const response = await fetch(this.options.basePath + encodeURIComponent(this.options.jsonUrl));
                 const data = await response.json();
                 this.fileTree = data.tree[0];
                 this.renderFileTree();
@@ -2515,7 +2515,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             const files = this.getAllFiles(this.fileTree);
             for (const file of files) {
                 try {
-                    const response = await fetch(this.options.basePath + file.path);
+                    const response = await fetch(this.options.basePath + encodeURIComponent(file.path));
                     const content = await response.text();
                     this.allFilesContent[file.path] = content;
                     this.allFiles.push(file);
@@ -2663,7 +2663,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 if (this.allFilesContent[filePath]) {
                     content = this.allFilesContent[filePath];
                 } else {
-                    const response = await fetch(this.options.basePath + filePath);
+                    const response = await fetch(this.options.basePath + encodeURIComponent(filePath));
                     if (!response.ok) {
                         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                     }
@@ -2886,7 +2886,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 if (this.allFilesContent[filePath]) {
                     content = this.allFilesContent[filePath];
                 } else {
-                    const response = await fetch(this.options.basePath + filePath);
+                    const response = await fetch(this.options.basePath + encodeURIComponent(filePath));
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     content = await response.text();
                     this.allFilesContent[filePath] = content;
@@ -2986,7 +2986,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             const basePath = this.options.basePath;
             return html.replace(/<img\s+(?![^>]*src="http)([^>]*src=")([^"]+)"/g, (match, prefix, srcPrefix, src) => {
                 if (!src.startsWith('http')) {
-                    return `${prefix}${srcPrefix}${basePath}${src}"`;
+                    return `${prefix}${srcPrefix}${basePath}${encodeURIComponent(src)}"`;
                 }
                 return match;
             });
