@@ -2151,9 +2151,17 @@
             const pathParts = window.location.pathname.split('/').filter(p => p && !p.endsWith('.html'));
             const autoBasePath = pathParts.length > 0 ? '/' + pathParts.join('/') + '/' : '';
             
+            let baseUrl = options.baseUrl || '';
+            if (!baseUrl && options.useCdn) {
+                const repo = options.repo || 'ammar7-o/my-vault';
+                const branch = options.branch || 'main';
+                baseUrl = `https://cdn.jsdelivr.net/gh/${repo}@${branch}/`;
+            }
+            
             this.options = {
                 jsonUrl: options.jsonUrl || 'core/base.json',
-                basePath: options.basePath || autoBasePath,
+                basePath: options.basePath || (baseUrl ? '' : autoBasePath),
+                baseUrl: baseUrl,
                 theme: localStorage.getItem('volt-md-theme') || 'dark',
                 ...options
             };
@@ -2501,8 +2509,10 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
         
         async loadTree() {
+            const getUrl = (path) => this.options.baseUrl + path;
+            
             try {
-                const response = await fetch(this.options.basePath + this.options.jsonUrl);
+                const response = await fetch(getUrl(this.options.jsonUrl));
                 const data = await response.json();
                 this.fileTree = data.tree[0];
                 this.renderFileTree();
@@ -2511,11 +2521,12 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
         }
         
-        async loadAllFileContents() {
+async loadAllFileContents() {
+            const getUrl = (path) => this.$.options.baseUrl + path;
             const files = this.getAllFiles(this.fileTree);
             for (const file of files) {
                 try {
-                    const response = await fetch(this.options.basePath + (file.encodedPath || file.path));
+                    const response = await fetch(getUrl(file.encodedPath || file.path));
                     const content = await response.text();
                     this.allFilesContent[file.path] = content;
                     this.allFiles.push(file);
@@ -2657,14 +2668,15 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             });
         }
         
-        async loadFile(filePath, fileName) {
+async loadFile(filePath, fileName) {
+            const getUrl = (path) => this.$.options.baseUrl + path;
             try {
                 let content;
                 const storageKey = filePath.split('/').map(p => decodeURIComponent(p)).join('/');
                 if (this.allFilesContent[storageKey]) {
                     content = this.allFilesContent[storageKey];
                 } else {
-                    const response = await fetch(this.options.basePath + filePath);
+                    const response = await fetch(getUrl(filePath));
                     if (!response.ok) {
                         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                     }
@@ -2882,13 +2894,14 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             overlay.classList.add('active');
             floatWin.classList.add('active');
             
-            try {
+try {
                 let content;
+                const getUrl = (path) => this.$.options.baseUrl + path;
                 const storageKey = filePath.split('/').map(p => decodeURIComponent(p)).join('/');
                 if (this.allFilesContent[storageKey]) {
                     content = this.allFilesContent[storageKey];
                 } else {
-                    const response = await fetch(this.options.basePath + filePath);
+                    const response = await fetch(getUrl(filePath));
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     content = await response.text();
                     this.allFilesContent[storageKey] = content;
@@ -2985,17 +2998,17 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             });
         }
         
-        processImagePaths(html) {
-            const basePath = this.options.basePath.split('/').map(p => encodeURIComponent(p)).join('/');
-            return html.replace(/<img\s+(?![^>]*src="http)([^>]*src=")([^"]+)"/g, (match, prefix, srcPrefix, src) => {
+processImagePaths(html) {
+            const baseUrl = this.$.options.baseUrl;
+            return html.replace(/<img\ s+(?![^>]*src="http)([^>]*src=")([^"]+)"/g, (match, prefix, srcPrefix, src) => {
                 if (!src.startsWith('http')) {
                     const encodedSrc = src.split('/').map(p => encodeURIComponent(p)).join('/');
-                    return `${prefix}${srcPrefix}${basePath}${encodedSrc}"`;
+                    return `${prefix}${srcPrefix}${baseUrl}${encodedSrc}"`;
                 }
                 return match;
             });
         }
-        
+
         attachContentEvents() {
             document.querySelectorAll('.wiki-link').forEach(link => {
                 link.addEventListener('click', (e) => {
