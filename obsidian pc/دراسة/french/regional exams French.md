@@ -3,6 +3,7 @@ banner: https://donnamorgancounselling.co.uk/wp-content/uploads/2023/03/exam-str
 tags:
   - 1bac-exams
   - 1bac
+dg-publish: true
 ---
 # Exam Links: امتحانات جهوية في اللغة الفرنسية اولى باك مع التصحيح
 

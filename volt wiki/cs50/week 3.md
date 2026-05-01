@@ -3,4 +3,5 @@ banner: https://www.londonacademyofit.co.uk/images/courses/c_programming_for_beg
 tags:
   - cs50
   - c
+dg-publish: true
 ---

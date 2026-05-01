@@ -5,6 +5,7 @@ tags:
   - 1bac-exams
 share_link: https://share.note.sx/50w2r5wu#kR0t/8VeEGsiNVEuJcyEVVcbP83IYyjKfY1Kj8jzSNc
 share_updated: 2026-04-18T12:56:06+01:00
+dg-publish: true
 ---
 # امتحانات جهوية في التاريخ والجغرافيا أولى باك
 

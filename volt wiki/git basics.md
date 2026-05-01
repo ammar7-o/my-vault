@@ -6,6 +6,7 @@ tags:
   - برمجة
   - terminal
 icon: FabGitAlt
+dg-publish: true
 ---
 
 #  Git & GitHub Full Cheat Sheet

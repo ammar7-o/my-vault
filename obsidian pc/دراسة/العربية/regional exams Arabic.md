@@ -5,6 +5,7 @@ tags:
   - 1bac
 share_link: https://share.note.sx/fqkjven6#rt8WOZ/fhNLKs/6p6nBbYm8frLnNHTuHup6MaVweFHI
 share_updated: 2026-04-18T12:53:35+01:00
+dg-publish: true
 ---
 # امتحانات جهوية في اللغة العربية اولى باك مع التصحيح
 

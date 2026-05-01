@@ -2,6 +2,7 @@
 tags:
   - "#1bac"
   - french
+dg-publish: true
 ---
 
 # 📚 ملخص أساليب البلاغة (Les Figures de Style) 
