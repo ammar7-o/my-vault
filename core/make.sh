@@ -5,7 +5,6 @@ cd "$(dirname "$0")/.." || exit
 python3 << 'EOF'
 import os
 import json
-from urllib.parse import quote
 
 def scan_directory(base_path):
     items = []
@@ -22,24 +21,19 @@ def scan_directory(base_path):
                 "children": children
             })
         elif os.path.isfile(full_path) and item.endswith('.md'):
-            rel_path = os.path.relpath(full_path).replace('\\', '/')
-            
-            path_parts = rel_path.split('/')
-            encoded_path = '/'.join(quote(part, safe='') for part in path_parts)
-            
+            rel_path = os.path.relpath(full_path)
             items.append({
                 "type": "file",
                 "name": item,
-                "path": rel_path,
-                "encodedPath": encoded_path
+                "path": rel_path.replace('\\', '/')
             })
     return items
 
 tree = scan_directory(".")
 result = {"tree": [{"type": "folder", "name": "root", "children": tree}]}
 
-with open("core/base.json", "w", encoding='utf-8') as f:
-    json.dump(result, f, indent=2, ensure_ascii=False)
+with open("core/base.json", "w") as f:
+    json.dump(result, f, indent=2)
 
 print("Generated core/base.json")
 EOF

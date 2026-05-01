@@ -2148,20 +2148,9 @@
 <script>
     class VoltMDCore {
         constructor(options = {}) {
-            const pathParts = window.location.pathname.split('/').filter(p => p && !p.endsWith('.html'));
-            const autoBasePath = pathParts.length > 0 ? '/' + pathParts.join('/') + '/' : '';
-            
-            let baseUrl = options.baseUrl || '';
-            if (!baseUrl && options.useCdn) {
-                const repo = options.repo || 'ammar7-o/my-vault';
-                const branch = options.branch || 'main';
-                baseUrl = `https://cdn.jsdelivr.net/gh/${repo}@${branch}/`;
-            }
-            
             this.options = {
                 jsonUrl: options.jsonUrl || 'core/base.json',
-                basePath: options.basePath || (baseUrl ? '' : autoBasePath),
-                baseUrl: baseUrl,
+                baseUrl: options.baseUrl || '',
                 theme: localStorage.getItem('volt-md-theme') || 'dark',
                 ...options
             };
@@ -2509,10 +2498,9 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
         
         async loadTree() {
-            const getUrl = (path) => this.options.baseUrl + path;
-            
             try {
-                const response = await fetch(getUrl(this.options.jsonUrl));
+                const url = this.options.baseUrl + this.options.jsonUrl;
+                const response = await fetch(url);
                 const data = await response.json();
                 this.fileTree = data.tree[0];
                 this.renderFileTree();
@@ -2521,12 +2509,12 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
         }
         
-async loadAllFileContents() {
-            const getUrl = (path) => this.$.options.baseUrl + path;
+        async loadAllFileContents() {
             const files = this.getAllFiles(this.fileTree);
             for (const file of files) {
                 try {
-                    const response = await fetch(getUrl(file.encodedPath || file.path));
+                    const fullPath = this.options.baseUrl + file.path;
+                    const response = await fetch(fullPath);
                     const content = await response.text();
                     this.allFilesContent[file.path] = content;
                     this.allFiles.push(file);
@@ -2557,7 +2545,7 @@ async loadAllFileContents() {
         
         updateUrl(filePath) {
             const url = new URL(window.location);
-            url.searchParams.set('file', encodeURIComponent(filePath));
+            url.searchParams.set('file', filePath);
             window.history.replaceState({}, '', url);
         }
         
@@ -2636,7 +2624,7 @@ async loadAllFileContents() {
                               'fa-regular fa-file';
                 return `
                     <div class="tree-item">
-                        <div class="tree-file" data-path="${node.path}" data-encoded-path="${node.encodedPath || node.path}" data-name="${node.name}">
+                        <div class="tree-file" data-path="${node.path}" data-name="${node.name}" onclick="window.voltMD.loadFile('${node.path.replace(/'/g, "\\'")}', '${node.name.replace(/'/g, "\\'")}')">
                             <i class="icon ${iconClass}"></i>
                             <span class="tree-item-name">${this.sanitize(node.name)}</span>
                         </div>
@@ -2661,31 +2649,34 @@ async loadAllFileContents() {
             document.querySelectorAll('.tree-file').forEach(file => {
                 file.addEventListener('click', (e) => {
                     e.stopPropagation();
-                    const path = file.dataset.encodedPath || file.dataset.path;
+                    const path = file.dataset.path;
                     const name = file.dataset.name;
                     this.loadFile(path, name);
                 });
             });
         }
         
-async loadFile(filePath, fileName) {
-            const getUrl = (path) => this.$.options.baseUrl + path;
+        async loadFile(filePath, fileName) {
             try {
                 let content;
-                const storageKey = filePath.split('/').map(p => decodeURIComponent(p)).join('/');
-                if (this.allFilesContent[storageKey]) {
-                    content = this.allFilesContent[storageKey];
+                let fetchPath = filePath;
+                if (this.options.baseUrl && filePath.includes(' ')) {
+                    fetchPath = encodeURIComponent(filePath);
+                }
+                const fullPath = this.options.baseUrl + fetchPath;
+                if (this.allFilesContent[filePath]) {
+                    content = this.allFilesContent[filePath];
                 } else {
-                    const response = await fetch(getUrl(filePath));
+                    const response = await fetch(fullPath);
                     if (!response.ok) {
                         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                     }
                     content = await response.text();
-                    this.allFilesContent[storageKey] = content;
+                    this.allFilesContent[filePath] = content;
                 }
                 
                 this.currentContent = content;
-                this.currentFile = { path: storageKey, name: fileName };
+                this.currentFile = { path: filePath, name: fileName };
                 this.renderContent();
                 this.generateTOC();
                 this.redrawGraph();
@@ -2693,7 +2684,7 @@ async loadFile(filePath, fileName) {
                 this.updateWordCount();
                 
                 document.querySelectorAll('.tree-file').forEach(f => f.classList.remove('active'));
-                document.querySelector(`[data-path="${CSS.escape(storageKey)}"]`)?.classList.add('active');
+                document.querySelector(`[data-path="${filePath}"]`)?.classList.add('active');
                 
                 setTimeout(() => this.revealCurrentFile(), 100);
                 
@@ -2703,7 +2694,7 @@ async loadFile(filePath, fileName) {
                 }
                 
                 this.saveState();
-                this.updateUrl(storageKey);
+                this.updateUrl(filePath);
             } catch (error) {
                 console.error('Error loading file:', error);
                 const contentEl = document.getElementById('content');
@@ -2748,8 +2739,6 @@ async loadFile(filePath, fileName) {
             }
             
             html = this.processWikiLinks(html);
-            
-            html = this.processImagePaths(html);
             
             html = this.processHashtags(html);
             
@@ -2894,17 +2883,15 @@ async loadFile(filePath, fileName) {
             overlay.classList.add('active');
             floatWin.classList.add('active');
             
-try {
+            try {
                 let content;
-                const getUrl = (path) => this.$.options.baseUrl + path;
-                const storageKey = filePath.split('/').map(p => decodeURIComponent(p)).join('/');
-                if (this.allFilesContent[storageKey]) {
-                    content = this.allFilesContent[storageKey];
+                if (this.allFilesContent[filePath]) {
+                    content = this.allFilesContent[filePath];
                 } else {
-                    const response = await fetch(getUrl(filePath));
+                    const response = await fetch(filePath);
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     content = await response.text();
-                    this.allFilesContent[storageKey] = content;
+                    this.allFilesContent[filePath] = content;
                 }
                 
                 content = content.replace(/==([^=]+)==/g, '<mark>$1</mark>');
@@ -2991,34 +2978,22 @@ try {
                 const fileName = link.trim();
                 const file = this.allFiles.find(f => f.name === `${fileName}.md`);
                 if (file) {
-                    const encodedPath = file.encodedPath || file.path.split('/').map(p => encodeURIComponent(p)).join('/');
-                    return `<a class="wiki-link" href="#" data-encoded-path="${encodedPath}" data-path="${file.path}" data-name="${file.name}">${this.sanitize(fileName)}</a>`;
+                    return `<a class="wiki-link" href="#" data-path="${file.path}" data-name="${file.name}">${this.sanitize(fileName)}</a>`;
                 }
                 return `<span class="wiki-link-broken">${this.sanitize(link)}</span>`;
             });
         }
         
-processImagePaths(html) {
-            const baseUrl = this.$.options.baseUrl;
-            return html.replace(/<img\ s+(?![^>]*src="http)([^>]*src=")([^"]+)"/g, (match, prefix, srcPrefix, src) => {
-                if (!src.startsWith('http')) {
-                    const encodedSrc = src.split('/').map(p => encodeURIComponent(p)).join('/');
-                    return `${prefix}${srcPrefix}${baseUrl}${encodedSrc}"`;
-                }
-                return match;
-            });
-        }
-
         attachContentEvents() {
             document.querySelectorAll('.wiki-link').forEach(link => {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
                     if (e.ctrlKey || e.metaKey) {
-                        const path = link.dataset.encodedPath || link.dataset.path;
+                        const path = link.dataset.path;
                         const name = link.dataset.name;
                         this.openFloatWindow(path, name);
                     } else {
-                        const path = link.dataset.encodedPath || link.dataset.path;
+                        const path = link.dataset.path;
                         const name = link.dataset.name;
                         this.loadFile(path, name);
                     }
@@ -3186,7 +3161,7 @@ processImagePaths(html) {
             
             if (results.length) {
                 resultsEl.innerHTML = results.map(file => `
-                    <div class="search-result-item" data-encoded-path="${file.encodedPath || file.path}" data-path="${file.path}" data-name="${file.name}">
+                    <div class="search-result-item" data-path="${file.path}" data-name="${file.name}">
                         <div class="file-name">${this.sanitize(file.name)}</div>
                         <div class="file-path">${this.sanitize(file.path)}</div>
                     </div>
@@ -3194,7 +3169,7 @@ processImagePaths(html) {
                 
                 resultsEl.querySelectorAll('.search-result-item').forEach(item => {
                     item.addEventListener('click', () => {
-                        this.loadFile(item.dataset.encodedPath || item.dataset.path, item.dataset.name);
+                        this.loadFile(item.dataset.path, item.dataset.name);
                         document.getElementById('search-input').value = '';
                         this.searchFiles('');
                     });
@@ -3599,8 +3574,11 @@ drawGraph(ctx, width, height) {
     }
 
     document.addEventListener('DOMContentLoaded', () => {
+        const params = new URLSearchParams(window.location.search);
+        const baseUrl = params.get('baseUrl') || '';
         window.voltMD = new VoltMDCore({
-            jsonUrl: 'core/base.json'
+            jsonUrl: 'core/base.json',
+            baseUrl: baseUrl
         });
     });
 </script>
