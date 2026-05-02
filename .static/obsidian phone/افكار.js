@@ -1,0 +1,1 @@
+window.__fileContent = "---\ndg-publish: true\n---\n- جعل ال reader في Istories برنامج منفصل يمكن فتح ملفات من الجهاز مباشرة او ملفات pdf او ملفات .txt";

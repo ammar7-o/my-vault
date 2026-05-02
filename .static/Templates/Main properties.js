@@ -1,0 +1,1 @@
+window.__fileContent = "---\ndate:\ntags:\ntype:\nImportance: \"false\"\ndg-publish: true\naliases:\n---\n";

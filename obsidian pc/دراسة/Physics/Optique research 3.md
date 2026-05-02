@@ -2,6 +2,8 @@
 banner: https://ingenieurchevallier.com/wp-content/uploads/2023/09/ingenieur-chevallier-metiers-optique-vision-formation.jpg
 tags:
   - physics
+share_link: https://share.note.sx/8h2r4md3#W2gDD4NvOtfA8WsGgmvY+BW9/Tb7p7b6sAf/FAjcYr0
+share_updated: 2026-05-02T11:28:40+01:00
 ---
 # Les lentilles minces
 

@@ -1,0 +1,1 @@
+window.__fileContent = "---\nkanban-plugin: board\ndg-publish: true\ntags:\n---\n\n## hello\n\n- [ ] memorize quran\n- [ ] creat any thing\n\n\n## sport\n\n- [ ] play soccer\n\n\n\n\n%% kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false]}\n```\n%%";

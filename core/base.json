@@ -6,6 +6,7 @@
       "children": [
         {
           "type": "folder",
+<<<<<<< HEAD
           "name": "To Dos",
           "children": [
             {
@@ -17,6 +18,8 @@
         },
         {
           "type": "folder",
+=======
+>>>>>>> 93e8029 (volt wiki)
           "name": "obsidian pc",
           "children": [
             {
@@ -26,28 +29,28 @@
                 {
                   "type": "file",
                   "name": "Ammar  linux config.md",
-                  "path": "obsidian pc/Pc/Ammar  linux config.md"
+                  "path": "./.static/obsidian pc/Pc/Ammar  linux config.js"
                 },
                 {
                   "type": "file",
                   "name": "my_goals.md",
-                  "path": "obsidian pc/Pc/my_goals.md"
+                  "path": "./.static/obsidian pc/Pc/my_goals.js"
                 },
                 {
                   "type": "file",
-                  "name": "\u0643\u064a\u0641\u064a\u0629 \u062d\u0641\u0638 \u0627\u0644\u0642\u0631\u0621\u0627\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0628\u0625\u062a\u0642\u0627\u0646.md",
-                  "path": "obsidian pc/Pc/\u0643\u064a\u0641\u064a\u0629 \u062d\u0641\u0638 \u0627\u0644\u0642\u0631\u0621\u0627\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0628\u0625\u062a\u0642\u0627\u0646.md"
+                  "name": "كيفية حفظ القرءان الكريم بإتقان.md",
+                  "path": "./.static/obsidian pc/Pc/كيفية حفظ القرءان الكريم بإتقان.js"
                 },
                 {
                   "type": "file",
-                  "name": "\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u062d\u0641\u0638 \u0627\u0644\u0627\u0633\u0628\u0648\u0639\u064a\u0629.md",
-                  "path": "obsidian pc/Pc/\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u062d\u0641\u0638 \u0627\u0644\u0627\u0633\u0628\u0648\u0639\u064a\u0629.md"
+                  "name": "متابعة الحفظ الاسبوعية.md",
+                  "path": "./.static/obsidian pc/Pc/متابعة الحفظ الاسبوعية.js"
                 }
               ]
             },
             {
               "type": "folder",
-              "name": "\u062f\u0631\u0627\u0633\u0629",
+              "name": "دراسة",
               "children": [
                 {
                   "type": "folder",
@@ -56,7 +59,7 @@
                     {
                       "type": "file",
                       "name": "hello english.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/English/hello english.md"
+                      "path": "./.static/obsidian pc/دراسة/English/hello english.js"
                     }
                   ]
                 },
@@ -67,7 +70,7 @@
                     {
                       "type": "file",
                       "name": "math lessons.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Math/math lessons.md"
+                      "path": "./.static/obsidian pc/دراسة/Math/math lessons.js"
                     }
                   ]
                 },
@@ -78,27 +81,47 @@
                     {
                       "type": "file",
                       "name": "Optique research 1.md",
+<<<<<<< HEAD
                       "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Optique research 1.md"
+=======
+                      "path": "./.static/obsidian pc/دراسة/Physics/Optique research 1.js"
+>>>>>>> 93e8029 (volt wiki)
                     },
                     {
                       "type": "file",
                       "name": "Optique research 2.md",
+<<<<<<< HEAD
                       "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Optique research 2.md"
+=======
+                      "path": "./.static/obsidian pc/دراسة/Physics/Optique research 2.js"
+>>>>>>> 93e8029 (volt wiki)
                     },
                     {
                       "type": "file",
                       "name": "Optique research 3.md",
+<<<<<<< HEAD
                       "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Optique research 3.md"
+=======
+                      "path": "./.static/obsidian pc/دراسة/Physics/Optique research 3.js"
+>>>>>>> 93e8029 (volt wiki)
                     },
                     {
                       "type": "file",
                       "name": "PC courses.md",
+<<<<<<< HEAD
                       "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/PC courses.md"
+=======
+                      "path": "./.static/obsidian pc/دراسة/Physics/PC courses.js"
+>>>>>>> 93e8029 (volt wiki)
                     },
                     {
                       "type": "file",
                       "name": "Untitled.md",
+<<<<<<< HEAD
                       "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Physics/Untitled.md"
+=======
+                      "path": "./.static/obsidian pc/دراسة/Physics/Untitled.js"
+>>>>>>> 93e8029 (volt wiki)
                     }
                   ]
                 },
@@ -109,12 +132,12 @@
                     {
                       "type": "file",
                       "name": "SVT courses.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Svt/SVT courses.md"
+                      "path": "./.static/obsidian pc/دراسة/Svt/SVT courses.js"
                     },
                     {
                       "type": "file",
                       "name": "la digestion.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/Svt/la digestion.md"
+                      "path": "./.static/obsidian pc/دراسة/Svt/la digestion.js"
                     }
                   ]
                 },
@@ -124,8 +147,8 @@
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0627\u0637\u0631 \u0627\u0644\u0645\u0631\u062c\u0639\u064a\u0629 2025 \u0627\u0648\u0644\u0649 \u0628\u0627\u0643.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/all/\u0627\u0644\u0627\u0637\u0631 \u0627\u0644\u0645\u0631\u062c\u0639\u064a\u0629 2025 \u0627\u0648\u0644\u0649 \u0628\u0627\u0643.md"
+                      "name": "الاطر المرجعية 2025 اولى باك.md",
+                      "path": "./.static/obsidian pc/دراسة/all/الاطر المرجعية 2025 اولى باك.js"
                     }
                   ]
                 },
@@ -136,46 +159,46 @@
                     {
                       "type": "file",
                       "name": "50 verbes les plus utilises.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/50 verbes les plus utilises.md"
+                      "path": "./.static/obsidian pc/دراسة/french/50 verbes les plus utilises.js"
                     },
                     {
                       "type": "file",
                       "name": "Les 3 oeuvres.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/Les 3 oeuvres.md"
+                      "path": "./.static/obsidian pc/دراسة/french/Les 3 oeuvres.js"
                     },
                     {
                       "type": "file",
                       "name": "QCM.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/QCM.md"
+                      "path": "./.static/obsidian pc/دراسة/french/QCM.js"
                     },
                     {
                       "type": "file",
                       "name": "les coures de francais.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/les coures de francais.md"
+                      "path": "./.static/obsidian pc/دراسة/french/les coures de francais.js"
                     },
                     {
                       "type": "file",
                       "name": "les figures de styles.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/les figures de styles.md"
+                      "path": "./.static/obsidian pc/دراسة/french/les figures de styles.js"
                     },
                     {
                       "type": "file",
                       "name": "regional exams French.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/regional exams French.md"
+                      "path": "./.static/obsidian pc/دراسة/french/regional exams French.js"
                     },
                     {
                       "type": "folder",
-                      "name": "\u0627\u0644\u0637\u0631\u0642 \u0627\u0644\u0630\u0643\u064a\u0629 \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0641\u0631\u0646\u0633\u064a\u0629",
+                      "name": "الطرق الذكية في فهم الفرنسية",
                       "children": [
                         {
                           "type": "file",
-                          "name": "\u0627\u0644\u0641\u0635\u0644 \u0627\u0644\u0623\u0648\u0644 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0627\u062a.md",
-                          "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/\u0627\u0644\u0637\u0631\u0642 \u0627\u0644\u0630\u0643\u064a\u0629 \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0641\u0631\u0646\u0633\u064a\u0629/\u0627\u0644\u0641\u0635\u0644 \u0627\u0644\u0623\u0648\u0644 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0627\u062a.md"
+                          "name": "الفصل الأول الأساسيات.md",
+                          "path": "./.static/obsidian pc/دراسة/french/الطرق الذكية في فهم الفرنسية/الفصل الأول الأساسيات.js"
                         },
                         {
                           "type": "file",
-                          "name": "\u0627\u0644\u0641\u0635\u0644 \u0627\u0644\u062b\u0627\u0646\u064a - \u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629.md",
-                          "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/french/\u0627\u0644\u0637\u0631\u0642 \u0627\u0644\u0630\u0643\u064a\u0629 \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0641\u0631\u0646\u0633\u064a\u0629/\u0627\u0644\u0641\u0635\u0644 \u0627\u0644\u062b\u0627\u0646\u064a - \u0627\u0644\u0645\u0645\u0627\u0631\u0633\u0629.md"
+                          "name": "الفصل الثاني - الممارسة.md",
+                          "path": "./.static/obsidian pc/دراسة/french/الطرق الذكية في فهم الفرنسية/الفصل الثاني - الممارسة.js"
                         }
                       ]
                     }
@@ -183,96 +206,97 @@
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0627\u062a",
+                  "name": "الاجتماعيات",
                   "children": [
                     {
                       "type": "file",
                       "name": "regional exams HG.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0627\u062a/regional exams HG.md"
+                      "path": "./.static/obsidian pc/دراسة/الاجتماعيات/regional exams HG.js"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0645\u063a\u0631\u0628 \u0645\u0646 \u0627\u0644\u0627\u0633\u062a\u0639\u0645\u0627\u0631 \u0627\u0644\u0649 \u0627\u0644\u0627\u0633\u062a\u0642\u0644\u0627\u0644.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0627\u062a/\u0627\u0644\u0645\u063a\u0631\u0628 \u0645\u0646 \u0627\u0644\u0627\u0633\u062a\u0639\u0645\u0627\u0631 \u0627\u0644\u0649 \u0627\u0644\u0627\u0633\u062a\u0642\u0644\u0627\u0644.md"
+                      "name": "المغرب من الاستعمار الى الاستقلال.md",
+                      "path": "./.static/obsidian pc/دراسة/الاجتماعيات/المغرب من الاستعمار الى الاستقلال.js"
                     },
                     {
                       "type": "file",
-                      "name": "\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u062a\u064a \u0627\u0644\u062c\u063a\u0631\u0627\u0641\u064a\u0627 \u0648 \u0627\u0644\u062a\u0627\u0631\u064a\u062e.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0627\u062a/\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u062a\u064a \u0627\u0644\u062c\u063a\u0631\u0627\u0641\u064a\u0627 \u0648 \u0627\u0644\u062a\u0627\u0631\u064a\u062e.md"
+                      "name": "دروس مادتي الجغرافيا و التاريخ.md",
+                      "path": "./.static/obsidian pc/دراسة/الاجتماعيات/دروس مادتي الجغرافيا و التاريخ.js"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+                  "name": "التربية الاسلامية",
                   "children": [
                     {
                       "type": "file",
                       "name": "regional exams islamic.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629/regional exams islamic.md"
+                      "path": "./.static/obsidian pc/دراسة/التربية الاسلامية/regional exams islamic.js"
                     },
                     {
                       "type": "file",
-                      "name": "\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u0629 \u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629/\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u0629 \u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0644\u0627\u0645\u064a\u0629.md"
+                      "name": "دروس مادة التربية الاسلامية.md",
+                      "path": "./.static/obsidian pc/دراسة/التربية الاسلامية/دروس مادة التربية الاسلامية.js"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+                  "name": "العربية",
                   "children": [
                     {
                       "type": "file",
                       "name": "regional exams Arabic.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/regional exams Arabic.md"
+                      "path": "./.static/obsidian pc/دراسة/العربية/regional exams Arabic.js"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0627\u0633\u062a\u0641\u0647\u0627\u0645 \u0627\u0644\u0627\u0633\u062a\u0644\u0632\u0627\u0645\u064a.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u0627\u0644\u0627\u0633\u062a\u0641\u0647\u0627\u0645 \u0627\u0644\u0627\u0633\u062a\u0644\u0632\u0627\u0645\u064a.md"
+                      "name": "الاستفهام الاستلزامي.md",
+                      "path": "./.static/obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.js"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u062a\u0639\u0628\u064a\u0631 \u0648\u0627\u0644\u0627\u0646\u0634\u0627\u0621.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u0627\u0644\u062a\u0639\u0628\u064a\u0631 \u0648\u0627\u0644\u0627\u0646\u0634\u0627\u0621.md"
+                      "name": "التعبير والانشاء.md",
+                      "path": "./.static/obsidian pc/دراسة/العربية/التعبير والانشاء.js"
                     },
                     {
                       "type": "file",
-                      "name": "\u0627\u0644\u0646\u0635\u0648\u0635.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u0627\u0644\u0646\u0635\u0648\u0635.md"
+                      "name": "النصوص.md",
+                      "path": "./.static/obsidian pc/دراسة/العربية/النصوص.js"
                     },
                     {
                       "type": "file",
-                      "name": "\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u0629 \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u062f\u0631\u0648\u0633 \u0645\u0627\u062f\u0629 \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629.md"
+                      "name": "دروس مادة اللغة العربية.md",
+                      "path": "./.static/obsidian pc/دراسة/العربية/دروس مادة اللغة العربية.js"
                     },
                     {
                       "type": "file",
-                      "name": "\u0645\u0644\u062e\u0635 \u0634\u0627\u0645\u0644 1bac.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0639\u0631\u0628\u064a\u0629/\u0645\u0644\u062e\u0635 \u0634\u0627\u0645\u0644 1bac.md"
+                      "name": "ملخص شامل 1bac.md",
+                      "path": "./.static/obsidian pc/دراسة/العربية/ملخص شامل 1bac.js"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0627\u0644\u0641\u0644\u0633\u0641\u0629",
+                  "name": "الفلسفة",
                   "children": [
                     {
                       "type": "file",
-                      "name": "\u0646\u0645\u0648\u0630\u062c \u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0641\u0644\u0633\u0641\u064a.md",
-                      "path": "obsidian pc/\u062f\u0631\u0627\u0633\u0629/\u0627\u0644\u0641\u0644\u0633\u0641\u0629/\u0646\u0645\u0648\u0630\u062c \u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0641\u0644\u0633\u0641\u064a.md"
+                      "name": "نموذج التحليل الفلسفي.md",
+                      "path": "./.static/obsidian pc/دراسة/الفلسفة/نموذج التحليل الفلسفي.js"
                     }
                   ]
                 },
                 {
                   "type": "folder",
-                  "name": "\u0641\u0644\u0633\u0641\u0629",
+                  "name": "فلسفة",
                   "children": []
                 }
               ]
             }
           ]
+<<<<<<< HEAD
         },
         {
           "type": "folder",
@@ -422,6 +446,8 @@
               ]
             }
           ]
+=======
+>>>>>>> 93e8029 (volt wiki)
         }
       ]
     }

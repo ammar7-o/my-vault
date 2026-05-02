@@ -2,6 +2,8 @@
 banner: https://ingenieurchevallier.com/wp-content/uploads/2023/09/ingenieur-chevallier-metiers-optique-vision-formation.jpg
 tags:
   - physics
+share_link: https://share.note.sx/dtwkjkdd#2aNS5+x9tDpC1gCq7vbMWZrS5Eh5KQNT8Fn3Y+HcmOU
+share_updated: 2026-05-02T11:52:17+01:00
 ---
 # Image formée par un miroir plan
 

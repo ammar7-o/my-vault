@@ -1,0 +1,1 @@
+window.__fileContent = "---\ndg-publish: true\n---\nFrom 12-8 to 19-8\n- الثلاثاء\n\n\n\n-  الاربعاء \n\n\n\n- الخميس\n\n\n\n- الجمعة \n\n\n\n- السبت \n\n\n\n- الحد\n\n\n\n- الإثنين \n\n\n==ملخص==\n\n\n\n\n\n\n#week";

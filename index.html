@@ -1691,36 +1691,81 @@
     }
 
     @media (max-width: 768px) {
+<<<<<<< HEAD
+=======
+        :root {
+            --sidebar-width: 280px;
+            --header-height: 56px;
+        }
+        
+>>>>>>> 93e8029 (volt wiki)
         .sidebar,
         .toc-sidebar {
             position: fixed;
             height: 100%;
             z-index: 60;
             box-shadow: var(--shadow-lg);
+<<<<<<< HEAD
+=======
+            top: 0;
+>>>>>>> 93e8029 (volt wiki)
         }
         
         .sidebar {
             left: 0;
             width: var(--sidebar-width);
+<<<<<<< HEAD
+=======
+            padding-top: 0;
+>>>>>>> 93e8029 (volt wiki)
         }
         
         .toc-sidebar {
             right: 0;
+<<<<<<< HEAD
             width: var(--toc-width);
+=======
+            width: 280px;
+>>>>>>> 93e8029 (volt wiki)
         }
         
         .sidebar.collapsed,
         .toc-sidebar.collapsed {
             width: 0;
             border: none;
+<<<<<<< HEAD
         }
         
         .content-wrapper {
             padding: 20px;
+=======
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .sidebar-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 55;
+        }
+        
+        .sidebar-overlay.active {
+            display: block;
+        }
+        
+        .content-wrapper {
+            padding: 16px;
+>>>>>>> 93e8029 (volt wiki)
         }
         
         #content {
             max-width: 100%;
+<<<<<<< HEAD
         }
         
         .header-search-input {
@@ -1729,10 +1774,30 @@
         
         .header-search-input:focus {
             width: 180px;
+=======
+            padding: 16px;
+        }
+        
+        .markdown-body {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        
+        .markdown-body h1 { font-size: 1.6em; }
+        .markdown-body h2 { font-size: 1.35em; }
+        .markdown-body h3 { font-size: 1.15em; }
+        
+        .header-search {
+            display: none;
+>>>>>>> 93e8029 (volt wiki)
         }
         
         .header-left {
             min-width: 0;
+<<<<<<< HEAD
+=======
+            flex: 1;
+>>>>>>> 93e8029 (volt wiki)
         }
         
         #sidebar-toggle {
@@ -1740,6 +1805,7 @@
         }
         
         .header-actions {
+<<<<<<< HEAD
             gap: 4px;
         }
     }
@@ -1751,16 +1817,148 @@
         }
         
         .header-left {
+=======
+            gap: 2px;
+        }
+        
+        .content-header {
+            padding: 0 12px;
+>>>>>>> 93e8029 (volt wiki)
             gap: 8px;
         }
         
         .file-name-display {
+<<<<<<< HEAD
             font-size: 13px;
             max-width: 120px;
+=======
+            max-width: 150px;
+            font-size: 14px;
+        }
+        
+        .theme-toggle, 
+        #toc-toggle {
+            width: 36px;
+            height: 36px;
+        }
+        
+        .sidebar-header {
+            padding: 12px;
+        }
+        
+        .sidebar-content {
+            padding: 8px;
+        }
+        
+        .search-input {
+            padding: 10px 12px 10px 36px;
+            font-size: 14px;
+        }
+        
+        .tree-folder,
+        .tree-file {
+            padding: 10px 12px;
+            font-size: 14px;
+        }
+        
+        .code-block-wrapper pre {
+            padding: 12px;
+            font-size: 13px;
+        }
+        
+        .code-header {
+            padding: 8px 12px;
+        }
+        
+        .markdown-body pre {
+            padding: 12px;
+            font-size: 13px;
+        }
+        
+        .markdown-body img {
+            border-radius: 6px;
+        }
+        
+        .markdown-body blockquote {
+            padding: 10px 14px;
+            margin: 12px 0;
+        }
+        
+        .toc-sidebar {
+            width: 100%;
+            max-width: 320px;
+        }
+        
+        .sidebar-tabs {
+            padding: 0 4px;
+        }
+        
+        .sidebar-tab {
+            padding: 10px 4px;
+            font-size: 11px;
+        }
+        
+        .feature-header {
+            padding: 10px 12px;
+        }
+        
+        .graph-canvas-container {
+            height: 180px;
+        }
+        
+        .links-section,
+        .backlinks-section {
+            padding: 10px 12px;
+            max-height: 120px;
+        }
+        
+        .heading-fold {
+            width: 22px;
+            height: 22px;
+            font-size: 11px;
+        }
+        
+        .float-window {
+            width: 95%;
+            max-height: 90vh;
+        }
+        
+        .float-window-content {
+            padding: 12px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        :root {
+            --sidebar-width: 100%;
+        }
+        
+        .content-header {
+            padding: 0 8px;
+            flex-wrap: wrap;
+            height: auto;
+            min-height: 56px;
+            padding: 8px;
+            gap: 6px;
+        }
+        
+        .header-left {
+            gap: 6px;
+            flex: 1;
+        }
+        
+        .file-name-display {
+            font-size: 13px;
+            max-width: 100px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+>>>>>>> 93e8029 (volt wiki)
         }
         
         .header-actions {
             gap: 2px;
+<<<<<<< HEAD
         }
         
         .header-search {
@@ -1781,6 +1979,177 @@
         
         .markdown-body {
             font-size: 15px;
+=======
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        
+        .content-wrapper {
+            padding: 12px;
+        }
+        
+        #content {
+            padding: 12px;
+        }
+        
+        .markdown-body {
+            font-size: 14px;
+        }
+        
+        .markdown-body h1 { font-size: 1.5em; }
+        .markdown-body h2 { font-size: 1.25em; }
+        .markdown-body h3 { font-size: 1.1em; }
+        .markdown-body h4 { font-size: 1em; }
+        
+        .markdown-body p {
+            margin: 10px 0;
+        }
+        
+        .markdown-body ul,
+        .markdown-body ol {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        
+        .markdown-body li {
+            margin: 4px 0;
+        }
+        
+        .sidebar {
+            width: 100%;
+        }
+        
+        .toc-sidebar {
+            width: 100%;
+            max-width: none;
+        }
+        
+        .toc-item {
+            padding: 10px 12px;
+            font-size: 13px;
+        }
+        
+        .yaml-properties-table {
+            font-size: 12px;
+        }
+        
+        .yaml-properties-table td:first-child {
+            width: 100px;
+        }
+        
+        .code-block-wrapper {
+            margin: 12px 0;
+            border-radius: 6px;
+        }
+        
+        .code-block-wrapper pre {
+            padding: 10px;
+            font-size: 12px;
+        }
+        
+        .code-header {
+            padding: 6px 10px;
+            font-size: 11px;
+        }
+        
+        .copy-btn {
+            padding: 4px 8px;
+            font-size: 10px;
+        }
+        
+        .list-collapse-indicator {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .feature-header {
+            padding: 8px 10px;
+        }
+        
+        .feature-title {
+            font-size: 10px;
+        }
+        
+        .graph-canvas-container {
+            height: 150px;
+        }
+        
+        .links-section,
+        .backlinks-section {
+            padding: 8px 10px;
+            max-height: 100px;
+        }
+        
+        .links-header,
+        .backlinks-header {
+            font-size: 10px;
+        }
+        
+        .link-item,
+        .backlink-item {
+            font-size: 12px;
+            padding: 6px 8px;
+        }
+        
+        .sidebar-panel {
+            overflow-y: auto;
+        }
+        
+        .settings-section {
+            padding: 12px;
+        }
+        
+        .settings-label {
+            font-size: 11px;
+            margin-bottom: 6px;
+        }
+        
+        .settings-select {
+            padding: 8px 10px;
+            font-size: 13px;
+        }
+        
+        .theme-btn {
+            padding: 8px;
+            font-size: 11px;
+        }
+        
+        .color-picker {
+            width: 32px;
+            height: 28px;
+        }
+        
+        .float-window {
+            width: 98%;
+            max-height: 95vh;
+            border-radius: 8px;
+        }
+        
+        .float-window-header {
+            padding: 10px 12px;
+        }
+        
+        .float-window-title {
+            font-size: 13px;
+        }
+        
+        .float-window-content {
+            padding: 10px;
+            font-size: 14px;
+        }
+        
+        .empty-state svg {
+            width: 60px;
+            height: 60px;
+        }
+        
+        .empty-state p {
+            font-size: 14px;
+        }
+        
+.empty-state-hint {
+            font-size: 12px;
+>>>>>>> 93e8029 (volt wiki)
         }
     }
 
@@ -1914,6 +2283,244 @@
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+<<<<<<< HEAD
+=======
+
+    .markdown-body .obsidian-img {
+        cursor: pointer;
+        transition: opacity 0.2s;
+        border: 2px solid transparent;
+    }
+
+    .markdown-body .obsidian-img:hover {
+        opacity: 0.85;
+        border-color: var(--accent-color);
+    }
+
+    .heading-content.collapsed {
+        display: none;
+    }
+
+    .heading-section.collapsed {
+        display: none;
+    }
+
+    .markdown-body h1 .heading-fold,
+    .markdown-body h2 .heading-fold,
+    .markdown-body h3 .heading-fold,
+    .markdown-body h4 .heading-fold,
+    .markdown-body h5 .heading-fold,
+    .markdown-body h6 .heading-fold {
+        display: inline-flex;
+    }
+
+    .image-viewer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 10000;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.25s ease;
+    }
+
+    .image-viewer.active {
+        display: flex;
+        opacity: 1;
+    }
+
+    .image-viewer-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 44px;
+        height: 44px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 24px;
+        transition: all 0.2s;
+        z-index: 10;
+    }
+
+    .image-viewer-close:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: scale(1.1);
+    }
+
+    .image-viewer-content {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .image-viewer-img {
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: contain;
+        transform-origin: center;
+        transition: transform 0.1s ease-out;
+        cursor: grab;
+    }
+
+    .image-viewer-img:active {
+        cursor: grabbing;
+    }
+
+    .image-viewer-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 50px;
+        border: none;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 20px;
+        transition: all 0.2s;
+        opacity: 0.7;
+    }
+
+    .image-viewer-nav:hover {
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.25);
+    }
+
+    .image-viewer-nav.prev {
+        left: 16px;
+    }
+
+    .image-viewer-nav.next {
+        right: 16px;
+    }
+
+    .image-viewer-counter {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 8px 16px;
+        border-radius: 20px;
+    }
+
+    .image-viewer-zoom-controls {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        gap: 8px;
+    }
+
+    .image-viewer-zoom {
+        width: 40px;
+        height: 40px;
+        border: none;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 18px;
+        transition: all 0.2s;
+    }
+
+    .image-viewer-zoom:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+
+    @media (max-width: 768px) {
+        .image-viewer-nav {
+            width: 40px;
+            height: 40px;
+            font-size: 16px;
+        }
+
+        .image-viewer-nav.prev {
+            left: 8px;
+        }
+
+        .image-viewer-nav.next {
+            right: 8px;
+        }
+
+        .image-viewer-close {
+            top: 12px;
+            right: 12px;
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+        }
+
+        .image-viewer-counter {
+            bottom: 16px;
+            font-size: 12px;
+            padding: 6px 12px;
+        }
+
+        .image-viewer-zoom-controls {
+            bottom: 16px;
+            right: 12px;
+        }
+
+        .image-viewer-zoom {
+            width: 36px;
+            height: 36px;
+            font-size: 16px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .image-viewer-nav {
+            width: 36px;
+            height: 36px;
+            font-size: 14px;
+        }
+
+        .image-viewer-nav.prev {
+            left: 4px;
+        }
+
+        .image-viewer-nav.next {
+            right: 4px;
+        }
+
+        .image-viewer-counter {
+            bottom: 70px;
+        }
+
+        .image-viewer-zoom-controls {
+            bottom: 12px;
+            right: 50%;
+            transform: translateX(50%);
+        }
+    }
+>>>>>>> 93e8029 (volt wiki)
 </style>
 <body>
     <div class="app-container">
@@ -1951,6 +2558,7 @@
                 <div id="file-tree" class="file-tree" role="tree"></div>
             </div>
         </aside>
+        <div class="sidebar-overlay" id="sidebar-overlay"></div>
 
         <main class="main-content" role="main">
             <header class="content-header">
@@ -2149,7 +2757,11 @@
     class VoltMDCore {
         constructor(options = {}) {
             this.options = {
+<<<<<<< HEAD
                 jsonUrl: options.jsonUrl || 'core/base.json',
+=======
+                jsonUrl: options.jsonUrl || 'core/base.js',
+>>>>>>> 93e8029 (volt wiki)
                 baseUrl: options.baseUrl || '',
                 theme: localStorage.getItem('volt-md-theme') || 'dark',
                 ...options
@@ -2166,6 +2778,10 @@
             this.contentSearchMatches = [];
             this.contentSearchIndex = -1;
             this.fileLinks = new Map();
+<<<<<<< HEAD
+=======
+            this.scrollPositions = {};
+>>>>>>> 93e8029 (volt wiki)
             
             this.settings = {
                 syntaxHighlight: true,
@@ -2278,6 +2894,16 @@
                 this.saveState();
             });
             
+<<<<<<< HEAD
+=======
+            document.getElementById('sidebar-overlay')?.addEventListener('click', () => {
+                const sidebar = document.getElementById('sidebar');
+                sidebar?.classList.add('collapsed');
+                document.getElementById('sidebar-overlay')?.classList.remove('active');
+                this.saveState();
+            });
+            
+>>>>>>> 93e8029 (volt wiki)
             document.getElementById('sidebar-close')?.addEventListener('click', () => {
                 document.getElementById('sidebar').classList.add('collapsed');
                 this.saveState();
@@ -2375,6 +3001,34 @@
             });
             
             this.loadUserSettings();
+<<<<<<< HEAD
+=======
+
+            const contentWrapper = document.querySelector('.content-wrapper');
+            if (contentWrapper) {
+                let scrollTimeout;
+                contentWrapper.addEventListener('scroll', () => {
+                    clearTimeout(scrollTimeout);
+                    scrollTimeout = setTimeout(() => {
+                        if (this.currentFile && this.currentFile.path) {
+                            this.scrollPositions[this.currentFile.path] = contentWrapper.scrollTop;
+                            this.saveScrollPosition(this.currentFile.path, contentWrapper.scrollTop);
+                        }
+                    }, 300);
+                });
+            }
+        }
+
+        saveScrollPosition(filePath, scrollTop) {
+            const positions = JSON.parse(localStorage.getItem('volt-md-scroll-positions') || '{}');
+            positions[filePath] = scrollTop;
+            localStorage.setItem('volt-md-scroll-positions', JSON.stringify(positions));
+        }
+
+        getScrollPosition(filePath) {
+            const positions = JSON.parse(localStorage.getItem('volt-md-scroll-positions') || '{}');
+            return positions[filePath] || 0;
+>>>>>>> 93e8029 (volt wiki)
         }
         
         loadUserSettings() {
@@ -2446,7 +3100,23 @@
         }
         
         toggleSidebar() {
+<<<<<<< HEAD
             document.getElementById('sidebar')?.classList.toggle('collapsed');
+=======
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebar-overlay');
+            const isMobile = window.innerWidth <= 768;
+            
+            sidebar?.classList.toggle('collapsed');
+            
+            if (isMobile) {
+                if (sidebar?.classList.contains('collapsed')) {
+                    overlay?.classList.remove('active');
+                } else {
+                    overlay?.classList.add('active');
+                }
+            }
+>>>>>>> 93e8029 (volt wiki)
         }
         
         toggleToc() {
@@ -2498,6 +3168,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
         
         async loadTree() {
+<<<<<<< HEAD
             try {
                 const url = this.options.baseUrl + this.options.jsonUrl;
                 const response = await fetch(url);
@@ -2506,6 +3177,21 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 this.renderFileTree();
             } catch (error) {
                 console.error('Error loading file tree:', error);
+=======
+            if (window.__fileTree) {
+                this.fileTree = window.__fileTree.tree[0];
+                this.renderFileTree();
+            } else {
+                try {
+                    const url = this.options.baseUrl + this.options.jsonUrl;
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    this.fileTree = data.tree[0];
+                    this.renderFileTree();
+                } catch (error) {
+                    console.error('Error loading file tree:', error);
+                }
+>>>>>>> 93e8029 (volt wiki)
             }
         }
         
@@ -2513,9 +3199,13 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             const files = this.getAllFiles(this.fileTree);
             for (const file of files) {
                 try {
+<<<<<<< HEAD
                     const fullPath = this.options.baseUrl + file.path;
                     const response = await fetch(fullPath);
                     const content = await response.text();
+=======
+                    const content = await this.loadFromScript(file.path);
+>>>>>>> 93e8029 (volt wiki)
                     this.allFilesContent[file.path] = content;
                     this.allFiles.push(file);
                 } catch (error) {
@@ -2523,6 +3213,30 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
             }
         }
+<<<<<<< HEAD
+=======
+
+        loadFromScript(filePath) {
+            return new Promise((resolve, reject) => {
+                const scriptId = 'file-script-' + Date.now();
+                const fullPath = this.options.baseUrl + filePath;
+                const script = document.createElement('script');
+                script.id = scriptId;
+                script.src = fullPath;
+                script.onload = () => {
+                    const content = window.__fileContent || '';
+                    delete window.__fileContent;
+                    document.getElementById(scriptId)?.remove();
+                    resolve(content);
+                };
+                script.onerror = () => {
+                    document.getElementById(scriptId)?.remove();
+                    reject(new Error(`Failed to load ${filePath}`));
+                };
+                document.head.appendChild(script);
+            });
+        }
+>>>>>>> 93e8029 (volt wiki)
         
         getAllFiles(node, files = []) {
             if (node.type === 'file') {
@@ -2659,6 +3373,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         async loadFile(filePath, fileName) {
             try {
                 let content;
+<<<<<<< HEAD
                 let fetchPath = filePath;
                 if (this.options.baseUrl && filePath.includes(' ')) {
                     fetchPath = encodeURIComponent(filePath);
@@ -2672,6 +3387,34 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                     }
                     content = await response.text();
+=======
+                
+                if (filePath.endsWith('.html')) {
+                    const response = await fetch(filePath);
+                    content = await response.text();
+                    this.currentContent = content;
+                    this.currentFile = { path: filePath, name: fileName };
+                    this.renderHtmlContent(content);
+                    this.updateWordCount();
+                    
+                    document.querySelectorAll('.tree-file').forEach(f => f.classList.remove('active'));
+                    document.querySelector(`[data-path="${filePath}"]`)?.classList.add('active');
+                    
+                    const display = document.getElementById('file-name-display');
+                    if (display) {
+                        display.textContent = this.sanitize(fileName.replace('.html', ''));
+                    }
+                    
+                    this.saveState();
+                    this.updateUrl(filePath);
+                    return;
+                }
+                
+                if (this.allFilesContent[filePath]) {
+                    content = this.allFilesContent[filePath];
+                } else {
+                    content = await this.loadFromScript(filePath);
+>>>>>>> 93e8029 (volt wiki)
                     this.allFilesContent[filePath] = content;
                 }
                 
@@ -2695,6 +3438,19 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 
                 this.saveState();
                 this.updateUrl(filePath);
+<<<<<<< HEAD
+=======
+
+                setTimeout(() => {
+                    const contentWrapper = document.querySelector('.content-wrapper');
+                    if (contentWrapper) {
+                        const savedScroll = this.getScrollPosition(filePath);
+                        if (savedScroll > 0) {
+                            contentWrapper.scrollTop = savedScroll;
+                        }
+                    }
+                }, 50);
+>>>>>>> 93e8029 (volt wiki)
             } catch (error) {
                 console.error('Error loading file:', error);
                 const contentEl = document.getElementById('content');
@@ -2717,6 +3473,11 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             
             content = content.replace(/==([^=]+)==/g, '<mark>$1</mark>');
             
+<<<<<<< HEAD
+=======
+            content = this.processObsidianImages(content);
+            
+>>>>>>> 93e8029 (volt wiki)
             let html;
             try {
                 if (typeof marked !== 'undefined' && typeof marked.parse === 'function') {
@@ -2750,6 +3511,25 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             
             html = this.detectAndApplyRtl(html);
             
+<<<<<<< HEAD
+=======
+            html = this.addHeadingFolds(html);
+            
+            const contentEl = document.getElementById('content');
+            if (!contentEl) {
+                console.error('Content element not found!');
+                return;
+            }
+            
+            contentEl.innerHTML = html;
+            
+            this.attachContentEvents();
+            this.attachImagePreviewEvents();
+            this.currentHtml = html;
+        }
+        
+        renderHtmlContent(html) {
+>>>>>>> 93e8029 (volt wiki)
             const contentEl = document.getElementById('content');
             if (!contentEl) {
                 console.error('Content element not found!');
@@ -2758,7 +3538,301 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             
             contentEl.innerHTML = html;
             this.attachContentEvents();
+<<<<<<< HEAD
             this.currentHtml = html;
+=======
+            this.attachImagePreviewEvents();
+        }
+
+        processObsidianImages(content) {
+            content = content.replace(/!\[(https?:\/\/[^\]]+)\]\(([^)]+)\)/g, (match, url, alias) => {
+                const cleanUrl = url.trim();
+                const cleanAlias = alias.trim();
+                return `![${cleanAlias}](${cleanUrl})`;
+            });
+            return content;
+        }
+
+        addHeadingFolds(html) {
+            const temp = document.createElement('div');
+            temp.innerHTML = html;
+            
+            const headings = temp.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            const headingElements = Array.from(headings);
+            
+            headingElements.forEach((heading, index) => {
+                if (heading.querySelector('.heading-fold')) return;
+                
+                const foldBtn = document.createElement('span');
+                foldBtn.className = 'heading-fold';
+                foldBtn.dataset.collapsed = 'false';
+                foldBtn.dataset.index = index;
+                foldBtn.innerHTML = '<i class="fa-solid fa-minus"></i>';
+                heading.insertBefore(foldBtn, heading.firstChild);
+                
+                const level = parseInt(heading.tagName[1]);
+                let endIndex = headingElements.length;
+                for (let i = index + 1; i < headingElements.length; i++) {
+                    const nextLevel = parseInt(headingElements[i].tagName[1]);
+                    if (nextLevel <= level) {
+                        endIndex = i;
+                        break;
+                    }
+                }
+                
+                const contentContainer = document.createElement('div');
+                contentContainer.className = 'heading-section';
+                contentContainer.dataset.startIndex = index;
+                contentContainer.dataset.endIndex = endIndex;
+                
+                let next = heading.nextElementSibling;
+                while (next && !next.matches('h1, h2, h3, h4, h5, h6')) {
+                    const toMove = next;
+                    next = next.nextElementSibling;
+                    contentContainer.appendChild(toMove);
+                }
+                
+                if (contentContainer.children.length > 0) {
+                    heading.parentNode.insertBefore(contentContainer, heading.nextSibling);
+                }
+            });
+            
+            return temp.innerHTML;
+        }
+
+        attachImagePreviewEvents() {
+            const content = document.getElementById('content');
+            if (!content) return;
+            
+            const images = content.querySelectorAll('img');
+            if (images.length === 0) return;
+            
+            images.forEach((img) => {
+                img.classList.add('obsidian-img');
+                img.style.cursor = 'zoom-in';
+                img.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    this.openImageViewer(img);
+                });
+            });
+            
+            this.initImageViewer();
+        }
+
+        initImageViewer() {
+            if (this.imageViewerInitialized) return;
+            this.imageViewerInitialized = true;
+            
+            const viewer = document.createElement('div');
+            viewer.className = 'image-viewer';
+            viewer.id = 'image-viewer';
+            viewer.innerHTML = `
+                <button class="image-viewer-close" title="Close (Esc)">&times;</button>
+                <div class="image-viewer-content">
+                    <button class="image-viewer-nav prev" title="Previous (←)">&#8249;</button>
+                    <img class="image-viewer-img" src="" alt="Preview">
+                    <button class="image-viewer-nav next" title="Next (→)">&#8250;</button>
+                </div>
+                <div class="image-viewer-counter"></div>
+                <div class="image-viewer-zoom-controls">
+                    <button class="image-viewer-zoom zoom-out" title="Zoom Out">−</button>
+                    <button class="image-viewer-zoom zoom-reset" title="Reset">1:1</button>
+                    <button class="image-viewer-zoom zoom-in" title="Zoom In">+</button>
+                </div>
+            `;
+            document.body.appendChild(viewer);
+            
+            this.viewerElements = {
+                viewer: viewer,
+                img: viewer.querySelector('.image-viewer-img'),
+                close: viewer.querySelector('.image-viewer-close'),
+                prev: viewer.querySelector('.prev'),
+                next: viewer.querySelector('.next'),
+                counter: viewer.querySelector('.counter'),
+                zoomIn: viewer.querySelector('.zoom-in'),
+                zoomOut: viewer.querySelector('.zoom-out'),
+                zoomReset: viewer.querySelector('.zoom-reset')
+            };
+            
+            this.viewerState = {
+                currentIndex: 0,
+                images: [],
+                scale: 1,
+                panX: 0,
+                panY: 0,
+                isDragging: false,
+                startX: 0,
+                startY: 0
+            };
+            
+            this.viewerElements.close.addEventListener('click', () => this.closeImageViewer());
+            this.viewerElements.prev.addEventListener('click', () => this.navigateImage(-1));
+            this.viewerElements.next.addEventListener('click', () => this.navigateImage(1));
+            this.viewerElements.zoomIn.addEventListener('click', () => this.zoomImage(1.25));
+            this.viewerElements.zoomOut.addEventListener('click', () => this.zoomImage(0.8));
+            this.viewerElements.zoomReset.addEventListener('click', () => this.resetZoom());
+            
+            this.viewerElements.viewer.addEventListener('click', (e) => {
+                if (e.target === this.viewerElements.viewer || e.target === this.viewerElements.viewer.querySelector('.image-viewer-content')) {
+                    this.closeImageViewer();
+                }
+            });
+            
+            this.viewerElements.img.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                const delta = e.deltaY > 0 ? 0.9 : 1.1;
+                this.zoomImage(delta);
+            });
+            
+            this.viewerElements.img.addEventListener('mousedown', (e) => this.startPan(e));
+            document.addEventListener('mousemove', (e) => this.doPan(e));
+            document.addEventListener('mouseup', () => this.endPan());
+            
+            this.viewerElements.img.addEventListener('touchstart', (e) => this.handleTouchStart(e));
+            this.viewerElements.img.addEventListener('touchmove', (e) => this.handleTouchMove(e));
+            this.viewerElements.img.addEventListener('touchend', () => this.handleTouchEnd());
+            
+            document.addEventListener('keydown', (e) => {
+                if (!this.viewerElements.viewer.classList.contains('active')) return;
+                if (e.key === 'Escape') this.closeImageViewer();
+                if (e.key === 'ArrowLeft') this.navigateImage(-1);
+                if (e.key === 'ArrowRight') this.navigateImage(1);
+                if (e.key === '+' || e.key === '=') this.zoomImage(1.25);
+                if (e.key === '-') this.zoomImage(0.8);
+                if (e.key === '0') this.resetZoom();
+            });
+        }
+
+        openImageViewer(clickedImg) {
+            const content = document.getElementById('content');
+            const allImages = Array.from(content.querySelectorAll('img'));
+            this.viewerState.images = allImages;
+            this.viewerState.currentIndex = allImages.indexOf(clickedImg);
+            
+            this.updateViewerImage();
+            this.viewerElements.viewer.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        closeImageViewer() {
+            this.viewerElements.viewer.classList.remove('active');
+            document.body.style.overflow = '';
+            this.resetZoom();
+        }
+
+        updateViewerImage() {
+            const img = this.viewerState.images[this.viewerState.currentIndex];
+            if (!img) return;
+            
+            this.viewerElements.img.src = img.src;
+            this.viewerElements.img.alt = img.alt || `Image ${this.viewerState.currentIndex + 1}`;
+            
+            const counter = this.viewerElements.viewer.querySelector('.image-viewer-counter');
+            counter.textContent = `${this.viewerState.currentIndex + 1} / ${this.viewerState.images.length}`;
+            
+            this.viewerElements.prev.style.display = this.viewerState.images.length > 1 ? 'flex' : 'none';
+            this.viewerElements.next.style.display = this.viewerState.images.length > 1 ? 'flex' : 'none';
+            
+            this.resetZoom();
+        }
+
+        navigateImage(direction) {
+            const total = this.viewerState.images.length;
+            this.viewerState.currentIndex = (this.viewerState.currentIndex + direction + total) % total;
+            this.updateViewerImage();
+        }
+
+        zoomImage(factor) {
+            this.viewerState.scale = Math.max(0.25, Math.min(5, this.viewerState.scale * factor));
+            this.viewerElements.img.style.transform = `translate(${this.viewerState.panX}px, ${this.viewerState.panY}px) scale(${this.viewerState.scale})`;
+        }
+
+        resetZoom() {
+            this.viewerState.scale = 1;
+            this.viewerState.panX = 0;
+            this.viewerState.panY = 0;
+            this.viewerElements.img.style.transform = 'translate(0, 0) scale(1)';
+        }
+
+        startPan(e) {
+            this.viewerState.isDragging = true;
+            this.viewerState.startX = e.clientX - this.viewerState.panX;
+            this.viewerState.startY = e.clientY - this.viewerState.panY;
+            this.viewerElements.img.style.cursor = 'grabbing';
+        }
+
+        doPan(e) {
+            if (!this.viewerState.isDragging) return;
+            this.viewerState.panX = e.clientX - this.viewerState.startX;
+            this.viewerState.panY = e.clientY - this.viewerState.startY;
+            this.viewerElements.img.style.transform = `translate(${this.viewerState.panX}px, ${this.viewerState.panY}px) scale(${this.viewerState.scale})`;
+        }
+
+        endPan() {
+            this.viewerState.isDragging = false;
+            this.viewerElements.img.style.cursor = 'grab';
+        }
+
+        handleTouchStart(e) {
+            if (e.touches.length === 1) {
+                this.viewerState.isDragging = true;
+                this.viewerState.startX = e.touches[0].clientX - this.viewerState.panX;
+                this.viewerState.startY = e.touches[0].clientY - this.viewerState.panY;
+            } else if (e.touches.length === 2) {
+                this.viewerState.initialPinchDistance = this.getPinchDistance(e);
+            }
+        }
+
+        handleTouchMove(e) {
+            e.preventDefault();
+            if (e.touches.length === 1 && this.viewerState.isDragging) {
+                this.viewerState.panX = e.touches[0].clientX - this.viewerState.startX;
+                this.viewerState.panY = e.touches[0].clientY - this.viewerState.startY;
+                this.viewerElements.img.style.transform = `translate(${this.viewerState.panX}px, ${this.viewerState.panY}px) scale(${this.viewerState.scale})`;
+            } else if (e.touches.length === 2) {
+                const currentDistance = this.getPinchDistance(e);
+                const factor = currentDistance / this.viewerState.initialPinchDistance;
+                this.viewerState.initialPinchDistance = currentDistance;
+                this.zoomImage(factor);
+            }
+        }
+
+        handleTouchEnd() {
+            this.viewerState.isDragging = false;
+        }
+
+        getPinchDistance(e) {
+            const dx = e.touches[0].clientX - e.touches[1].clientX;
+            const dy = e.touches[0].clientY - e.touches[1].clientY;
+            return Math.sqrt(dx * dx + dy * dy);
+        }
+
+        openIframePreview(url, title) {
+            const existing = document.getElementById('iframe-preview-overlay');
+            if (existing) existing.remove();
+            
+            const overlay = document.createElement('div');
+            overlay.id = 'iframe-preview-overlay';
+            overlay.innerHTML = `
+                <div class="iframe-preview-box">
+                    <div class="iframe-preview-header">
+                        <span class="iframe-preview-title">${title}</span>
+                        <button class="iframe-preview-close">&times;</button>
+                    </div>
+                    <iframe class="iframe-preview-content" src="${url}" frameborder="0"></iframe>
+                </div>
+            `;
+            document.body.appendChild(overlay);
+            
+            overlay.querySelector('.iframe-preview-close').addEventListener('click', () => overlay.remove());
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) overlay.remove();
+            });
+            
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') overlay.remove();
+            });
+>>>>>>> 93e8029 (volt wiki)
         }
         
         styleYamlFrontMatter(html) {
@@ -3021,6 +4095,7 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             btn.dataset.collapsed = isCollapsed ? 'false' : 'true';
             btn.innerHTML = isCollapsed ? '<i class="fa-solid fa-plus"></i>' : '<i class="fa-solid fa-minus"></i>';
             
+<<<<<<< HEAD
             const siblings = btn.dataset.siblings?.split(',').filter(Boolean) || [];
             siblings.forEach(id => {
                 const el = document.getElementById(id);
@@ -3028,6 +4103,15 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     el.style.display = isCollapsed ? '' : 'none';
                 }
             });
+=======
+            const heading = btn.closest('h1, h2, h3, h4, h5, h6');
+            if (heading) {
+                const content = heading.nextElementSibling;
+                if (content && content.classList.contains('heading-section')) {
+                    content.classList.toggle('collapsed', !isCollapsed);
+                }
+            }
+>>>>>>> 93e8029 (volt wiki)
         }
         
         highlightCodeBlocks(html) {
@@ -3573,11 +4657,21 @@ drawGraph(ctx, width, height) {
         }
     }
 
+<<<<<<< HEAD
+=======
+    </script>
+    <script src="core/base.js"></script>
+    <script>
+>>>>>>> 93e8029 (volt wiki)
     document.addEventListener('DOMContentLoaded', () => {
         const params = new URLSearchParams(window.location.search);
         const baseUrl = params.get('baseUrl') || '';
         window.voltMD = new VoltMDCore({
+<<<<<<< HEAD
             jsonUrl: 'core/base.json',
+=======
+            jsonUrl: 'core/base.js',
+>>>>>>> 93e8029 (volt wiki)
             baseUrl: baseUrl
         });
     });

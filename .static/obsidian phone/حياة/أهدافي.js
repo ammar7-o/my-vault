@@ -1,0 +1,1 @@
+window.__fileContent = "---\nkanban-plugin: board\ndg-publish: true\n---\n\n## اهداف دراسية\n\n\n\n## اهداف مهنية\n\n- [ ] صنع موقع تعلم من خلال القصص\n\n\n## اهداف شخصية\n\n\n\n## اهداف دينية\n\n- [ ] حفظ من سورة الكهف الى سورة الحج\n\n\n\n\n%% kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false]}\n```\n%%";

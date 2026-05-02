@@ -1,0 +1,1 @@
+window.__fileContent = "<div class=\"ammar\">hello world</div>\n";

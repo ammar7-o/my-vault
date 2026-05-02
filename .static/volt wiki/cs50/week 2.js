@@ -1,0 +1,1 @@
+window.__fileContent = "---\nbanner: https://www.londonacademyofit.co.uk/images/courses/c_programming_for_beginners.jpg\nauthor: Ammar chacal\ndg-publish: true\ntags:\n  - cs50\n  - c\n---\n# Arrays\n\t\t";

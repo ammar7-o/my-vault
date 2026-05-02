@@ -1,0 +1,1 @@
+window.__fileContent = "---\ndg-publish: true\n---\n```dataview\nTable from #flashcards \n```\n";
