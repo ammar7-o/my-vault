@@ -6,7 +6,7 @@ python3 << 'EOF'
 import os
 import json
 
-STATIC_DIR = ".static"
+STATIC_DIR = "static"
 PROJECT_ROOT = os.getcwd()
 expected_files = set()
 
@@ -14,7 +14,7 @@ def scan_directory(base_path, static_base):
     global expected_files
     items = []
     for item in sorted(os.listdir(base_path)):
-        if item.startswith('.') or item == 'core' or item == 'node_modules' or item == STATIC_DIR:
+        if item.startswith('.') or item == 'node_modules' or item == STATIC_DIR:
             continue
         full_path = os.path.join(base_path, item)
         
@@ -47,6 +47,15 @@ def scan_directory(base_path, static_base):
                     "path": "./" + js_path.replace('\\', '/'),
                     "isHtml": True
                 })
+            elif item.endswith('.excalidraw'):
+                js_path = os.path.join(STATIC_DIR, rel_path.replace('.excalidraw', '.js'))
+                expected_files.add(js_path.replace('\\', '/'))
+                items.append({
+                    "type": "file",
+                    "name": item,
+                    "path": "./" + js_path.replace('\\', '/'),
+                    "isExcalidraw": True
+                })
     return items
 
 def remove_stale_files():
@@ -58,7 +67,7 @@ def remove_stale_files():
     for root, dirs, files in os.walk(PROJECT_ROOT):
         for file in files:
             if file.startswith('.'): continue
-            if file == 'core' or file == 'node_modules' or file == STATIC_DIR: continue
+            if file == 'node_modules' or file == STATIC_DIR: continue
             full_path = os.path.join(root, file)
             rel_path = os.path.relpath(full_path, PROJECT_ROOT).replace('\\', '/')
             if file.endswith('.md'):
@@ -67,6 +76,8 @@ def remove_stale_files():
             elif file.endswith('.html') and not (file == 'index.html' and os.path.dirname(rel_path) == ''):
                 expected_html.add(rel_path)
                 expected_js_no_prefix.add(rel_path.replace('.html', '.js'))
+            elif file.endswith('.excalidraw'):
+                expected_js_no_prefix.add(rel_path.replace('.excalidraw', '.js'))
     
     static_full = os.path.join(PROJECT_ROOT, STATIC_DIR)
     for root, dirs, files in os.walk(static_full):
@@ -86,7 +97,7 @@ def convert_files_to_json(base_path):
         os.makedirs(STATIC_DIR)
     
     for item in sorted(os.listdir(base_path)):
-        if item.startswith('.') or item == 'core' or item == 'node_modules' or item == STATIC_DIR:
+        if item.startswith('.') or item == 'node_modules' or item == STATIC_DIR:
             continue
         full_path = os.path.join(base_path, item)
         
@@ -124,6 +135,20 @@ def convert_files_to_json(base_path):
                     f.write(f'window.__fileContent = {json.dumps(content, ensure_ascii=False)};')
                 
                 print(f"Created: {js_file}")
+            elif item.endswith('.excalidraw'):
+                with open(full_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                js_file = os.path.join(STATIC_DIR, rel_path.replace('.excalidraw', '.js'))
+                expected_files.add(js_file.replace('\\', '/'))
+                dir_path = os.path.dirname(js_file)
+                if dir_path and not os.path.exists(dir_path):
+                    os.makedirs(dir_path)
+                
+                with open(js_file, 'w', encoding='utf-8') as f:
+                    f.write(f'window.__fileContent = {json.dumps(content, ensure_ascii=False)};')
+                
+                print(f"Created: {js_file}")
 
 convert_files_to_json(PROJECT_ROOT)
 
@@ -132,7 +157,7 @@ remove_stale_files()
 tree = scan_directory(PROJECT_ROOT, STATIC_DIR)
 result = {"tree": [{"type": "folder", "name": "root", "children": tree}]}
 
-js_file = "core/base.js"
+js_file = "volt-core/base.js"
 with open(js_file, 'w', encoding='utf-8') as f:
     f.write(f'window.__fileTree = {json.dumps(result, ensure_ascii=False)};')
 

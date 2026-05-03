@@ -53,12 +53,14 @@
             "id": "4036ae8cf665d7e4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/arabic1.md"
+                "file": "inbox/name.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "arabic1"
+              "icon": "lucide-file",
+              "title": "name"
             }
           }
         ],
@@ -82,7 +84,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -249,9 +251,12 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "4036ae8cf665d7e4",
+  "active": "1b00ded2f3f89150",
   "lastOpenFiles": [
+    "Excalidraw/arabic2.md",
     "Excalidraw/arabic1.md",
+    "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
+    "core/base.json",
     "inbox/name.md",
     "core/base.js",
     "core/volt-md-core.js",
@@ -260,7 +265,6 @@
     "core/README.md",
     "core/FEATURES.md",
     "core/ENHANCEMENTS.md",
-    "core/base.json",
     "obsidian pc/دراسة/Physics/Optique research 1.md",
     "obsidian pc/دراسة/Physics/Optique research 2.md",
     "obsidian pc/دراسة/Physics/Optique research 3.md",
@@ -293,8 +297,6 @@
     "volt wiki/git basics.md",
     "obsidian phone/علوم/النفس/التغلب على الخجل.md",
     "obsidian phone/علوم/النفس/الرهاب الاجتماعي.md",
-    "obsidian phone/دين/احكام/حكم قطرات البول.md",
-    "obsidian phone/Weeks/2025-week1.md",
     "obsidian pc/Pc/my goals.canvas",
     "bases/Untitled.base",
     "bases/1bac/base.base",
