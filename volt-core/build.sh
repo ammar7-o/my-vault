@@ -14,7 +14,7 @@ def scan_directory(base_path, static_base):
     global expected_files
     items = []
     for item in sorted(os.listdir(base_path)):
-        if item.startswith('.') or item == 'node_modules' or item == STATIC_DIR:
+        if item.startswith('.') or item == 'node_modules' or item == STATIC_DIR or item == 'volt-core':
             continue
         full_path = os.path.join(base_path, item)
         
@@ -97,7 +97,7 @@ def convert_files_to_json(base_path):
         os.makedirs(STATIC_DIR)
     
     for item in sorted(os.listdir(base_path)):
-        if item.startswith('.') or item == 'node_modules' or item == STATIC_DIR:
+        if item.startswith('.') or item == 'node_modules' or item == STATIC_DIR or item == 'volt-core':
             continue
         full_path = os.path.join(base_path, item)
         
