@@ -44,6 +44,14 @@
             this.initGraph();
             this.initMermaid();
             
+            const isMobile = window.innerWidth <= 768;
+            if (isMobile) {
+                document.getElementById('sidebar')?.classList.add('collapsed');
+                document.getElementById('toc-sidebar')?.classList.add('collapsed');
+                const overlay = document.getElementById('sidebar-overlay');
+                if (overlay) overlay.classList.remove('active');
+            }
+            
             const urlFile = this.getUrlFile();
             
             if (urlFile) {
@@ -307,6 +315,13 @@
                     }, 300);
                 });
             }
+
+            document.getElementById('go-to-top-btn')?.addEventListener('click', () => {
+                const contentWrapper = document.querySelector('.content-wrapper');
+                if (contentWrapper) {
+                    contentWrapper.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            });
         }
 
         saveScrollPosition(filePath, scrollTop) {
@@ -729,6 +744,16 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                         }
                     }
                 }, 50);
+
+                const isMobile = window.innerWidth <= 768;
+                if (isMobile) {
+                    const sidebar = document.getElementById('sidebar');
+                    if (sidebar && !sidebar.classList.contains('collapsed')) {
+                        sidebar.classList.add('collapsed');
+                        const overlay = document.getElementById('sidebar-overlay');
+                        if (overlay) overlay.classList.remove('active');
+                    }
+                }
             } catch (error) {
                 console.error('Error loading file:', error);
                 const contentEl = document.getElementById('content');
@@ -1675,11 +1700,208 @@ currentFileEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     container.style.cssText = 'text-align: center; padding: 20px 0; overflow-x: auto;';
                     container.innerHTML = svg;
                     
+                    const toolbar = document.createElement('div');
+                    toolbar.className = 'mermaid-toolbar';
+                    toolbar.innerHTML = `
+                        <button class="mermaid-toolbar-btn" title="Copy Code" onclick="window.voltMD.copyMermaidCode(this)">
+                            <i class="fa-solid fa-copy"></i>
+                        </button>
+                        <button class="mermaid-toolbar-btn" title="View Fullscreen" onclick="window.voltMD.openMermaidFullscreen(this)">
+                            <i class="fa-solid fa-expand"></i>
+                        </button>
+                    `;
+                    container.appendChild(toolbar);
+                    
+                    const svgEl = container.querySelector('svg');
+                    if (svgEl) {
+                        svgEl.dataset.mermaidCode = code;
+                    }
+                    
                     pre.replaceWith(container);
                 } catch (e) {
                     console.warn('Mermaid rendering error:', e);
                 }
             }
+        }
+
+        openMermaidFullscreen(btn) {
+            const container = btn.closest('.mermaid-container');
+            const svg = container.querySelector('svg');
+            if (!svg) return;
+            
+            const code = svg.dataset.mermaidCode || '';
+            
+            this.createMermaidFullscreenOverlay(code);
+        }
+
+        createMermaidFullscreenOverlay(code) {
+            const existing = document.getElementById('mermaid-fullscreen-overlay');
+            if (existing) existing.remove();
+            
+            const overlay = document.createElement('div');
+            overlay.id = 'mermaid-fullscreen-overlay';
+            overlay.className = 'mermaid-fullscreen-overlay active';
+            
+            this.mermaidZoom = 1;
+            this.mermaidPanX = 0;
+            this.mermaidPanY = 0;
+            this.mermaidPanning = false;
+            this.mermaidStartX = 0;
+            this.mermaidStartY = 0;
+            
+            overlay.innerHTML = `
+                <div class="mermaid-fullscreen-header">
+                    <span class="mermaid-fullscreen-title">Mermaid Diagram</span>
+                    <div class="mermaid-fullscreen-controls">
+                        <button class="mermaid-fullscreen-btn" id="mermaid-zoom-out" title="Zoom Out">
+                            <i class="fa-solid fa-minus"></i> Zoom
+                        </button>
+                        <button class="mermaid-fullscreen-btn" id="mermaid-zoom-reset" title="Reset Zoom">
+                            <i class="fa-solid fa-expand"></i> 100%
+                        </button>
+                        <button class="mermaid-fullscreen-btn" id="mermaid-zoom-in" title="Zoom In">
+                            <i class="fa-solid fa-plus"></i> Zoom
+                        </button>
+                        <button class="mermaid-fullscreen-btn" id="mermaid-pan-btn" title="Pan Mode">
+                            <i class="fa-solid fa-hand"></i> Pan
+                        </button>
+                        <button class="mermaid-fullscreen-btn close-btn" id="mermaid-close">
+                            <i class="fa-solid fa-times"></i> Close
+                        </button>
+                    </div>
+                </div>
+                <div class="mermaid-fullscreen-content" id="mermaid-fullscreen-content">
+                </div>
+            `;
+            
+            document.body.appendChild(overlay);
+            
+            const content = document.getElementById('mermaid-fullscreen-content');
+            
+            mermaid.render('mermaid-fullscreen-svg', code).then(({ svg }) => {
+                content.innerHTML = svg;
+                const svgEl = content.querySelector('svg');
+                if (svgEl) {
+                    svgEl.style.transform = 'translate(0px, 0px) scale(1)';
+                }
+            }).catch(e => {
+                console.warn('Mermaid rendering error in fullscreen:', e);
+                content.innerHTML = '<p style="color: var(--error-color)">Error rendering diagram</p>';
+            });
+            
+            document.getElementById('mermaid-close').addEventListener('click', () => this.closeMermaidFullscreen());
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) this.closeMermaidFullscreen();
+            });
+            
+            document.getElementById('mermaid-zoom-in').addEventListener('click', () => {
+                this.mermaidZoom = Math.min(4, this.mermaidZoom + 0.25);
+                this.updateMermaidTransform();
+            });
+            
+            document.getElementById('mermaid-zoom-out').addEventListener('click', () => {
+                this.mermaidZoom = Math.max(0.25, this.mermaidZoom - 0.25);
+                this.updateMermaidTransform();
+            });
+            
+            document.getElementById('mermaid-zoom-reset').addEventListener('click', () => {
+                this.mermaidZoom = 1;
+                this.mermaidPanX = 0;
+                this.mermaidPanY = 0;
+                this.updateMermaidTransform();
+            });
+            
+            const panBtn = document.getElementById('mermaid-pan-btn');
+            panBtn.addEventListener('click', () => {
+                this.mermaidPanning = !this.mermaidPanning;
+                panBtn.classList.toggle('active', this.mermaidPanning);
+                content.classList.toggle('panning', this.mermaidPanning);
+            });
+            
+            content.addEventListener('mousedown', (e) => {
+                if (!this.mermaidPanning) return;
+                this.mermaidIsDragging = true;
+                this.mermaidStartX = e.clientX - this.mermaidPanX;
+                this.mermaidStartY = e.clientY - this.mermaidPanY;
+                content.style.cursor = 'grabbing';
+            });
+            
+            document.addEventListener('mousemove', (e) => {
+                if (!this.mermaidIsDragging) return;
+                this.mermaidPanX = e.clientX - this.mermaidStartX;
+                this.mermaidPanY = e.clientY - this.mermaidStartY;
+                this.updateMermaidTransform();
+            });
+            
+            document.addEventListener('mouseup', () => {
+                this.mermaidIsDragging = false;
+                if (content) content.style.cursor = this.mermaidPanning ? 'grab' : 'default';
+            });
+            
+            content.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                const delta = e.deltaY > 0 ? -0.1 : 0.1;
+                this.mermaidZoom = Math.max(0.25, Math.min(4, this.mermaidZoom + delta));
+                this.updateMermaidTransform();
+            });
+            
+            document.addEventListener('keydown', (e) => {
+                if (!document.getElementById('mermaid-fullscreen-overlay')) return;
+                if (e.key === 'Escape') this.closeMermaidFullscreen();
+                if (e.key === '+' || e.key === '=') {
+                    this.mermaidZoom = Math.min(4, this.mermaidZoom + 0.25);
+                    this.updateMermaidTransform();
+                }
+                if (e.key === '-') {
+                    this.mermaidZoom = Math.max(0.25, this.mermaidZoom - 0.25);
+                    this.updateMermaidTransform();
+                }
+            });
+        }
+
+        updateMermaidTransform() {
+            const content = document.getElementById('mermaid-fullscreen-content');
+            if (!content) return;
+            
+            const svg = content.querySelector('svg');
+            if (svg) {
+                svg.style.transform = `translate(${this.mermaidPanX}px, ${this.mermaidPanY}px) scale(${this.mermaidZoom})`;
+            }
+            
+            const zoomInBtn = document.getElementById('mermaid-zoom-in');
+            const zoomOutBtn = document.getElementById('mermaid-zoom-out');
+            const zoomResetBtn = document.getElementById('mermaid-zoom-reset');
+            
+            if (zoomResetBtn) {
+                zoomResetBtn.innerHTML = `<i class="fa-solid fa-expand"></i> ${Math.round(this.mermaidZoom * 100)}%`;
+            }
+        }
+
+        closeMermaidFullscreen() {
+            const overlay = document.getElementById('mermaid-fullscreen-overlay');
+            if (overlay) overlay.remove();
+            
+            this.mermaidZoom = 1;
+            this.mermaidPanX = 0;
+            this.mermaidPanY = 0;
+            this.mermaidPanning = false;
+        }
+
+        copyMermaidCode(btn) {
+            const container = btn.closest('.mermaid-container');
+            const svg = container.querySelector('svg');
+            if (!svg) return;
+            
+            const code = svg.dataset.mermaidCode || '';
+            navigator.clipboard.writeText(code).then(() => {
+                const originalIcon = btn.innerHTML;
+                btn.innerHTML = '<i class="fa-solid fa-check"></i>';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.innerHTML = originalIcon;
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
         }
         
         initGraph() {

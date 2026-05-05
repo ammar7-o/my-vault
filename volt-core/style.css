@@ -933,11 +933,146 @@
     
     .mermaid-container {
         margin: 20px 0;
+        position: relative;
     }
     
     .mermaid-container svg {
         max-width: 100%;
         height: auto;
+    }
+
+    .mermaid-toolbar {
+        display: none;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        gap: 4px;
+        z-index: 10;
+    }
+
+    .mermaid-container:hover .mermaid-toolbar {
+        display: flex;
+    }
+
+    .mermaid-toolbar-btn {
+        width: 28px;
+        height: 28px;
+        border: 1px solid var(--border-color);
+        background: var(--bg-secondary);
+        color: var(--text-secondary);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        transition: all var(--transition-speed);
+    }
+
+    .mermaid-toolbar-btn:hover {
+        background: var(--accent-color);
+        color: white;
+        border-color: var(--accent-color);
+    }
+
+    .mermaid-toolbar-btn.active {
+        background: var(--accent-color);
+        color: white;
+        border-color: var(--accent-color);
+    }
+
+    .mermaid-fullscreen-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.85);
+        z-index: 2000;
+        display: none;
+        flex-direction: column;
+    }
+
+    .mermaid-fullscreen-overlay.active {
+        display: flex;
+    }
+
+    .mermaid-fullscreen-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 20px;
+        background: var(--bg-secondary);
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .mermaid-fullscreen-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--text-primary);
+    }
+
+    .mermaid-fullscreen-controls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .mermaid-fullscreen-btn {
+        padding: 6px 12px;
+        border: 1px solid var(--border-color);
+        background: var(--bg-primary);
+        color: var(--text-secondary);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        transition: all var(--transition-speed);
+    }
+
+    .mermaid-fullscreen-btn:hover {
+        background: var(--accent-color);
+        color: white;
+        border-color: var(--accent-color);
+    }
+
+    .mermaid-fullscreen-btn.active {
+        background: var(--accent-color);
+        color: white;
+        border-color: var(--accent-color);
+    }
+
+    .mermaid-fullscreen-btn.close-btn {
+        background: var(--error-color);
+        border-color: var(--error-color);
+        color: white;
+    }
+
+    .mermaid-fullscreen-btn.close-btn:hover {
+        background: #dc3545;
+    }
+
+    .mermaid-fullscreen-content {
+        flex: 1;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        cursor: grab;
+    }
+
+    .mermaid-fullscreen-content.panning {
+        cursor: grabbing;
+    }
+
+    .mermaid-fullscreen-content svg {
+        max-width: none;
+        max-height: none;
+        transform-origin: center center;
+        transition: transform 0.1s ease-out;
     }
     
     .hljs {
@@ -1510,6 +1645,33 @@
         font-size: 12px;
         color: var(--text-muted);
         font-style: italic;
+    }
+
+    .graph-footer-actions {
+        padding: 12px;
+        border-top: 1px solid var(--border-color);
+    }
+
+    .graph-footer-btn {
+        width: 100%;
+        padding: 10px 16px;
+        border: 1px solid var(--border-color);
+        background: var(--bg-secondary);
+        color: var(--text-secondary);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        transition: all var(--transition-speed);
+    }
+
+    .graph-footer-btn:hover {
+        background: var(--accent-color);
+        color: white;
+        border-color: var(--accent-color);
     }
 
     .graph-empty-state svg {
