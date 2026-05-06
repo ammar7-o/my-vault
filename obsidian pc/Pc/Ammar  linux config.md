@@ -45,6 +45,7 @@ You can download these as **AppImage** from
 [Google Drive Folder](https://drive.google.com/drive/folders/1cGqkR0HpcAyr6ihS0pUcbpwBdGaR2pBT?usp=drive_link)
 
 - **VSCodium**
+- **Zen browser**
 - **OpenShot**
 - **Obsidian**
 - **Logseq**
@@ -86,5 +87,12 @@ You can download these as **AppImage** from
 - Breeze dark
 ### icons
 - reversal dark
+- White-sur -dark
+### cursor
+- Adwita
+### window decoration
+- mkos-bigsur-night
+### Plasma Style 
+- Whitesur-dark
 
 ![[Pasted image 20260411165351.png]]

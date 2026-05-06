@@ -180,18 +180,7 @@
                             <div class="breadcrumbs" id="breadcrumbs"></div>
                             <div class="graph-canvas-container">
                                 <div id="network"></div>
-                                <div class="graph-empty-state">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-                                        width="40" height="40">
-                                        <circle cx="12" cy="18" r="3" />
-                                        <circle cx="6" cy="6" r="3" />
-                                        <circle cx="18" cy="6" r="3" />
-                                        <path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9" />
-                                        <path d="M12 12v3" />
-                                    </svg>
-                                    <p>Interactive Graph</p>
-                                    <span>Click nodes to navigate</span>
-                                </div>
+                             
                             </div>
                             <div class="links-section" id="outgoing-section">
                                 <div class="links-header">Outgoing Links</div>
@@ -200,6 +189,11 @@
                             <div class="backlinks-section" id="backlinks-section">
                                 <div class="backlinks-header">Backlinks</div>
                                 <div class="backlinks-list" id="backlinks-list"></div>
+                            </div>
+                            <div class="graph-footer-actions">
+                                <button class="graph-footer-btn" id="go-to-top-btn" title="Go to top of current file">
+                                    <i class="fa-solid fa-arrow-up"></i> Go to Top
+                                </button>
                             </div>
                         </div>
                     </div>
