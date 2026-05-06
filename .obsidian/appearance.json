@@ -1,6 +1,6 @@
 {
   "baseFontSizeAction": true,
-  "baseFontSize": 23,
+  "baseFontSize": 16,
   "nativeMenus": false,
   "enabledCssSnippets": [
     "google-dark",
