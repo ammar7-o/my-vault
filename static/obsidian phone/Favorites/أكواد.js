@@ -1,1 +1,0 @@
-window.__fileContent = "---\ndg-publish: true\n---\nWifi code : @ammar123\nDns : 208.67.222.123\n\nsudo apt-mark hold linux-image-6.17.0-14-generic linux-headers-6.17.0-14-generic\n انشاء برنامج أسئلة والعاب ثقافية\n انشاء برنامج مثل google forms\n\n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  \n";

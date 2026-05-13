@@ -1,1 +1,0 @@
-window.__fileContent = "---\ndg-publish: true\n---\n## how to write a clean code\n1. استخدام اسماء تعبيرية كاسماء المتغيرات والدوال وغيرها تدل على الغرض منها.\n\n\n#برمجة";
