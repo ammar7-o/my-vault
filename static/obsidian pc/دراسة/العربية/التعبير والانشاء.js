@@ -1,1 +1,1 @@
-window.__fileContent = "---\ndg-publish: true\n---\n";
+window.__fileContent = "---\n{}\n---\n";

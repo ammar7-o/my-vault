@@ -1,1 +1,1 @@
-window.__fileContent = "---\nbanner:\n---\n- [ ] complete the exams collection \n- [ ] \n";
+window.__fileContent = "---\nbanner:\n---\n- [x] complete the exams collection \n- [ ] \n";

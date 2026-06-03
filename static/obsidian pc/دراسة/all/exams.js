@@ -1,0 +1,1 @@
+window.__fileContent = "---\nbanner:\n---\n";

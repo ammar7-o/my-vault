@@ -1,1 +1,1 @@
-window.__fileContent = "---\ndg-publish: true\n---\n#تعلم ```\n```dataview\ntable file.name as name \nfrom #مهم\n\n```\n\n";
+window.__fileContent = "---\n{}\n---\n#تعلم ```\n```dataview\ntable file.name as name \nfrom #مهم\n\n```\n\n";
