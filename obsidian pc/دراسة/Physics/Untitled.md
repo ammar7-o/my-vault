@@ -1,3 +1,6 @@
+---
+{}
+---
 # Les lentilles minces
 
 ## I. Généralités sur les lentilles minces

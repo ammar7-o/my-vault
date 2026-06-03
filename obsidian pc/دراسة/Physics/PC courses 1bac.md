@@ -1,5 +1,8 @@
 ---
-dg-publish: true
+tags:
+  - 1bac
+  - physics
+banner: https://img.magnific.com/premium-vector/sketch-physics_156892-594.jpg?semt=ais_hybrid&w=740&q=80
 ---
 
 1. **Rotation d’un solide indéformable autour d’un axe fixe**

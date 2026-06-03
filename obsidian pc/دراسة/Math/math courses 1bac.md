@@ -1,6 +1,8 @@
 ---
-banner: ""
-dg-publish: true
+banner: https://jessup.edu/wp-content/uploads/2023/12/Does-Computer-Science-Require-Math.jpg
+tags:
+  - 1bac
+  - math
 ---
 - ### Logique mathématique
 

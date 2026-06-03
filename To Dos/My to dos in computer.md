@@ -1,5 +1,5 @@
 ---
 banner:
 ---
-- [ ] complete the exams collection 
+- [x] complete the exams collection 
 - [ ] 

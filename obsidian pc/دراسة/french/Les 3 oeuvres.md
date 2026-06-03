@@ -3,7 +3,6 @@ banner: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlqktVeOJA_n2
 tags:
   - french
   - 1bac
-dg-publish: true
 ---
 
 # La Boîte à Merveilles

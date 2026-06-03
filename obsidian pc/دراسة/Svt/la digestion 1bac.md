@@ -7,8 +7,6 @@ tags:
   - excalidraw
   - تعلم
   - 1bac
-dg-publish: true
-dg-home: false
 ---
 
 

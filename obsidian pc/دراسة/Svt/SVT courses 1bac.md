@@ -1,5 +1,7 @@
 ---
-dg-publish: true
+tags:
+  - svt
+  - 1bac
 ---
 
 # **Les phénomènes géologiques externes**

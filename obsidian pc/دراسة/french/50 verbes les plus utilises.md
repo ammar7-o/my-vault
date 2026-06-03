@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+{}
 ---
 
 ### Groupe 1
