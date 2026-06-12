@@ -8,17 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "793bc4c817c3c651",
+            "id": "0a24b454db2c9eec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "To Dos/My to dos in computer.md",
-                "mode": "source",
-                "source": false
+                "file": "bases/2bac/index.base",
+                "viewName": "cards"
               },
-              "icon": "lucide-file",
-              "title": "My to dos in computer"
+              "icon": "lucide-layout-grid",
+              "title": "index"
             }
           }
         ]
@@ -78,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.51103591918945
+    "width": 200
   },
   "right": {
     "id": "6b3e6a38c0383291",
@@ -205,22 +204,30 @@
       "command-palette:Open command palette": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "webpage-html-export:Export as HTML": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "digitalgarden:Digital Garden Publication Center": false,
+      "hide-folders:Show hidden folders": false
     }
   },
-  "active": "1b00ded2f3f89150",
+  "active": "0a24b454db2c9eec",
   "lastOpenFiles": [
+    "bases/1bac/exams.base",
+    "bases/1bac/base.base",
+    "bases/2bac/index.base",
+    "obsidian pc/Pc/Ammar  linux config.md",
+    "bases/2bac",
+    "bases/cover.base",
+    "volt wiki/html/course 1.md",
+    "volt wiki/cs50/week 1.md",
+    "To Dos/My to dos in computer.md",
+    "inbox/التواريخ والتقويمات دليل شامل.md",
+    "inbox/Untitled.base",
+    "course 1.md",
+    "Templates/course.md",
+    "volt wiki/git basics.md",
+    "volt wiki/css",
+    "volt wiki/html",
     "static/obsidian pc/دراسة/العربية/دروس 2bac.js",
     "static/obsidian pc/دراسة/العربية/دروس  1bac.js",
-    "static/obsidian pc/دراسة/french/Les 50 sujets de PRoduction ecrit.js",
-    "static/obsidian pc/دراسة/all/exams.js",
-    "static/obsidian pc/دراسة/Svt/svt 2bac.js",
-    "static/obsidian pc/دراسة/Svt/la digestion 1bac.js",
-    "static/obsidian pc/دراسة/Svt/SVT courses 1bac.js",
-    "static/obsidian pc/دراسة/Physics/physics courses 2bac.js",
-    "static/obsidian pc/دراسة/Physics/PC courses 1bac.js",
-    "static/obsidian pc/دراسة/Math/math courses 2bac.js",
-    "static/obsidian pc/دراسة/Math/math courses 1bac.js",
     "obsidian pc/دراسة/Svt/svt 2bac.md",
     "obsidian pc/دراسة/Math/Untitled.md",
     "obsidian pc/دراسة/all/exams.md",
@@ -238,14 +245,6 @@
     "obsidian pc/دراسة/العربية/دروس 2bac.md",
     "obsidian pc/دراسة/العربية/دروس  1bac.md",
     "obsidian pc/دراسة/العربية/ملخص شامل 1bac.md",
-    "obsidian pc/دراسة/العربية/النصوص.md",
-    "obsidian pc/دراسة/العربية/التعبير والانشاء.md",
-    "obsidian pc/دراسة/العربية/الاستفهام الاستلزامي.md",
-    "obsidian pc/دراسة/العربية/regional exams Arabic.md",
-    "Excalidraw/french1.md",
-    "obsidian pc/دراسة/french/les figures de styles.md",
-    "Excalidraw/arabic2.md",
-    "Excalidraw/arabic1.md",
     "Assests/Pasted image 20260501154055.png",
     "Assests/Pasted image 20260501154030.png",
     "Assests/Pasted image 20260501153932.png",

@@ -3,6 +3,7 @@ banner: https://ubuntu.com/wp-content/uploads/a903/24.04-LTS-Noble-Numbat-Launch
 dg-publish: true
 dg-home: true
 tags:
+  - linux
 ---
 
 ## **System Apps**

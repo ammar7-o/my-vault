@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabCss3",
+      "FabHtml5",
       "FasListOl",
       "LiFrame",
-      "LiLayoutTemplate",
-      "LiImages",
-      "FasDatabase"
+      "LiLayoutTemplate"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,10 +44,6 @@
     "iconColor": "#00ffee"
   },
   "Excalidraw": "FasDrawPolygon",
-  "obsidian phone": {
-    "iconName": "LiSmartphone",
-    "iconColor": "#00bfff"
-  },
   "volt wiki": {
     "iconName": "FabWikipediaW",
     "iconColor": "#fbff00"
@@ -69,5 +65,7 @@
   "To Dos": {
     "iconName": "FasListOl",
     "iconColor": "#00ffaa"
-  }
+  },
+  "volt wiki/html": "FabHtml5",
+  "volt wiki/css": "FabCss3"
 }

@@ -1,5 +1,4 @@
 ---
 banner:
 ---
-- [x] complete the exams collection 
-- [ ] 
+- [ ] memorize  Islamic date 
