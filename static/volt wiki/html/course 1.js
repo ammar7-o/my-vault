@@ -1,0 +1,1 @@
+window.__fileContent = "---\nbanner: https://166tech.az/uploads/blogs/33915082.webp\ntags:\n  - html\n  - volt-wiki\n  - coding\n  - programming\n---\n";

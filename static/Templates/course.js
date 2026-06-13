@@ -1,0 +1,1 @@
+window.__fileContent = "---\nbaaner:\ntags:\n  - html\n  - volt-wiki\n  - coding\n  - programming\n---\n";
