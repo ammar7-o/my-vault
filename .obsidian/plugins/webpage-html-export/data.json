@@ -14,7 +14,7 @@
     "filesToExport": [
       "obsidian pc/Pc/Ammar  linux config.md",
       "obsidian pc/دراسة/Svt/la digestion 1bac.md",
-      "volt wiki"
+      "volt wiki/html"
     ],
     "useFallbackRenderer": false,
     "addBodyClasses": true,
@@ -215,7 +215,7 @@
     "flattenExportPaths": false,
     "fixLinks": true,
     "faviconPath": "",
-    "siteName": "index",
+    "siteName": "html-courses",
     "iconEmojiStyle": "Native",
     "exportRoot": "",
     "includePluginCss": [

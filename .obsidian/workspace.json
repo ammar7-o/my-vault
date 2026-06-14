@@ -4,23 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "aa92852c67e0adf2",
+        "id": "b18375233bd6ef1e",
         "type": "tabs",
         "children": [
           {
-            "id": "0a24b454db2c9eec",
+            "id": "739b712ab66ffa15",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "bases/2bac/index.base",
-                "viewName": "cards"
+                "file": "volt wiki/html/course 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "index"
+              "icon": "lucide-file",
+              "title": "course 1"
+            }
+          },
+          {
+            "id": "3246a783bf43cc22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "volt wiki/css/course-7.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "course-7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian pc/دراسة/العربية/ملخص شامل 1bac.md",
+                "file": "volt wiki/css/course-7.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ملخص شامل 1bac"
+              "title": "Outline of course-7"
             }
           },
           {
@@ -189,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5,
+    "width": 239.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -204,47 +220,47 @@
       "command-palette:Open command palette": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "webpage-html-export:Export as HTML": false,
-      "digitalgarden:Digital Garden Publication Center": false,
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "0a24b454db2c9eec",
+  "active": "1b00ded2f3f89150",
   "lastOpenFiles": [
+    "volt wiki/css/course-5.md",
+    "volt wiki/css/course-1.md",
+    "volt wiki/html/course 1.md",
+    "volt wiki/css/course-7.md",
+    "volt wiki/css/course-6.md",
+    "volt wiki/css/course-4.md",
+    "volt wiki/css/course-3.md",
+    "volt wiki/css/course-2.md",
+    "volt wiki/html/course 4.md",
+    "volt wiki/css/course-20.md",
+    "volt wiki/css/course-19.md",
+    "volt wiki/css/course-18.md",
+    "volt wiki/css/course-17.md",
+    "volt wiki/css/course-16.md",
+    "volt wiki/css/course-15.md",
+    "volt wiki/css/course-14.md",
+    "volt wiki/css/course-13.md",
+    "volt wiki/css/course-12.md",
+    "volt wiki/css/course-11.md",
+    "volt wiki/css/course-10.md",
+    "volt wiki/css/course-9.md",
+    "volt wiki/css/course-8.md",
+    "volt wiki/html/course 3.md",
+    "obsidian pc/دراسة/Svt/la digestion 1bac.md",
+    "obsidian pc/Pc/Ammar  linux config.md",
+    "volt wiki/html/course 5.md",
+    "bases/2bac/index.base",
     "bases/1bac/exams.base",
     "bases/1bac/base.base",
-    "bases/2bac/index.base",
-    "obsidian pc/Pc/Ammar  linux config.md",
     "bases/2bac",
     "bases/cover.base",
-    "volt wiki/html/course 1.md",
-    "volt wiki/cs50/week 1.md",
-    "To Dos/My to dos in computer.md",
-    "inbox/التواريخ والتقويمات دليل شامل.md",
     "inbox/Untitled.base",
-    "course 1.md",
-    "Templates/course.md",
-    "volt wiki/git basics.md",
     "volt wiki/css",
     "volt wiki/html",
     "static/obsidian pc/دراسة/العربية/دروس 2bac.js",
     "static/obsidian pc/دراسة/العربية/دروس  1bac.js",
-    "obsidian pc/دراسة/Svt/svt 2bac.md",
-    "obsidian pc/دراسة/Math/Untitled.md",
-    "obsidian pc/دراسة/all/exams.md",
-    "obsidian pc/دراسة/English/English courses 2bac.md",
-    "obsidian pc/دراسة/English/hello english.md",
-    "obsidian pc/دراسة/الفلسفة/نموذج التحليل الفلسفي.md",
-    "obsidian pc/دراسة/all/الاطر المرجعية 2025 اولى باك.md",
-    "obsidian pc/دراسة/Svt/la digestion 1bac.md",
-    "obsidian pc/دراسة/Svt/SVT courses 1bac.md",
-    "obsidian pc/دراسة/Physics/physics courses 2bac.md",
-    "obsidian pc/دراسة/Physics/PC courses 1bac.md",
-    "obsidian pc/دراسة/french/les coures de francais.md",
-    "obsidian pc/دراسة/Math/math courses 1bac.md",
-    "obsidian pc/دراسة/Math/math courses 2bac.md",
-    "obsidian pc/دراسة/العربية/دروس 2bac.md",
-    "obsidian pc/دراسة/العربية/دروس  1bac.md",
-    "obsidian pc/دراسة/العربية/ملخص شامل 1bac.md",
     "Assests/Pasted image 20260501154055.png",
     "Assests/Pasted image 20260501154030.png",
     "Assests/Pasted image 20260501153932.png",
